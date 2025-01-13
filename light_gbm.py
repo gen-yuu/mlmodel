@@ -41,7 +41,7 @@ def lgb_model(train_df, test_df, target, features):
         train_data,
         valid_sets=[val_data],  # early_stoppingの評価用データ
         valid_names=['valid'],
-        num_boost_round=1000,
+        num_boost_round=10000,
         callbacks=[lgb.early_stopping(stopping_rounds=10)],  # early_stopping用コールバック関数
     )
 

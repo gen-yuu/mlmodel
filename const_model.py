@@ -19,7 +19,9 @@ case 1
 サーバー
 
 """
-data_dir = './data/data_a'
+
+datas = ["data_a", "data_b"]
+parent_dir = './data'
 train_file = 'train.csv'
 test_file = 'test.csv'
 target = 'Inference Time (s)'
@@ -34,18 +36,20 @@ output_csv = "output_model_info.csv"
 
 
 def main():
-    train_csv = os.path.join(data_dir, train_file)
-    test_csv = os.path.join(data_dir, test_file)
-
-    train_df = pd.read_csv(train_csv, index_col=0)
-    test_df = pd.read_csv(test_csv, index_col=0)
-
-    features = const_features + server_features
     model_info = []
+    for sub_dir in datas:
+        data_dir = os.path.join(parent_dir, sub_dir)
+        train_csv = os.path.join(data_dir, train_file)
+        test_csv = os.path.join(data_dir, test_file)
 
-    lgb_result = lgb_reg.lgb_model(train_df, test_df, target, features)
+        train_df = pd.read_csv(train_csv, index_col=0)
+        test_df = pd.read_csv(test_csv, index_col=0)
 
-    model_info.append(lgb_result)
+        features = const_features + server_features
+
+        lgb_result = lgb_reg.lgb_model(train_df, test_df, target, features)
+
+        model_info.append(lgb_result)
 
     if model_info:
         df = pd.DataFrame(model_info)
