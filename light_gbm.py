@@ -2,6 +2,9 @@ import pandas as pd
 import lightgbm as lgb
 import numpy as np
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+from plot_model import plot_model
+from plot_shap import plot_shap
 
 
 def lgb_model(train_df, test_df, target, features):
@@ -30,9 +33,7 @@ def lgb_model(train_df, test_df, target, features):
         'metric': 'rmse',  # 学習時に使用する評価指標(early_stoppingの評価指標にも同じ値が使用される)
         'random_state': seed,  # 乱数シード
         'boosting_type': 'gbdt',
-        'n_estimators': 1000,  # 最大学習サイクル数。early_stopping使用時は大きな値を入力
         'verbose': -1,  # エラー対応
-        'early_stopping_round': 10  # ここでearly_stoppingを指定
     }
 
     model = lgb.train(
@@ -40,7 +41,8 @@ def lgb_model(train_df, test_df, target, features):
         train_data,
         valid_sets=[val_data],  # early_stoppingの評価用データ
         valid_names=['valid'],
-        callbacks=[lgb.early_stopping(stopping_rounds=10, verbose=True)]  # early_stopping用コールバック関数
+        num_boost_round=1000,
+        callbacks=[lgb.early_stopping(stopping_rounds=10)],  # early_stopping用コールバック関数
     )
 
     pred_train = model.predict(X_train)
@@ -55,15 +57,14 @@ def lgb_model(train_df, test_df, target, features):
     mape_train = np.average(np.abs(deltas))
 
     deltas = []
-    zero_count = any((x <= 0 for x in pred_val))
-    print(y_val)
-    print(pred_val)
+    # zero_count = any((x <= 0 for x in pred_val))
+
     # 平均絶対誤差(Valデータ)
     i = 0
     d_cnt_val = 0
     while True:
-        if zero_count >= 1:
-            break
+        # if zero_count >= 1:
+        #     break
         if i == len(pred_val):
             break
         delta = (y_val[i] - alpha * pred_val[i]) / y_val[i]
@@ -81,8 +82,8 @@ def lgb_model(train_df, test_df, target, features):
     i = 0
     d_cnt_test = 0
     while True:
-        if zero_count >= 1:
-            break
+        # if zero_count >= 1:
+        #     break
         if i == len(pred_test):
             break
         delta = (y_test[i] - alpha * pred_test[i]) / y_test[i]
@@ -95,13 +96,15 @@ def lgb_model(train_df, test_df, target, features):
     mape_test = np.average(np.abs(deltas))
     d_rate_test = d_cnt_test / len(pred_test)
 
-    if zero_count > 0:
-        mape_train = 9999
-        mape_val = 9999
-        mape_test = 9999
-        d_rate_test = 9999
-        d_rate_val = 9999
+    # if zero_count > 0:
+    #     mape_train = 9999
+    #     mape_val = 9999
+    #     mape_test = 9999
+    #     d_rate_test = 9999
+    #     d_rate_val = 9999
 
+    # plot_model(model)
+    plot_shap(model, X_test)
     return {
         'ML': 'lgb',
         'loss': 'l2',
