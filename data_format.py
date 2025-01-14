@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 
-
 data_dir = './data'
 data_file = 'data.csv'
 
