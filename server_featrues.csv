@@ -1,0 +1,467 @@
+,ML,loss,Input Num,Input,weight,MAPE train,MAPE test,MAPE val
+36,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop']",1,0.017531447,0.054701252,0.05509711
+156,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.017531447,0.054701252,0.05509711
+27,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_add', 'matrix_addloop']",1,0.020593442,0.054961084,0.058011589
+146,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop']",1,0.020890909,0.055135998,0.054757664
+48,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_add', 'matrix_addloop']",1,0.023889167,0.05547152,0.054063691
+33,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_addloop']",1,0.023122671,0.055963525,0.056695339
+89,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_addloop']",1,0.020905388,0.056156959,0.061431557
+119,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_add', 'matrix_addloop']",1,0.021051878,0.056266164,0.062412764
+175,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.020126273,0.056352237,0.057281133
+104,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_add', 'matrix_addloop']",1,0.022375286,0.056488558,0.062781755
+288,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.017874123,0.057085085,0.059678615
+396,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.017874123,0.057085085,0.059678615
+95,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot']",1,0.019902276,0.057533337,0.063077634
+159,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.02256801,0.057743304,0.060318849
+300,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.02256801,0.057743304,0.060318849
+40,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop']",1,0.020930879,0.057743606,0.056255501
+92,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop']",1,0.022662565,0.058043422,0.060132528
+226,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.022662565,0.058043422,0.060132528
+228,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.019237396,0.058224479,0.059494639
+134,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.018936706,0.058263976,0.061146578
+74,lgb,l2,5,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.022811938,0.058350783,0.063404784
+422,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.018584431,0.058425696,0.062609392
+212,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop']",1,0.018938727,0.058464844,0.059669842
+337,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.018938727,0.058464844,0.059669842
+43,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop']",1,0.022895804,0.058680638,0.060258802
+165,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.022895804,0.058680638,0.060258802
+6,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_addloop']",1,0.022113032,0.058778716,0.060307647
+64,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.022975692,0.058842185,0.065045481
+229,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.022752756,0.058852447,0.06303479
+356,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.022752756,0.058852447,0.06303479
+124,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.020496154,0.058970785,0.06227694
+265,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.020496154,0.058970785,0.06227694
+31,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop']",1,0.024896178,0.058977008,0.060643033
+399,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.023097897,0.059181181,0.063412372
+449,lgb,l2,9,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.023097897,0.059181181,0.063412372
+57,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_addloop']",1,0.025901835,0.059240331,0.062347746
+183,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.02362792,0.059270077,0.065317419
+319,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.02362792,0.059270077,0.065317419
+58,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop']",1,0.02348769,0.059297436,0.061589492
+185,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.02348769,0.059297436,0.061589492
+65,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.020916664,0.059340739,0.065087421
+96,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop']",1,0.022401494,0.059369163,0.061279439
+218,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_addloop']",1,0.019043727,0.059755005,0.061538186
+405,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.025053288,0.059966365,0.065181295
+283,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.025552878,0.059986101,0.064176603
+127,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.022567683,0.060086619,0.064796869
+268,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.022567683,0.060086619,0.064796869
+63,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_add', 'matrix_addloop']",1,0.028017847,0.060147489,0.06014924
+169,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.02451621,0.060262361,0.061439636
+178,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.028705956,0.060287283,0.064101003
+140,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop']",1,0.023498897,0.060631365,0.061506233
+286,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.024744588,0.060727667,0.067183
+88,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_add']",1,0.029103459,0.060732758,0.063667069
+32,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_add']",1,0.030392837,0.060737606,0.058819525
+126,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.027275526,0.060741591,0.065796888
+172,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.026669717,0.060758412,0.063988992
+311,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.026669717,0.060758412,0.063988992
+98,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_addloop']",1,0.024405872,0.060844967,0.062692946
+17,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_addloop']",1,0.026868517,0.060871684,0.064528439
+404,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.02880273,0.060901144,0.068856129
+309,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.025959406,0.060913906,0.067873457
+410,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.025959406,0.060913906,0.067873457
+167,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.024834837,0.06091659,0.062919961
+38,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_addloop']",1,0.029139258,0.060930399,0.064153987
+101,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot', 'matrix_addloop']",1,0.026607479,0.060957059,0.064526812
+219,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop']",1,0.025193307,0.061116074,0.064680581
+346,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.025193307,0.061116074,0.064680581
+317,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.02711111,0.061131778,0.06620353
+179,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.02842744,0.06123469,0.065698182
+315,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.02842744,0.06123469,0.065698182
+19,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dotloop']",1,0.025956695,0.061328963,0.063459443
+192,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.028973913,0.061338821,0.066077929
+326,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.028973913,0.061338821,0.066077929
+350,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.023232962,0.061341489,0.064734639
+239,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.023792204,0.06136323,0.063892206
+39,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot']",1,0.026988985,0.061391252,0.064541307
+305,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.028199236,0.061397271,0.06575087
+49,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop']",1,0.027413894,0.061460806,0.062877685
+47,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dotloop', 'matrix_addloop']",1,0.025582608,0.061643607,0.062474715
+132,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.026987882,0.061665486,0.069365029
+22,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_dot', 'matrix_dotloop']",1,0.026791757,0.061734299,0.066790425
+130,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.026791757,0.061734299,0.066790425
+170,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.027737186,0.061751387,0.063078372
+279,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.025105371,0.061760847,0.067585753
+391,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.025105371,0.061760847,0.067585753
+262,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.025822549,0.061764712,0.068734808
+382,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.025822549,0.061764712,0.068734808
+361,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.029015154,0.061787879,0.067473118
+148,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_addloop']",1,0.026740111,0.06180221,0.065945921
+24,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_dot', 'matrix_addloop']",1,0.027836755,0.061858976,0.067493216
+30,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot']",1,0.028024739,0.061887409,0.067925077
+135,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.02863009,0.061972651,0.066249577
+242,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.027475139,0.061978247,0.067332027
+367,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.027475139,0.061978247,0.067332027
+349,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.023057286,0.062029028,0.063468709
+292,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.02808375,0.062068552,0.066297456
+161,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.028020644,0.062127847,0.065916909
+3,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot']",1,0.022876052,0.062153203,0.060925765
+278,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.028177498,0.062194805,0.06735146
+320,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.030970585,0.06225794,0.068608554
+432,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.028050615,0.0622875,0.071886674
+15,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dotloop']",1,0.030415033,0.062345859,0.066765286
+121,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.030415033,0.062345859,0.066765286
+94,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_addloop']",1,0.030496333,0.062352051,0.06767884
+60,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dot', 'matrix_addloop']",1,0.031439951,0.062361571,0.069816898
+72,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.026353565,0.062371479,0.069126258
+199,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.026353565,0.062371479,0.069126258
+369,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.028722562,0.062379557,0.068263012
+133,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.028169529,0.062389084,0.069636996
+55,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop']",1,0.03277936,0.062418014,0.06544385
+158,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.03007987,0.062429473,0.066803444
+69,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.022560522,0.062430782,0.06905542
+11,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_add']",1,0.030584704,0.062454739,0.065902538
+190,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.028932014,0.06249922,0.067054203
+216,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop']",1,0.028032773,0.062509886,0.06576216
+365,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.028767341,0.062574177,0.066753278
+438,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.028767341,0.062574177,0.066753278
+151,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_addloop']",1,0.029620484,0.062590459,0.06872189
+180,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.029244982,0.062601298,0.067844151
+145,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot']",1,0.030412067,0.062609809,0.066575368
+237,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.029082128,0.062614604,0.071598652
+327,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.029625864,0.062624997,0.067718631
+120,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.028719768,0.062650938,0.068632133
+42,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_addloop']",1,0.029192863,0.062727199,0.064639305
+128,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.029678005,0.062739482,0.067997394
+269,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.029678005,0.062739482,0.067997394
+323,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.027861992,0.062763244,0.067968159
+328,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027676053,0.06276379,0.071847696
+233,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.028653978,0.062781248,0.067020836
+360,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.028653978,0.062781248,0.067020836
+284,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.029677295,0.062785183,0.065201495
+392,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.029677295,0.062785183,0.065201495
+274,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.03207373,0.06278613,0.070360266
+389,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.03207373,0.06278613,0.070360266
+197,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.025328442,0.062836639,0.067596017
+194,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027268368,0.062847161,0.068808402
+106,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot']",1,0.027442807,0.062900958,0.066195976
+187,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.031773056,0.062912612,0.070076885
+312,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.031216984,0.06295473,0.067737568
+142,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop']",1,0.031841307,0.062957822,0.067834814
+281,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.031841307,0.062957822,0.067834814
+103,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dotloop', 'matrix_addloop']",1,0.025783483,0.062965267,0.068530249
+358,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.02945044,0.062986338,0.070352283
+173,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.02889376,0.062993406,0.067308689
+368,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.028807714,0.062994334,0.069497727
+297,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.030926724,0.063038795,0.069661887
+403,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.030926724,0.063038795,0.069661887
+282,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.029234709,0.063060046,0.067484266
+260,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.0283629,0.063062329,0.067866619
+181,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.031659394,0.063092279,0.070060144
+301,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.028528352,0.063099089,0.067861608
+18,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot']",1,0.029984238,0.063106727,0.071025534
+460,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.028530767,0.06312619,0.071503308
+465,lgb,l2,11,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.028530767,0.06312619,0.071503308
+21,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_addloop']",1,0.028232392,0.063127423,0.068563321
+401,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027340863,0.063174488,0.069103227
+451,lgb,l2,9,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027340863,0.063174488,0.069103227
+244,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030135513,0.063175473,0.069790591
+29,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop']",1,0.030547553,0.063250548,0.066181431
+308,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.028781499,0.063254009,0.07018275
+164,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.029912627,0.063260142,0.067969255
+193,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.02938522,0.063265323,0.070620295
+450,lgb,l2,9,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.02872669,0.063281273,0.071168511
+385,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030077653,0.06328383,0.072235136
+446,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030077653,0.06328383,0.072235136
+230,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.029044799,0.06329188,0.072170048
+289,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.030153365,0.063302036,0.067573465
+267,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.029223558,0.063311895,0.071660501
+45,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dot', 'matrix_addloop']",1,0.030401894,0.063372686,0.068397376
+295,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.031196924,0.063392353,0.068812219
+25,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_dotloop', 'matrix_add']",1,0.030798174,0.063414712,0.071496997
+383,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.029741992,0.063451113,0.071551455
+157,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.030690756,0.063459683,0.066343208
+339,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.030062109,0.063507111,0.07080868
+99,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop']",1,0.02982911,0.063513196,0.068247042
+235,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.02982911,0.063513196,0.068247042
+409,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.031137679,0.063538463,0.069908185
+248,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.02922153,0.06355754,0.074246966
+87,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop']",1,0.030699202,0.063568372,0.068769884
+51,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop']",1,0.031767375,0.063602083,0.067434765
+176,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.031767375,0.063602083,0.067434765
+313,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027020907,0.063627911,0.067543673
+380,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030462244,0.063638296,0.071513689
+444,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030462244,0.063638296,0.071513689
+144,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_addloop']",1,0.030586473,0.063643537,0.071394366
+53,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_addloop']",1,0.031142903,0.063651154,0.072517644
+26,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_dotloop', 'matrix_addloop']",1,0.029130467,0.063678114,0.070173672
+394,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.029754922,0.063687878,0.072583466
+445,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030670275,0.063698339,0.075204955
+463,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030670275,0.063698339,0.075204955
+314,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.03086555,0.063718251,0.068874604
+412,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.03086555,0.063718251,0.068874604
+210,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop']",1,0.029526859,0.063747492,0.067509809
+363,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.030430896,0.063758504,0.072304083
+436,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.030430896,0.063758504,0.072304083
+234,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.030456801,0.063786499,0.071244843
+139,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.029183494,0.063799447,0.070165448
+10,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dotloop']",1,0.031180766,0.06383079,0.069728508
+437,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.029486244,0.063846672,0.07023967
+370,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030583612,0.063847225,0.070249035
+440,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030583612,0.063847225,0.070249035
+417,lgb,l2,8,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030799521,0.063863968,0.073941062
+455,lgb,l2,9,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030799521,0.063863968,0.073941062
+105,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop']",1,0.031089545,0.063873571,0.066551109
+163,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.030659413,0.063877625,0.068308881
+304,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.030659413,0.063877625,0.068308881
+247,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.029405056,0.06388151,0.071732448
+342,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.027858497,0.063913501,0.072701139
+273,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.029419914,0.063943767,0.071656467
+351,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.026492831,0.063946891,0.068516661
+296,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.028861455,0.063957447,0.066781529
+402,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.028861455,0.063957447,0.066781529
+271,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.027849117,0.063974695,0.070354075
+386,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.027849117,0.063974695,0.070354075
+452,lgb,l2,9,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027693598,0.063987115,0.068818491
+464,lgb,l2,10,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027693598,0.063987115,0.068818491
+224,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_add', 'matrix_addloop']",1,0.030402389,0.064002419,0.074935635
+298,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.029074467,0.064004918,0.06895952
+149,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop']",1,0.032214458,0.064034633,0.068154314
+290,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.032214458,0.064034633,0.068154314
+294,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.029427568,0.064036349,0.069926759
+270,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.030482132,0.064046923,0.070719326
+177,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.031717151,0.064068366,0.067082467
+376,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.032756905,0.064093219,0.073929962
+61,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add']",1,0.029268674,0.064104569,0.071106408
+400,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.029265695,0.06412241,0.071285791
+107,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop']",1,0.030206761,0.064122938,0.067902759
+246,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop']",1,0.030206761,0.064122938,0.067902759
+44,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dot', 'matrix_add']",1,0.026840206,0.064157696,0.065771926
+5,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_add']",1,0.032473765,0.064180082,0.068102852
+123,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.031536822,0.06421888,0.072073978
+37,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_add']",1,0.031461077,0.064294685,0.068216991
+306,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.029869688,0.064332428,0.07299144
+407,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.029869688,0.064332428,0.07299144
+155,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.031990144,0.064339652,0.068552926
+378,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.031777737,0.064355653,0.07423621
+442,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.031777737,0.064355653,0.07423621
+109,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_addloop']",1,0.031128255,0.064356791,0.072324349
+214,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_addloop']",1,0.030767267,0.064362326,0.071539324
+426,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.029562758,0.064384668,0.070981506
+456,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.029562758,0.064384668,0.070981506
+34,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop']",1,0.032520436,0.064425955,0.065706428
+406,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.029826532,0.064431513,0.068534169
+453,lgb,l2,9,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.029826532,0.064431513,0.068534169
+117,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add']",1,0.029003227,0.064431768,0.071200708
+390,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030990257,0.064433869,0.071337248
+447,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030990257,0.064433869,0.071337248
+122,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.031071375,0.064444424,0.07313634
+85,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop']",1,0.030940053,0.064452277,0.070057284
+231,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.031629537,0.06445572,0.070378078
+114,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop']",1,0.030670342,0.06446564,0.072334151
+255,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.030670342,0.06446564,0.072334151
+324,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.03039666,0.064468458,0.073372869
+416,lgb,l2,8,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.03039666,0.064468458,0.073372869
+59,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dot', 'matrix_add']",1,0.03197121,0.064473528,0.071089656
+277,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.031378429,0.064486547,0.073245978
+329,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027372109,0.064500836,0.071017241
+418,lgb,l2,8,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027372109,0.064500836,0.071017241
+411,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.031368838,0.064508669,0.069461709
+454,lgb,l2,9,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.031368838,0.064508669,0.069461709
+280,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.032161871,0.064518993,0.068140408
+340,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.030084058,0.064548936,0.070988592
+420,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.030084058,0.064548936,0.070988592
+429,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.032868073,0.064569882,0.074404185
+459,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.032868073,0.064569882,0.074404185
+428,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.030048852,0.064579488,0.070700179
+52,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_add']",1,0.030713392,0.064580205,0.068829538
+93,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_add']",1,0.03136628,0.06464557,0.074251836
+322,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.033287605,0.064658105,0.071203034
+414,lgb,l2,8,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.033287605,0.064658105,0.071203034
+344,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.029654367,0.064683085,0.077369195
+424,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.029654367,0.064683085,0.077369195
+100,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot', 'matrix_add']",1,0.030313351,0.064710487,0.074089466
+23,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_dot', 'matrix_add']",1,0.031473251,0.064710942,0.074374182
+258,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.028831973,0.064720499,0.069454586
+8,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop']",1,0.031495166,0.064726244,0.069448864
+152,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add']",1,0.030681851,0.064736638,0.072208543
+415,lgb,l2,8,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.031434534,0.064747092,0.07248625
+90,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop']",1,0.031821242,0.064758081,0.068344587
+302,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.032604744,0.064766391,0.071007127
+362,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.029346227,0.064786545,0.072254282
+435,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.029346227,0.064786545,0.072254282
+189,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.032420634,0.0648494,0.07171615
+125,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.030568423,0.06487139,0.074349595
+357,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.030407157,0.064878906,0.074419309
+253,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_addloop']",1,0.03054915,0.064880237,0.077612865
+375,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.03054915,0.064880237,0.077612865
+4,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dotloop']",1,0.033226225,0.064885136,0.072285177
+150,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_add']",1,0.031256284,0.064905572,0.070776727
+16,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_add']",1,0.033293266,0.064920018,0.074349178
+62,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_addloop']",1,0.031363103,0.064934679,0.071241864
+186,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.031294202,0.064973036,0.06769462
+13,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop']",1,0.031654795,0.0649756,0.072284947
+222,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add']",1,0.029414916,0.064997196,0.072504317
+160,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.029440555,0.064998987,0.069840824
+184,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.030770513,0.065007096,0.070498651
+345,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.030199901,0.065008627,0.069132301
+439,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.034465874,0.065016404,0.072373998
+462,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.034465874,0.065016404,0.072373998
+208,lgb,l2,6,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027040378,0.065033359,0.074203591
+397,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.034059014,0.065089857,0.073766705
+56,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add']",1,0.032368054,0.065100808,0.074124633
+259,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.031021541,0.065113872,0.073844928
+81,lgb,l2,5,"['Total Frames', 'Params', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.026970387,0.065127934,0.074127048
+206,lgb,l2,6,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.026970387,0.065127934,0.074127048
+111,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop']",1,0.031738899,0.065135533,0.071237413
+384,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.029389533,0.065141741,0.074775407
+316,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.032238193,0.065149836,0.069596536
+377,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030934652,0.065150416,0.073283398
+441,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030934652,0.065150416,0.073283398
+353,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.030250681,0.065163736,0.074096438
+431,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.030250681,0.065163736,0.074096438
+168,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.030205883,0.065183309,0.072968186
+54,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot']",1,0.034371304,0.065185796,0.072419496
+232,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.030475783,0.065227408,0.074227019
+359,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.030475783,0.065227408,0.074227019
+41,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_add']",1,0.032961943,0.065231133,0.072415611
+252,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.029783729,0.065274233,0.075343702
+374,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.029783729,0.065274233,0.075343702
+321,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.031939116,0.065300695,0.070911088
+413,lgb,l2,8,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.031939116,0.065300695,0.070911088
+427,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.031866377,0.065346057,0.07475235
+457,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.031866377,0.065346057,0.07475235
+113,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_addloop']",1,0.030842594,0.065379926,0.074967511
+355,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.031405109,0.065418841,0.0734448
+153,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_addloop']",1,0.031529865,0.065460246,0.071806023
+78,lgb,l2,5,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dotloop', 'matrix_addloop']",1,0.028204002,0.065478833,0.076443457
+372,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.029099204,0.065490268,0.074517215
+118,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_addloop']",1,0.030117485,0.065503081,0.072793133
+112,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add']",1,0.030194112,0.065522364,0.074451677
+166,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.031725489,0.065565889,0.072499035
+352,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030702974,0.065573682,0.075345988
+430,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030702974,0.065573682,0.075345988
+238,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.032867925,0.065586759,0.076270221
+336,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.030794479,0.065663231,0.070680104
+215,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot']",1,0.031731757,0.065666197,0.071440321
+209,lgb,l2,6,"['Total Frames', 'Params', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027287274,0.065666801,0.072929534
+335,lgb,l2,7,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027287274,0.065666801,0.072929534
+398,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030232138,0.065692369,0.070045803
+448,lgb,l2,9,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030232138,0.065692369,0.070045803
+264,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.029259222,0.065712493,0.071667531
+171,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.031548397,0.065716831,0.073221916
+310,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.031548397,0.065716831,0.073221916
+347,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.029718905,0.065741205,0.07143211
+261,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030886857,0.065743597,0.073152424
+381,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.030886857,0.065743597,0.073152424
+285,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.031757238,0.065761911,0.070829972
+217,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add']",1,0.031172108,0.065785177,0.074305718
+245,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.031563926,0.065810592,0.071775858
+182,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.033498644,0.065838435,0.07314077
+318,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.033498644,0.065838435,0.07314077
+46,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dotloop', 'matrix_add']",1,0.030041589,0.065851636,0.07359001
+174,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.030819216,0.065860123,0.072133368
+143,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_add']",1,0.031810265,0.06586795,0.070048851
+341,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.031410797,0.065898825,0.071832055
+225,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot']",1,0.035500334,0.065918617,0.071706571
+241,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.031416588,0.065932176,0.073779411
+366,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.031416588,0.065932176,0.073779411
+249,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.032380428,0.065998469,0.073586076
+371,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.032380428,0.065998469,0.073586076
+272,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.034413543,0.066017906,0.075316465
+387,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.034413543,0.066017906,0.075316465
+379,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.031368803,0.066028314,0.072986124
+108,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_add']",1,0.028798879,0.066050466,0.074500207
+240,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.034890711,0.066066993,0.075270977
+388,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.033373196,0.06609772,0.074034945
+227,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.033630482,0.066149997,0.074374336
+138,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.034487377,0.066175105,0.07352673
+425,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.033407271,0.066181123,0.076481671
+154,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_add', 'matrix_addloop']",1,0.036967919,0.066189232,0.068515194
+137,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.034140905,0.066210236,0.073480061
+276,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.034140905,0.066210236,0.073480061
+373,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.03149181,0.066215496,0.078137946
+263,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.032036269,0.066238909,0.07270582
+131,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.03307504,0.066258686,0.076210435
+307,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.033775309,0.066286973,0.071741079
+408,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.033775309,0.066286973,0.071741079
+266,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.032337494,0.066291293,0.077990623
+364,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.033680062,0.066306502,0.074279516
+110,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot']",1,0.033690193,0.066312246,0.07339274
+207,lgb,l2,6,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.030295521,0.066347287,0.073247177
+291,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.033775151,0.066437514,0.072357512
+334,lgb,l2,7,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027318413,0.066457993,0.074198429
+419,lgb,l2,8,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.027318413,0.066457993,0.074198429
+250,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_add']",1,0.030479462,0.066468647,0.073844501
+84,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv']",1,0.030996248,0.06649631,0.06693847
+343,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.029903009,0.066525148,0.073891985
+423,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.029903009,0.066525148,0.073891985
+236,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.033844605,0.066536916,0.077224763
+188,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.033643514,0.066585363,0.078318126
+202,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.029503532,0.066622165,0.075830773
+331,lgb,l2,7,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_addloop']",1,0.029503532,0.066622165,0.075830773
+223,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_addloop']",1,0.03282154,0.066668052,0.076397645
+256,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.031454898,0.066689761,0.075174346
+147,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_add']",1,0.033612167,0.066690814,0.072781671
+221,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_addloop']",1,0.031608404,0.066702466,0.075947288
+35,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dot']",1,0.030549918,0.066711838,0.071106096
+136,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.033308317,0.066732934,0.076649243
+275,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.033308317,0.066732934,0.076649243
+97,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop', 'matrix_add']",1,0.034187378,0.066739411,0.076791466
+354,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.032750984,0.066770868,0.075626018
+443,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.032887344,0.06689307,0.073943759
+2,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_convloop']",1,0.034043538,0.066908374,0.071784605
+220,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_add']",1,0.029703489,0.066918974,0.073898036
+348,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.03349862,0.06697661,0.079022433
+116,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot', 'matrix_addloop']",1,0.034148122,0.067053084,0.076503216
+254,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.032754495,0.067068451,0.072798817
+201,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.028070808,0.06707806,0.074825311
+330,lgb,l2,7,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.028070808,0.06707806,0.074825311
+68,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dot', 'matrix_dotloop']",1,0.034690737,0.067114904,0.07959504
+195,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop']",1,0.034690737,0.067114904,0.07959504
+79,lgb,l2,5,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.031308183,0.067136742,0.075550128
+50,lgb,l2,5,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot']",1,0.032877249,0.06724862,0.072923002
+434,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.034470288,0.067257699,0.077468799
+461,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.034470288,0.067257699,0.077468799
+299,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.032994644,0.067289392,0.075749381
+77,lgb,l2,5,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.031600362,0.067322907,0.080558805
+20,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_convloop', 'matrix_add']",1,0.032957238,0.067381909,0.077161433
+287,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.035911058,0.067590532,0.0762709
+395,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.035911058,0.067590532,0.0762709
+433,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.032363086,0.067724486,0.077902123
+115,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot', 'matrix_add']",1,0.031512574,0.067724665,0.076280533
+70,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.029480994,0.06773615,0.073178276
+129,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.035679349,0.067810284,0.076571962
+66,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.030798664,0.067872618,0.073435706
+251,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot', 'matrix_addloop']",1,0.03501019,0.067899679,0.079377257
+332,lgb,l2,7,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.029767599,0.067920819,0.073490535
+257,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.032727338,0.067998939,0.081459527
+393,lgb,l2,8,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.034713557,0.068038866,0.07181759
+200,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_add', 'matrix_addloop']",1,0.031279228,0.068045587,0.072369956
+458,lgb,l2,10,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.035511774,0.068056728,0.079733518
+421,lgb,l2,9,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.032583038,0.068072756,0.079016986
+213,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_add']",1,0.030743021,0.068092311,0.074986247
+75,lgb,l2,5,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.032626813,0.068275431,0.078571807
+243,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.035860641,0.068297931,0.074948199
+67,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_addloop']",1,0.031310738,0.068562624,0.074228268
+338,lgb,l2,8,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_add']",1,0.0341753,0.068632598,0.079430781
+191,lgb,l2,6,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.034054437,0.068634512,0.074028761
+325,lgb,l2,7,"['Total Frames', 'Params', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.034054437,0.068634512,0.074028761
+293,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.036062498,0.068769292,0.078048198
+76,lgb,l2,5,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dot', 'matrix_addloop']",1,0.034646213,0.068853113,0.078629067
+102,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_dotloop', 'matrix_add']",1,0.036697451,0.068903082,0.081264749
+162,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.037331958,0.069031883,0.078193994
+303,lgb,l2,7,"['Total Frames', 'Params', 'transfer_continuous', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.037331958,0.069031883,0.078193994
+12,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_addloop']",1,0.036296488,0.069211248,0.079978909
+83,lgb,l2,5,"['Total Frames', 'Params', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.035961462,0.069275477,0.087842233
+9,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_dot']",1,0.031824324,0.069442415,0.072917831
+203,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.034063669,0.069733693,0.083421236
+14,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'matrix_conv', 'matrix_dot']",1,0.0361096,0.06979743,0.075461984
+141,lgb,l2,6,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot']",1,0.035364613,0.069885909,0.072146796
+73,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_add', 'matrix_addloop']",1,0.033813677,0.07019928,0.080507942
+71,lgb,l2,5,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dotloop', 'matrix_add']",1,0.033166672,0.070584048,0.079542744
+198,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add']",1,0.033166672,0.070584048,0.079542744
+196,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dot', 'matrix_add']",1,0.034267332,0.070767409,0.07905444
+7,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_roundtrip', 'matrix_conv']",1,0.036192728,0.071197696,0.075759094
+80,lgb,l2,5,"['Total Frames', 'Params', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.037730172,0.071574966,0.085820787
+205,lgb,l2,6,"['Total Frames', 'Params', 'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add']",1,0.037730172,0.071574966,0.085820787
+86,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_dot']",1,0.035467066,0.071591286,0.074665951
+204,lgb,l2,6,"['Total Frames', 'Params', 'matrix_conv', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.038398962,0.071819519,0.081566158
+333,lgb,l2,7,"['Total Frames', 'Params', 'matrix_conv', 'matrix_convloop', 'matrix_dotloop', 'matrix_add', 'matrix_addloop']",1,0.038398962,0.071819519,0.081566158
+28,lgb,l2,5,"['Total Frames', 'Params', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv']",1,0.038481588,0.073276277,0.076257462
+1,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv']",1,0.040556009,0.074062439,0.076959189
+0,lgb,l2,5,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip']",1,0.040259943,0.074092896,0.08428463
+82,lgb,l2,5,"['Total Frames', 'Params', 'matrix_dot', 'matrix_add', 'matrix_addloop']",1,0.039054673,0.07410878,0.08543855
+211,lgb,l2,7,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_dot']",1,0.042136513,0.074198982,0.080330865
+91,lgb,l2,6,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous', 'matrix_conv', 'matrix_dot']",1,0.044091314,0.075574956,0.083948518

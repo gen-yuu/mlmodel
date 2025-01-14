@@ -1,31 +1,19 @@
-import csv
 import os
 import pandas as pd
 
+
 data_dir = './data'
-testbench_file = 'testbench_all.csv'
-results_file = 'results_all.csv'
-output_file = 'data.csv'
-
-testbench_csv = os.path.join(data_dir, testbench_file)
-results_csv = os.path.join(data_dir, results_file)
-
-testbench_df = pd.read_csv(testbench_csv, index_col=0)
-results_df = pd.read_csv(results_csv)
-
-server_list = results_df['Server Info'].unique()
-
-for server in server_list:
-    index = testbench_df.index.get_loc(server)
-    benchmark = testbench_df.loc[server]
-    target_df = results_df.query('`Server Info` == @server')
-    for name in benchmark.index:
-        results_df.loc[results_df['Server Info']
-                       == server, name] = benchmark[name]
-    print(results_df)
-    pass
+data_file = 'data.csv'
 
 
-output_path = os.path.join(data_dir, output_file)
+def one_leave_out(i):
+    data_csv = os.path.join(data_dir, data_file)
+    df = pd.read_csv(data_csv, index_col=0)
+    server_list = df['Server Info'].unique()
+    train_df = pd.DataFrame()
+    test_df = pd.DataFrame()
+    target = server_list[i]
+    train_df = df.query('`Server Info` != @target')
+    test_df = df.query('`Server Info` == @target')
 
-results_df.to_csv(output_path, mode='w')
+    return train_df, test_df, target

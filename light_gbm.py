@@ -9,7 +9,8 @@ from plot_shap import plot_shap
 
 def lgb_model(train_df, test_df, target, features):
     seed = 42  # 乱数シード
-    train_df, val_df = train_test_split(train_df, train_size=0.8, random_state=seed)
+    train_df, val_df = train_test_split(
+        train_df, train_size=0.8, random_state=seed)
     # trainデータ
     X_train = train_df[features]
     X_train = pd.get_dummies(X_train, drop_first=True)
@@ -42,7 +43,8 @@ def lgb_model(train_df, test_df, target, features):
         valid_sets=[val_data],  # early_stoppingの評価用データ
         valid_names=['valid'],
         num_boost_round=10000,
-        callbacks=[lgb.early_stopping(stopping_rounds=10)],  # early_stopping用コールバック関数
+        # early_stopping用コールバック関数
+        callbacks=[lgb.early_stopping(stopping_rounds=10)],
     )
 
     pred_train = model.predict(X_train)
@@ -107,13 +109,10 @@ def lgb_model(train_df, test_df, target, features):
     plot_shap(model, X_test)
     return {
         'ML': 'lgb',
-        'loss': 'l2',
+        'loss': 'l2(rmse)',
         'Input Num': len(features),
         'Input': features,
-        'weight': 1,
         'MAPE train': mape_train,
-        'MAPE test': mape_test,
-        'Task Incomplete rate (TEST)': d_rate_test,
         'MAPE val': mape_val,
-        'Tasl Incomplete rate (Val)': d_rate_val,
+        'MAPE test': mape_test
     }
