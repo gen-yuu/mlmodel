@@ -1,16 +1,16 @@
-import pandas as pd
 import lightgbm as lgb
-import numpy as np
-from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+
 from plot_model import plot_model
 from plot_shap import plot_shap
 
 
 def lgb_model(train_df, test_df, target, features):
     seed = 42  # 乱数シード
-    train_df, val_df = train_test_split(
-        train_df, train_size=0.8, random_state=seed)
+    train_df, val_df = train_test_split(train_df, train_size=0.8, random_state=seed)
     # trainデータ
     X_train = train_df[features]
     X_train = pd.get_dummies(X_train, drop_first=True)
@@ -48,8 +48,8 @@ def lgb_model(train_df, test_df, target, features):
     )
 
     pred_train = model.predict(X_train)
-    pred_test = model.predict(X_test)
     pred_val = model.predict(X_val)
+    pred_test = model.predict(X_test)
 
     alpha = 1
     deltas = []
@@ -112,7 +112,7 @@ def lgb_model(train_df, test_df, target, features):
         'loss': 'l2(rmse)',
         'Input Num': len(features),
         'Input': features,
-        'MAPE train': mape_train,
-        'MAPE val': mape_val,
-        'MAPE test': mape_test
+        'MAPE train(%)': round(mape_train * 100, 5),
+        'MAPE val': round(mape_val * 100, 5),
+        'MAPE test': round(mape_test * 100, 5)
     }

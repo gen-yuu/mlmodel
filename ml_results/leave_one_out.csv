@@ -1,0 +1,13 @@
+,ML,loss,Input Num,Input,MAPE train,MAPE val,MAPE test,Leave One
+0,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.4814979832573358,0.5074546743768867,0.99643175799681,13th corei5 - RTX3060 Ti
+1,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.5251382556775006,0.5660798318652012,0.21458288748553414,13th corei7 - GTX1080
+2,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.47613651938622475,0.49291272564480965,0.48432522256437227,13th corei5 - GTX1650
+3,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.45343687998495075,0.47759975907571217,1.1056113848289093,1th Xeon Gold - RTX4070
+4,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.4577079513965576,0.48488144502191743,0.4122151418423152,13th corei7 - RTX3050
+5,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.5001325143279796,0.5200904063183907,0.1607456019982074,13th corei5 - GTX1080
+6,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.3880126713186285,0.4014500613495198,2.0341863287551747,13th corei5 - RTX4070
+7,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.4988881298043223,0.4873721203508887,0.3944454738053197,13th corei7 - RTX3060 Ti
+8,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.49791628822758704,0.49303485422758997,0.15980211726367313,13th corei5 - RTX3050
+9,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.45699898681331713,0.45997444859008774,0.4581375040439307,1th Xeon Gold - GTX1080
+10,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.5197625199455566,0.5121428677164166,0.0548870188707091,9th corei7 - RTX2080 Ti
+11,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_cache(MB)']",0.4214606084096834,0.4298317824393428,1.4211167813654224,13th corei7 - RTX4070

@@ -1,18 +1,21 @@
 import os
+
 import pandas as pd
 
 data_dir = './data'
-data_file = 'data.csv'
 
 
-def one_leave_out(i):
-    data_csv = os.path.join(data_dir, data_file)
-    df = pd.read_csv(data_csv, index_col=0)
+def format_data_loocv(target, data_path):
+    df = pd.read_csv(data_path, index_col=0)
     server_list = df['Server Info'].unique()
+
+    if target not in server_list:
+        print(f"{target} is not in serverlist")
+        return -1
+
     train_df = pd.DataFrame()
     test_df = pd.DataFrame()
-    target = server_list[i]
     train_df = df.query('`Server Info` != @target')
     test_df = df.query('`Server Info` == @target')
 
-    return train_df, test_df, target
+    return train_df, test_df
