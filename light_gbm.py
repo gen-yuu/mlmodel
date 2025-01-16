@@ -106,13 +106,13 @@ def lgb_model(train_df, test_df, target, features):
     #     d_rate_val = 9999
 
     # plot_model(model)
-    plot_shap(model, X_test)
+    #plot_shap(model, X_test)
     return {
         'ML': 'lgb',
         'loss': 'l2(rmse)',
         'Input Num': len(features),
         'Input': features,
         'MAPE train(%)': round(mape_train * 100, 5),
-        'MAPE val': round(mape_val * 100, 5),
-        'MAPE test': round(mape_test * 100, 5)
+        'MAPE val(%)': round(mape_val * 100, 5),
+        'MAPE test(%)': round(mape_test * 100, 5)
     }

@@ -34,7 +34,7 @@ SERVER_LIST = [
 output_dir = './ml_results'
 
 data_dir = './data'
-benchmark_data_file = 'data_benchmerk.csv'
+benchmark_data_file = 'data_benchmark.csv'
 server_spec_data_file = 'data_server_spec.csv'
 
 const_features = ['Total Frames', 'Params']
@@ -53,10 +53,19 @@ target = 'Inference Time (s)'
 
 
 def main():
-    features_conbs = get_features_conb(server_spec_features)
-    data_path = os.path.join(data_dir, server_spec_data_file)
+
+    # specの特徴量組み合わせ
+    # features_conbs = get_features_conb(server_spec_features)
+    # data_path = os.path.join(data_dir, server_spec_data_file)
+    # model_info = search_features_conb(features_conbs, data_path)
+    # output_csv = "spec_feature_search.csv"
+    # output_results_to_csv(model_info, output_csv)
+
+    # benchmarkの特徴量組み合わせ
+    features_conbs = get_features_conb(benchmark_features)
+    data_path = os.path.join(data_dir, benchmark_data_file)
     model_info = search_features_conb(features_conbs, data_path)
-    output_csv = "spec_feature_search.csv"
+    output_csv = "benchmark_feature_search.csv"
     output_results_to_csv(model_info, output_csv)
     return
 
@@ -64,7 +73,7 @@ def main():
 def search_features_conb(features_conbs, data_path):
     model_info = []
     for server_features in features_conbs:
-        model_info.append(loocv(const_features, server_features, data_path))
+        model_info += (loocv(const_features, server_features, data_path))
     return model_info
 
 
