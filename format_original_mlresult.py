@@ -5,15 +5,15 @@ import pandas as pd
 
 # 置き換えリスト
 rename_list = {
+    "transfer_all": "T_SLET",
+    "transfer_continuous": "T_CSET",
+    "transfer_roundtrip": "T_ISET",
     "matrix_convloop": "T_SCRE",
     "matrix_conv": "T_LCOE",
     "matrix_dotloop": "T_SMRE",
     "matrix_dot": "T_LMOE",
     "matrix_addloop": "T_SARE",
-    "matrix_add": "T_LAOE",
-    "transfer_all": "T_SLET",
-    "transfer_continuous": "T_CSET",
-    "transfer_roundtrip": "T_ISET"
+    "matrix_add": "T_LAOE"
 }
 
 # benchmarkのTime Cost(s)
@@ -28,21 +28,21 @@ weights = {
     "T_LMOE": 9.083457 * M,
     "T_SMRE": 1.033667 * M,
     "T_LAOE": 0.008916 * M,
-    "T_SAOE": 0.886261 * M,
+    "T_SARE": 0.886261 * M,
 }
 
 
 # メイン処理をまとめる関数
 def main():
     data_dir = './ml_results'
-    # 'spec_feature_search.csv' の場合、Time Cost計算をスキップ
+    # 'spec_parameter_search.csv' の場合、Time Cost計算をスキップ
     process_csv(data_dir,
-                'original_benchmark_feature_loocv.csv',
-                'benchmark_feature_loocv.csv',
+                'original_benchmark_parameter_loocv.csv',
+                'benchmark_parameter_loocv.csv',
                 calculate_time_cost=True)
     process_csv(data_dir,
-                'original_spec_feature_loocv.csv',
-                'spec_feature_loocv.csv',
+                'original_spec_parameter_loocv.csv',
+                'spec_parameter_loocv.csv',
                 calculate_time_cost=False)
 
 
@@ -61,15 +61,15 @@ def process_csv(data_dir, data_file, output_file, calculate_time_cost=True):
         def calculate_time_cost(inputs):
             # 文字列をリストに変換
             input_list = ast.literal_eval(inputs)
-            return sum(weights.get(feature, 0) for feature in input_list)
+            return sum(weights.get(parameter, 0) for parameter in input_list)
 
-        df["Time Cost (s)"] = df["Input"].apply(calculate_time_cost)
+        df["Time Cost (s)"] = df['Variable Parameter'].apply(calculate_time_cost)
 
     # 列の並び替え
     columns = df.columns.tolist()  # 現在の列順を取得
     if "Time Cost (s)" in columns:
         columns.remove("Time Cost (s)")  # 一旦 "Time Cost (s)" を除去
-        columns.insert(columns.index("Input") + 1,
+        columns.insert(columns.index('Variable Parameter') + 1,
                        "Time Cost (s)")  # "Input" の次に "Time Cost (s)" を挿入
     columns.remove("Leave One")  # 一旦 "Leave One" を除去
     columns.insert(columns.index("MAPE train (%)"),

@@ -5,12 +5,22 @@ from sklearn.model_selection import train_test_split
 
 
 def calculate_mape(predictions, actuals, alpha=1):
-    """平均絶対誤差率(MAPE)を計算するヘルパー関数"""
+    """
+    平均絶対誤差率(MAPE)を計算するヘルパー関数
+
+    Parameters:
+        predictions (list or array): モデルの予測値
+        actuals (list or array): 実際の値
+        alpha (float): 補正用パラメータ（デフォルトは1）
+
+    Returns:
+        float: MAPEの計算結果
+    """
     deltas = [(actual - alpha * pred) / actual for pred, actual in zip(predictions, actuals)]
     return np.average(np.abs(deltas))
 
 
-def lgb_model(train_df, test_df, target, features):
+def lgb_model(train_df, test_df, target, const_parameters, variable_parameters):
     """
     LightGBMモデルを学習し、MAPEを計算して結果を返す関数
 
@@ -18,24 +28,29 @@ def lgb_model(train_df, test_df, target, features):
         train_df (DataFrame): 学習データ
         test_df (DataFrame): テストデータ
         target (str): 目的変数のカラム名
-        features (list): 特徴量のリスト
+        const_parameters (list): 定数パラメータ
+        variable_parameters (list): 変動パラメータ
 
     Returns:
         dict: モデルの評価結果を含む辞書
     """
+
+    parameters = const_parameters + variable_parameters
     seed = 42  # 乱数シード
+
+    # 学習データと検証データに分割
     train_df, val_df = train_test_split(train_df, train_size=0.8, random_state=seed)
 
     # 学習データの準備
-    X_train = pd.get_dummies(train_df[features], drop_first=True)
+    X_train = pd.get_dummies(train_df[parameters], drop_first=True)
     y_train = train_df[target].reset_index(drop=True)
 
     # 検証データの準備
-    X_val = pd.get_dummies(val_df[features], drop_first=True)
+    X_val = pd.get_dummies(val_df[parameters], drop_first=True)
     y_val = val_df[target].reset_index(drop=True)
 
     # テストデータの準備
-    X_test = pd.get_dummies(test_df[features], drop_first=True)
+    X_test = pd.get_dummies(test_df[parameters], drop_first=True)
     y_test = test_df[target].reset_index(drop=True)
 
     # Datasetオブジェクトとしてデータを定義
@@ -71,11 +86,14 @@ def lgb_model(train_df, test_df, target, features):
     mape_val = calculate_mape(pred_val, y_val)
     mape_test = calculate_mape(pred_test, y_test)
 
+    # 結果を辞書形式で返す
     return {
         'ML': 'lgb',
         'loss': 'l2(rmse)',
-        'Input Num': len(features),
-        'Input': features,
+        'Parameter Num': len(parameters),
+        'Const Parameter': const_parameters,
+        'Variable Parameter Num': len(variable_parameters),
+        'Variable Parameter': variable_parameters,
         'MAPE train (%)': round(mape_train * 100, 5),
         'MAPE val (%)': round(mape_val * 100, 5),
         'MAPE test (%)': round(mape_test * 100, 5)

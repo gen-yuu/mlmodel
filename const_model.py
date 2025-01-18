@@ -31,10 +31,10 @@ benchmark_data_file = 'data_benchmark.csv'
 server_spec_data_file = 'data_server_spec.csv'
 
 # 定数特徴量
-const_features = ['Total Frames', 'Params']
+const_parameters = ['Total Frames', 'Directory Size (MB)', 'Params']
 
 # ベンチマーク特徴量
-benchmark_features = [
+benchmark_parameters = [
     'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop',
     'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop'
 ]
@@ -48,43 +48,43 @@ def main():
     メイン処理: ベンチマークデータの特徴量の組み合わせを評価し、結果をCSVに保存する。
     """
     # specの特徴量組み合わせ
-    # features_conbs = get_features_conb(server_spec_features)
+    # parameters_conbs = get_parameters_conb(server_spec_parameters)
     # data_path = os.path.join(data_dir, server_spec_data_file)
-    # model_info = search_features_conb(features_conbs, data_path)
+    # model_info = search_parameters_conb(parameters_conbs, data_path)
     # output_csv = "spec_feature_search.csv"
     # output_results_to_csv(model_info, output_csv)
 
     # ベンチマークデータの特徴量組み合わせ
-    features_conbs = get_features_conb(benchmark_features, min_size=6)
+    parameters_conbs = get_parameters_conb(benchmark_parameters, min_size=6)
     data_path = os.path.join(data_dir, benchmark_data_file)
-    model_info = search_features_conb(features_conbs, data_path)
+    model_info = search_parameters_conb(parameters_conbs, data_path)
     output_csv = "original_benchmark_feature_loocv.csv"
     output_results_to_csv(model_info, output_csv)
 
 
-def search_features_conb(features_conbs, data_path):
+def search_parameters_conb(parameters_conbs, data_path):
     """
     特徴量の組み合わせごとに、leave-one-out交差検証を行う。
     
     Parameters:
-        features_conbs (list): 特徴量の組み合わせリスト
+        parameters_conbs (list): 特徴量の組み合わせリスト
         data_path (str): データのパス
 
     Returns:
         list: モデルの評価結果
     """
     model_info = []
-    for server_features in features_conbs:
-        model_info.extend(loocv(const_features, server_features, data_path))  # リストを展開して追加
+    for server_parameters in parameters_conbs:
+        model_info.extend(loocv(const_parameters, server_parameters, data_path))  # リストを展開して追加
     return model_info
 
 
-def get_features_conb(features, min_size=2):
+def get_parameters_conb(parameters, min_size=2):
     """
     特徴量の組み合わせを生成する。
     
     Parameters:
-        features (list): 特徴量のリスト
+        parameters (list): 特徴量のリスト
         min_size (int): 組み合わせの最小サイズ（デフォルトは2）
     
     Returns:
@@ -93,19 +93,19 @@ def get_features_conb(features, min_size=2):
     conbs = [
         list(conb)
         for n in range(min_size,
-                       len(features) + 1)
-        for conb in itertools.combinations(features, n)
+                       len(parameters) + 1)
+        for conb in itertools.combinations(parameters, n)
     ]
     return conbs
 
 
-def loocv(const_features, server_features, data_path):
+def loocv(const_parameters, server_parameters, data_path):
     """
     Leave-One-Out交差検証を実行し、各サーバーについてモデルの評価結果を取得する。
     
     Parameters:
-        const_features (list): 定数特徴量
-        server_features (list): サーバーに関する特徴量
+        const_parameters (list): 定数特徴量
+        server_parameters (list): サーバーに関する特徴量
         data_path (str): データのパス
 
     Returns:
@@ -113,10 +113,10 @@ def loocv(const_features, server_features, data_path):
     """
     model_info = []
     for server in SERVER_LIST:
-        print(f"features : {server_features}, Leave out server: {server}")
+        print(f"parameters : {server_parameters}, Leave out server: {server}")
         train_df, test_df = format_data_loocv(server, data_path)
-        features = const_features + server_features
-        lgb_result = lgb_reg.lgb_model(train_df, test_df, target, features)
+        lgb_result = lgb_reg.lgb_model(train_df, test_df, target, const_parameters,
+                                       server_parameters)
         lgb_result["Leave One"] = server  # サーバー名を結果に追加
         model_info.append(lgb_result)
     return model_info
