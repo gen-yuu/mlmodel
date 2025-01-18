@@ -9,33 +9,34 @@ import pandas as pd
 name_lists = {
     "matrix_conv": "$T_{LCOE}$",
     "matrix_convloop": "$T_{SCRE}$",
-    "matrix_dot": "$T_{SMOE}$",
+    "matrix_dot": "$T_{LMOE}$",
     "matrix_dotloop": "$T_{SMRE}$",
     "matrix_add": "$T_{LAOE}$",
-    "matrix_addloop": "$T_{SAOE}$",
+    "matrix_addloop": "$T_{SARE}$",
     "transfer_all": "$T_{SLET}$",
     "transfer_continuous": "$T_{CSET}$",
     "transfer_roundtrip": "$T_{ISET}$"
 }
 
 #print(df.mean(numeric_only=True))
-# # 与えられたデータと重み
+# # 与えられたデータと重み(s)
+#M=100
 # data = {
-#     "T_{SLET}": 0.247507,
-#     "T_{CSET}": 0.146412,
-#     "T_{ISET}": 0.190528,
-#     "T_{LCOE}": 0.747215,
-#     "T_{SCRE}": 1.947857,
-#     "T_{SMOE}": 9.083457,
-#     "T_{SMRE}": 1.033667,
-#     "T_{LAOE}": 0.008916,
-#     "T_{SAOE}": 0.886261,
+#     "T_{SLET}": 0.247507*M,
+#     "T_{CSET}": 0.146412*M,
+#     "T_{ISET}": 0.190528*M,
+#     "T_{LCOE}": 0.747215*M,
+#     "T_{SCRE}": 1.947857*M,
+#     "T_{SMOE}": 9.083457*M,
+#     "T_{SMRE}": 1.033667*M,
+#     "T_{LAOE}": 0.008916*M,
+#     "T_{SAOE}": 0.886261*M,
 # }
 
 server = 'CPU - GPU'
 
 matrix_benchmarks = [
-    "$T_{LCOE}$", "$T_{SCRE}$", "$T_{SMOE}$", "$T_{SMRE}$", "$T_{LAOE}$", "$T_{SAOE}$"
+    "$T_{LCOE}$", "$T_{SCRE}$", "$T_{LMOE}$", "$T_{SMRE}$", "$T_{LAOE}$", "$T_{SARE}$"
 ]
 transfer_benchmarks = ["$T_{SLET}$", "$T_{CSET}$", "$T_{ISET}$"]
 

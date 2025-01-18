@@ -1,4 +1,4 @@
-,ML,loss,Input Num,Input,MAPE train(%),MAPE val,MAPE test,Leave One
+,ML,loss,Input Num,Input,MAPE train (%),MAPE val (%),MAPE test (%),Leave One
 0,lgb,l2(rmse),4,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous']",2.80933,3.35601,30.45307,13th corei5 - RTX3060 Ti
 1,lgb,l2(rmse),4,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous']",2.75876,3.3296,17.06911,13th corei7 - GTX1080
 2,lgb,l2(rmse),4,"['Total Frames', 'Params', 'transfer_all', 'transfer_continuous']",2.809,3.40332,33.64485,13th corei5 - GTX1650

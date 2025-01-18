@@ -1,4 +1,4 @@
-,ML,loss,Input Num,Input,MAPE train(%),MAPE val(%),MAPE test(%),Leave One
+,ML,loss,Input Num,Input,MAPE train (%),MAPE val (%),MAPE test (%),Leave One
 0,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_boost_clock(GHz)']",47.89388,50.57977,99.30223,13th corei5 - RTX3060 Ti
 1,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_boost_clock(GHz)']",52.55371,56.64837,21.48857,13th corei7 - GTX1080
 2,lgb,l2(rmse),4,"['Total Frames', 'Params', 'cpu_core', 'cpu_boost_clock(GHz)']",47.64524,49.26439,48.41765,13th corei5 - GTX1650
