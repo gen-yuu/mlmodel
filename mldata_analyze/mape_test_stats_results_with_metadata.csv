@@ -1,0 +1,503 @@
+ML,loss,Input Num,Input,Time Cost (s),average MAPE test (%),min MAPE test (%),max MAPE test (%)
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SCRE', 'T_SARE']",194.7857,14.16623,3.16859,33.06744
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SCRE', 'T_SMRE']",298.1524,14.32164,3.29351,33.06041
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1104.023,14.42669,3.16199,33.07288
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SCRE', 'T_LAOE', 'T_SARE']",195.6773,14.461,3.18468,33.04314
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SCRE', 'T_LAOE']",195.6773,14.53745,3.1321,33.04859
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_SARE']",269.5072,14.55473,3.18934,33.04566
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1104.023,14.56459,3.13777,33.04909
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE', 'T_SARE']",1103.1314,14.56902,3.22727,32.99939
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE']",269.5072,14.6688,3.29213,33.07456
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",270.3988,14.75494,3.17095,33.05707
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LCOE', 'T_LAOE']",75.6131,14.7721,3.28148,33.06981
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SCRE', 'T_SMRE', 'T_SARE']",298.1524,14.78333,3.15562,33.06574
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1178.7445,14.7859,3.14776,33.07932
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE']",1103.1314,14.7955,3.2727,33.06221
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1178.7445,14.80759,3.18493,33.05025
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LAOE']",270.3988,14.81026,3.16087,33.07124
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE', 'T_LAOE']",983.9588,14.8213,3.14498,33.03078
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",299.044,14.83984,3.15052,33.03417
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LCOE', 'T_SARE']",74.7215,14.93319,3.21698,33.05778
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1177.8529,14.94328,3.16534,33.06175
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1206.4981,15.00916,3.28004,33.06186
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_SMRE']",372.8739,15.02943,3.3391,33.33944
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE']",1127.8821,15.04199,3.52572,31.25005
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LMOE', 'T_LAOE', 'T_SARE']",909.2373,15.04355,3.19855,33.05819
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1207.3897,15.11303,3.14784,33.05993
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1231.2488,15.12182,3.62041,31.01122
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE']",983.0672,15.12636,3.10936,33.0686
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LMOE', 'T_SARE']",908.3457,15.13408,3.21377,33.04613
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE', 'T_SARE']",983.0672,15.14586,3.17197,33.0499
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1206.4981,15.15608,3.21001,33.07557
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1177.8529,15.17354,3.28784,33.07821
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",983.9588,15.17544,3.21812,33.04211
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_LAOE', 'T_SARE']",75.6131,15.216,3.17869,33.05525
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",313.6852,15.2468,3.20662,31.25824
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SCRE', 'T_SMRE', 'T_LAOE']",299.044,15.25041,3.21402,33.06285
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LAOE']",210.3185,15.27479,3.10503,31.09767
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",332.738,15.36286,3.29027,31.27007
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LAOE']",220.428,15.36651,3.231,31.27397
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1207.3897,15.37238,3.14972,33.06632
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",372.8739,15.40876,3.19843,33.42186
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE']",219.5364,15.42021,3.45804,31.1394
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",229.3713,15.43179,3.24345,31.35195
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1245.89,15.44741,3.14606,31.32183
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1281.2196,15.449,3.20804,33.10349
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",332.738,15.45723,3.23576,30.95189
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE']",1142.5233,15.46117,3.03535,31.32617
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE']",1117.7726,15.47202,3.621,31.2075
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",323.7947,15.48609,3.12967,31.51898
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_SMRE']",322.9031,15.4873,3.91572,31.41602
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LAOE', 'T_SARE']",210.3185,15.49329,3.26206,31.38765
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1221.1393,15.49458,3.54984,31.30079
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LAOE']",235.0692,15.51461,3.24728,31.3801
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1232.1404,15.53791,3.47173,31.32209
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE']",1136.8254,15.55093,3.22531,31.29187
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",313.6852,15.55148,3.47518,31.26566
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",373.7655,15.5587,3.16151,33.75619
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",318.0968,15.55883,3.20093,31.26714
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1226.4425,15.56657,3.26738,31.33624
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",338.4359,15.56669,3.03682,31.48427
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1128.7737,15.58436,3.25102,31.2432
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LAOE']",214.7301,15.59332,3.12851,30.94759
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE']",229.3713,15.60116,3.21764,31.04151
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1241.0837,15.60841,3.19814,31.23151
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE']",331.8464,15.61519,3.69416,31.30129
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE']",1146.9349,15.63629,3.0671,31.13464
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1240.1921,15.63981,3.31914,31.39688
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE']",1161.5761,15.64105,3.037,31.36336
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1225.5509,15.64678,3.25367,31.41076
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1137.717,15.65112,3.32125,31.38267
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1162.4677,15.67549,3.22128,31.39701
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",318.0968,15.67815,3.14214,31.04375
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1137.717,15.68025,3.22056,31.34595
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1202.6036,15.68496,3.26317,31.24939
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1281.2196,15.68552,3.14806,33.40711
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1123.0758,15.69244,3.25512,31.31354
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1222.0309,15.69298,3.32553,31.52416
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE']",228.4797,15.69489,3.79596,31.25873
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",214.7301,15.70178,3.42029,31.26323
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1147.8265,15.70236,3.17608,31.34122
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1136.8254,15.70256,3.12598,31.28054
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1240.1921,15.70381,3.40933,31.31311
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_SMRE']",317.2052,15.70515,3.51038,31.34545
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1246.7816,15.71174,3.50469,31.29427
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1282.1112,15.7126,3.14527,33.05933
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_SARE']",312.7936,15.71345,3.2618,31.41832
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1127.8821,15.71779,3.3985,31.37453
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE']",1122.1842,15.72202,3.24655,31.20973
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1231.2488,15.72271,3.25296,31.40747
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_SARE']",209.4269,15.72456,3.20887,31.47991
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1305.9703,15.72701,3.38145,31.39952
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1122.1842,15.73034,3.10434,31.23333
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1264.9428,15.73935,3.36792,31.21509
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1143.4149,15.74086,3.29239,31.23578
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1241.0837,15.75905,3.18821,31.5362
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1250.3016,15.76598,3.20317,31.30411
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LAOE', 'T_SARE']",220.428,15.77348,3.22297,31.35831
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1118.6642,15.78573,3.45722,31.37301
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1221.1393,15.78794,3.11331,31.44065
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1225.5509,15.7934,3.08097,31.27488
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LMOE', 'T_LAOE']",909.2373,15.79417,3.16434,33.05397
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",323.7947,15.79636,3.30081,31.52834
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1123.0758,15.79848,3.16824,31.35089
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",331.8464,15.80265,3.28195,31.04923
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1265.8344,15.8047,3.25146,31.35506
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_SMRE']",312.7936,15.80632,3.27723,31.41363
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1245.89,15.80795,3.33318,31.38362
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1251.1932,15.81183,3.24811,31.31315
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE']",209.4269,15.81407,3.69464,31.41768
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE']",213.8385,15.81743,3.7247,31.14674
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1117.7726,15.82466,3.27384,31.62022
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1142.5233,15.83849,3.35537,31.42272
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",397.6246,15.84977,3.34942,32.49446
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",373.7655,15.85206,3.14566,33.21754
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1147.8265,15.85826,3.31083,31.42177
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1226.4425,15.85911,3.19143,31.40087
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LAOE', 'T_SARE']",235.0692,15.8612,3.30989,31.37256
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SARE']",228.4797,15.88356,3.24312,31.30681
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1161.5761,15.89309,3.17931,31.2396
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1282.1112,15.89634,3.15477,33.33234
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1118.6642,15.89721,3.50815,31.34724
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",338.4359,15.90867,3.35868,31.47188
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LCOE', 'T_SMRE']",178.0882,15.91229,3.3391,33.33944
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1264.9428,15.91932,2.90425,31.35434
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_SMRE', 'T_SARE']",322.9031,15.92141,3.21507,31.22912
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_SMRE', 'T_SARE']",178.0882,15.92519,3.19843,33.42186
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LAOE']",239.4808,15.93333,3.31773,31.13594
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE']",294.2579,15.93871,3.2737,32.78253
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1162.4677,15.94526,3.27193,31.44736
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",239.4808,15.95284,3.38488,31.44215
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",357.4887,15.95468,3.28363,31.18932
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_SARE']",238.5892,15.96343,3.72273,31.26618
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE']",254.122,15.97052,3.26133,31.10471
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1251.1932,15.97388,3.51347,31.38008
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",342.8475,15.97752,3.26799,31.20158
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",356.5971,15.98452,3.21467,31.36187
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SARE']",253.2304,15.98466,3.41192,31.31582
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1250.3016,15.9873,3.09551,31.42245
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",342.8475,15.99311,3.20878,31.3904
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE']",356.5971,16.00055,3.42024,31.16219
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1222.0309,16.00086,3.31328,31.27018
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1146.9349,16.00894,3.19526,31.28412
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",254.122,16.01179,3.26288,31.38766
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",341.9559,16.01314,3.3566,31.37895
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE']",238.5892,16.02047,3.50646,31.04758
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1295.8608,16.02959,3.60359,31.18416
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE']",253.2304,16.0317,3.5738,31.12112
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1192.4941,16.0421,3.42381,31.27907
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1265.8344,16.04682,3.58285,31.28941
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1314.9136,16.05222,3.27814,31.57531
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",357.4887,16.05807,3.28792,31.38532
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE']",341.9559,16.0631,3.47762,31.13691
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_SARE']",213.8385,16.07285,3.38911,31.35805
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1211.5469,16.07781,3.12413,31.21085
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_SARE']",219.5364,16.07972,3.58037,31.24341
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",178.9798,16.08319,3.16151,33.75619
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1128.7737,16.0962,3.31967,31.44713
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",317.2052,16.09727,3.60829,31.11038
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1314.9136,16.11123,2.87801,31.25759
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_SARE']",337.5443,16.14377,3.28594,31.33969
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE']",337.5443,16.1549,3.24465,31.50959
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1232.1404,16.15799,3.49231,31.6071
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_SARE']",234.1776,16.15872,3.27978,31.14681
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1315.8052,16.17006,3.11257,31.3891
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1315.8052,16.18974,3.16281,31.30745
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",388.4067,16.19075,3.36984,31.24593
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1143.4149,16.19586,3.4177,31.41102
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1301.164,16.20189,3.43552,31.34107
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1086.4339,16.20195,3.14806,33.40711
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1300.2724,16.20995,3.43796,31.59498
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1212.4385,16.21223,3.26496,31.31387
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1320.6115,16.21916,3.33491,31.08173
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1211.5469,16.22405,3.22648,31.35655
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE']",234.1776,16.2345,3.23746,31.43106
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1087.3255,16.2371,3.14527,33.05933
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1196.9057,16.24529,3.29868,31.21472
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE']",303.2012,16.2474,2.78873,31.08629
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1212.4385,16.25918,3.34166,31.26602
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1296.7524,16.26742,3.48178,31.42677
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LMOE', 'T_SMRE']",1011.7124,16.26959,3.28004,33.06186
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",998.6,16.27183,3.35533,31.67057
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1217.2448,16.27466,3.50021,31.30269
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1306.8619,16.27703,3.17298,31.31071
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_SMRE', 'T_LAOE']",178.9798,16.28838,3.14566,33.21754
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1197.7973,16.29536,3.35034,31.39894
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",397.6246,16.29733,3.59029,32.51527
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE']",284.1484,16.30369,3.58926,31.42036
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1295.8608,16.30887,3.11331,31.42304
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1246.7816,16.31164,3.45666,31.58739
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1217.2448,16.32216,3.24952,31.55464
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1301.164,16.32253,3.17518,31.42892
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1203.4952,16.32406,3.60751,31.34281
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",406.5679,16.32964,2.71922,31.05362
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1197.7973,16.33261,3.19116,31.49891
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1087.3255,16.33269,3.15477,33.33234
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1202.6036,16.34182,3.29862,31.55464
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",285.04,16.3431,3.54521,31.42569
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LAOE', 'T_SARE']",90.2543,16.34566,3.49106,31.51706
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1300.2724,16.34827,3.08785,31.26713
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1086.4339,16.34967,3.20804,33.10349
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",387.5151,16.35443,3.45465,31.32041
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1196.9057,16.36452,3.24384,31.30399
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1339.6643,16.3759,3.00203,31.26551
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_SARE']",294.2579,16.38507,3.51312,32.01836
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",304.0928,16.38566,3.41465,31.41027
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",387.5151,16.3913,3.0018,31.33528
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1305.9703,16.39714,3.45086,32.34718
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1325.9147,16.39763,3.20167,31.1726
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1321.5031,16.40539,3.29748,31.369
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1193.3857,16.41035,3.35112,31.41267
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE']",288.56,16.41498,2.90951,31.09542
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1320.6115,16.42332,3.5153,32.34718
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1008.7095,16.4243,4.21167,31.65853
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1237.1892,16.42447,3.28088,31.42288
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",417.569,16.42485,2.9744,33.39504
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1222.548,16.42506,3.24546,31.39347
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",432.2102,16.43277,2.92716,33.39504
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",406.5679,16.43357,2.97782,31.1465
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1236.2976,16.44147,3.16408,31.09386
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1325.9147,16.44177,3.14818,31.50417
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1221.6564,16.44239,3.15918,31.12108
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",303.2012,16.44441,2.96862,30.86619
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SARE']",308.8991,16.44537,3.43551,32.01836
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1325.0231,16.45154,3.02109,31.3271
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1221.6564,16.45545,3.1935,32.22629
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SARE']",89.3627,16.45717,3.37651,31.62602
+lgb,l2(rmse),11,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1340.5559,16.46638,3.27192,31.228
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1192.4941,16.46911,3.11567,31.50426
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",407.4595,16.46922,3.26378,31.32003
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1203.4952,16.47052,3.37011,31.43732
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",391.9267,16.47131,2.81943,30.76556
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1193.3857,16.47154,3.53626,31.25856
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1222.548,16.47161,3.39337,31.43658
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1017.6528,16.47411,3.31205,31.5668
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",398.5162,16.47489,3.25482,33.28638
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1218.1364,16.47578,3.53949,31.29923
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",416.6774,16.48205,3.16446,32.65024
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",289.4516,16.4856,3.10556,31.39693
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1340.5559,16.49078,3.16737,31.50417
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE', 'T_LAOE', 'T_SARE']",923.8785,16.49506,3.40987,31.47838
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",412.2658,16.50013,3.68605,32.51527
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",314.2023,16.50291,3.2718,33.80352
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",407.4595,16.50525,3.13256,31.24045
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1306.8619,16.50562,3.37176,31.66861
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",313.3107,16.50579,3.05652,32.04325
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1236.2976,16.50721,3.27184,32.22629
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1007.8179,16.51515,4.60545,31.68548
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SARE']",997.7084,16.51724,3.30964,31.6792
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1325.0231,16.51984,2.91709,32.52187
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1237.1892,16.52249,3.26034,31.43735
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",295.1495,16.52427,3.40432,32.68384
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1296.7524,16.5404,3.41155,31.25345
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LAOE', 'T_SARE']",100.3638,16.54184,4.25865,31.58543
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LAOE', 'T_SARE']",115.005,16.54226,4.27469,31.54686
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",109.3071,16.5497,3.50644,31.54997
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE', 'T_LAOE', 'T_SARE']",933.988,16.55108,4.32548,31.75486
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1023.3507,16.55129,4.35589,31.69515
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1012.604,16.56363,3.14784,33.05993
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",413.1574,16.56538,2.94075,33.28638
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1339.6643,16.57312,2.92725,32.52187
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",328.8435,16.57395,3.11546,33.80352
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SARE']",284.1484,16.57553,3.21783,31.26602
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SARE']",114.1134,16.57618,4.44364,31.47869
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LMOE', 'T_SMRE', 'T_SARE']",1011.7124,16.58122,3.21001,33.52638
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",327.9519,16.58359,3.38458,32.04325
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",309.7907,16.58801,3.38292,32.68384
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1321.5031,16.59187,2.90964,31.65397
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",285.04,16.60307,3.3522,31.20796
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",398.5162,16.6031,3.50932,32.28511
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1218.1364,16.61524,3.48926,31.37645
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",431.3186,16.62417,2.96372,32.65024
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE', 'T_LAOE', 'T_SARE']",948.6292,16.62782,4.25741,31.7761
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1003.0116,16.63108,3.43562,31.53288
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SARE']",99.4722,16.64867,4.29942,31.48507
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",392.8183,16.6501,2.96109,31.26818
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",388.4067,16.65932,3.28169,31.39053
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",288.56,16.66162,3.10027,31.00272
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",392.8183,16.67173,3.14614,31.42715
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",431.3186,16.67441,3.00088,33.16247
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1022.4591,16.67736,4.51709,31.47828
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE', 'T_SARE']",933.0964,16.67804,4.49841,32.06265
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE', 'T_SARE']",922.9869,16.67963,3.24681,31.5758
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",432.2102,16.68341,3.21506,32.51514
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",314.2023,16.6915,3.34002,32.59526
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",417.569,16.69155,3.23606,32.51514
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",304.0928,16.69642,3.26395,31.36418
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",328.8435,16.69878,3.17866,32.59526
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",942.9313,16.70228,3.47354,31.48525
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE']",308.8991,16.7138,3.37429,32.78253
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",413.1574,16.72493,3.55975,32.28511
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",295.1495,16.73994,3.30346,32.56971
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE']",327.9519,16.74987,3.07394,33.10532
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",391.9267,16.75783,3.07772,31.20437
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",412.2658,16.76052,3.55838,32.49446
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",416.6774,16.77924,3.28358,33.16247
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",289.4516,16.78361,3.12354,31.35393
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",94.6659,16.80129,3.64814,31.56791
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_LAOE', 'T_SARE']",0.8916,16.81097,3.13302,52.30528
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",309.7907,16.834,3.28354,32.56971
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",119.4166,16.83504,3.4471,31.52549
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE', 'T_SARE']",947.7376,16.84419,4.62527,32.06265
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",928.2901,16.85281,3.5626,31.50999
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1012.604,16.85434,3.14972,33.06632
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1042.4035,16.8557,3.4935,31.62491
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1027.7623,16.85878,3.42195,31.63252
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE']",313.3107,16.88416,3.38342,33.10532
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",134.0578,16.89919,3.48873,31.48215
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SARE']",108.4155,16.91512,3.59295,31.51987
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1016.7612,16.97662,3.20219,31.56064
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SARE']",133.1662,17.01632,4.13326,31.60758
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1002.12,17.03489,3.67409,31.47962
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",967.682,17.04159,3.62351,31.7116
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",953.0408,17.05826,3.62095,31.69931
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SARE']",118.525,17.09928,4.3605,31.67294
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1101.0751,17.12499,3.60359,42.1925
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SARE']",942.0397,17.13988,3.04604,31.51092
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SARE']",93.7743,17.15759,4.05799,31.55985
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1026.8707,17.17864,4.04384,31.4238
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1120.1279,17.20657,2.87801,42.1925
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE', 'T_SARE']",927.3985,17.21145,3.72052,31.53995
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1041.5119,17.22587,3.99948,31.44872
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1120.1279,17.2857,3.27814,42.24962
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1121.0195,17.28979,3.11257,41.88265
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1111.1846,17.36815,3.38145,38.04445
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1121.0195,17.42369,3.16281,42.71033
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE']",211.7822,17.42503,2.71922,42.1925
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",193.621,17.42532,3.36984,42.71033
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1106.3783,17.43595,3.43552,42.71033
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1106.3783,17.43998,3.17518,41.88265
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1105.4867,17.44284,3.08785,42.1925
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1105.4867,17.44358,3.43796,42.24962
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SARE']",966.7904,17.44949,3.63598,31.81553
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SMRE']",192.7294,17.44982,3.45465,42.1925
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE', 'T_SMRE']",1026.3536,17.45535,3.54984,43.76965
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE', 'T_SARE']",952.1492,17.45751,3.70964,31.81553
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE']",109.3071,17.46685,3.66889,36.31237
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SMRE']",202.8389,17.49207,3.34942,38.04445
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE', 'T_SMRE']",1036.4631,17.49323,3.62041,38.20077
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1101.9667,17.50198,3.48178,42.71033
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1101.0751,17.54254,3.11331,42.24962
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SMRE']",197.141,17.56671,2.81943,42.1925
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",212.6738,17.58666,3.26378,41.88265
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE']",1051.1043,17.61819,3.14606,37.9651
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_SARE']",192.7294,17.62479,3.0018,42.24962
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1045.4064,17.65529,3.31914,43.59042
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1101.9667,17.65784,3.41155,41.88265
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",211.7822,17.66707,2.97782,42.24962
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE']",1045.4064,17.67748,3.40933,43.76965
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1030.7652,17.67795,3.25367,43.59042
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1031.6568,17.68646,3.26738,44.16763
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1125.8258,17.70723,3.33491,37.97862
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1046.298,17.71361,3.18821,43.61436
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1046.298,17.7338,3.19814,44.16763
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",212.6738,17.73981,3.13256,42.71033
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LAOE']",94.6659,17.75358,7.31283,36.31237
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE', 'T_SMRE']",1030.7652,17.76405,3.08097,43.76965
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",193.621,17.77676,3.28169,41.88265
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1026.3536,17.78079,3.11331,43.59042
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",198.0326,17.78918,3.14614,41.88265
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SMRE', 'T_SARE']",202.8389,17.79467,3.59029,37.68805
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1027.2452,17.7962,3.32553,44.16763
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1112.0762,17.83848,3.17298,37.99525
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LAOE']",90.2543,17.84117,3.97178,36.31237
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1017.6528,17.84795,3.65049,36.31237
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",998.6,17.8507,3.70243,36.31237
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1031.6568,17.85907,3.19143,43.61436
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1144.8786,17.86267,3.00203,37.97862
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1037.3547,17.87156,3.47173,38.0791
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1131.129,17.883,3.20167,37.41687
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",198.0326,17.88467,2.96109,42.71033
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1111.1846,17.8932,3.45086,37.68805
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1125.8258,17.91915,3.5153,37.68805
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1036.4631,17.93256,3.25296,37.89625
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1130.2374,17.93988,3.02109,37.97862
+lgb,l2(rmse),10,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1145.7702,17.95164,3.27192,37.41687
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1126.7174,17.96655,3.29748,37.99525
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE']",1070.1571,17.96968,3.36792,37.9651
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",221.8917,17.97939,3.16446,37.68805
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1027.2452,17.9827,3.31328,43.61436
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",222.7833,17.986,2.9744,37.99525
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1112.0762,17.99034,3.37176,37.41687
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",197.141,17.99132,3.07772,42.24962
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",237.4245,17.99393,2.92716,37.99525
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE']",1055.5159,17.99552,3.20317,37.9651
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_SARE']",217.4801,17.99747,3.68605,37.68805
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1051.1043,17.9984,3.33318,37.89625
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1131.129,18.00293,3.14818,37.99525
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1130.2374,18.01626,2.91709,37.68805
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",203.7305,18.03605,3.25482,37.99525
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1145.7702,18.05194,3.16737,37.99525
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1051.9959,18.05916,3.50469,38.0791
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1144.8786,18.07117,2.92725,37.68805
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1126.7174,18.07659,2.90964,37.41687
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",203.7305,18.08848,3.50932,37.41687
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1003.0116,18.10576,7.57962,36.31237
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",236.5329,18.12151,2.96372,37.68805
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",218.3717,18.12654,2.94075,37.99525
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1070.1571,18.13469,2.90425,37.89625
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SMRE']",137.0607,18.14886,3.54651,42.91936
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1071.0487,18.15828,3.25146,38.0791
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE']",236.5329,18.1623,3.00088,37.97862
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1056.4075,18.16641,3.51347,37.29885
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1056.4075,18.1677,3.24811,38.0791
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",237.4245,18.16878,3.21506,37.41687
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",222.7833,18.17692,3.23606,37.41687
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",218.3717,18.2103,3.55975,37.41687
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1055.5159,18.23139,3.09551,37.89625
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_CSET', 'T_SMRE']",118.0079,18.23956,3.56314,42.91936
+lgb,l2(rmse),9,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1071.0487,18.24526,3.58285,37.29885
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE']",217.4801,18.24841,3.55838,37.97862
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE']",221.8917,18.26714,3.28358,37.97862
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_ISET', 'T_SMRE']",122.4195,18.36528,3.60459,42.91936
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1037.3547,18.37828,3.49231,37.29885
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_SMRE']",128.1174,18.39838,3.90664,38.83596
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1042.4035,18.47751,6.76595,33.96964
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE']",134.0578,18.47912,7.20321,33.96964
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1027.7623,18.4986,6.81652,33.96964
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE']",942.9313,18.51469,3.76005,42.05502
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE', 'T_LAOE']",923.8785,18.52886,3.65764,42.05502
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1051.9959,18.53792,3.45666,37.29885
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1023.3507,18.54812,6.71997,33.96964
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1008.7095,18.56221,6.53334,33.96964
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LAOE']",119.4166,18.58018,7.3622,33.96964
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LAOE']",115.005,18.59934,6.97493,33.96964
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LAOE']",100.3638,18.70175,6.99822,33.96964
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE', 'T_LAOE']",928.2901,18.79955,8.43002,42.05502
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE']",99.4722,19.19835,2.48747,46.64029
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",137.9523,19.23557,3.36667,43.77427
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_SMRE', 'T_LAOE']",118.8995,19.25642,3.41696,43.10661
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE']",933.0964,19.26189,2.49784,48.02156
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_SMRE', 'T_SARE']",118.0079,19.30591,3.19957,43.60116
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",123.3111,19.33085,3.65612,43.77427
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_SARE']",137.0607,19.37676,3.08021,43.60116
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_SMRE', 'T_LAOE', 'T_SARE']",118.8995,19.40538,3.54952,43.77427
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SMRE']",142.7586,19.41175,3.94053,40.99289
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SMRE']",147.1702,19.43964,3.74214,40.99289
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE']",161.8114,19.44144,3.43187,40.99289
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_SMRE', 'T_LAOE']",123.3111,19.45794,3.63844,43.77033
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE', 'T_LAOE']",948.6292,19.47201,9.35814,38.76524
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_SMRE', 'T_SARE']",122.4195,19.52615,3.55861,43.60116
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LMOE', 'T_LAOE']",933.988,19.53958,9.38199,38.76524
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE']",137.9523,19.54206,3.61275,43.2293
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_SARE']",33.694,19.55679,2.68514,40.7398
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE']",967.682,19.58402,9.66385,38.76524
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE', 'T_LAOE']",953.0408,19.63822,9.64116,38.76524
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE']",108.4155,19.64639,2.64095,80.38277
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_CSET', 'T_SARE']",14.6412,19.69029,3.3648,42.04032
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE']",89.3627,19.70328,2.64443,80.38277
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_SMRE', 'T_SARE']",128.1174,19.84451,3.6406,46.48827
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SMRE', 'T_SARE']",142.7586,19.89212,3.504,46.48827
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_SMRE', 'T_LAOE', 'T_SARE']",129.009,19.90368,3.56557,46.31231
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_SMRE', 'T_LAOE']",129.009,19.90446,3.5502,46.4423
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SMRE', 'T_LAOE', 'T_SARE']",143.6502,19.93028,3.51851,46.31231
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_ISET', 'T_SARE']",19.0528,19.95425,2.75922,40.54443
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LCOE', 'T_LMOE']",997.7084,19.9621,2.83314,80.83981
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LAOE', 'T_SARE']",34.5856,19.96647,2.73244,40.56078
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LCOE', 'T_LMOE']",1007.8179,20.03189,3.29161,48.05867
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE']",1016.7612,20.04777,2.23452,80.83981
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SMRE', 'T_LAOE']",143.6502,20.06336,3.58974,46.4423
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SMRE', 'T_SARE']",147.1702,20.1091,3.65048,46.567
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE']",162.703,20.1206,3.35032,46.74013
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SMRE', 'T_LAOE']",148.0618,20.1594,3.34509,46.74013
+lgb,l2(rmse),8,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",162.703,20.16111,3.41961,46.42637
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_SARE']",161.8114,20.22263,3.69457,46.567
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",148.0618,20.29463,3.44738,46.42637
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_LAOE', 'T_SARE']",15.5328,20.50647,3.98917,42.31572
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LAOE', 'T_SARE']",19.9444,20.54655,2.57553,41.33227
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE']",93.7743,21.08408,2.46677,80.38277
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_CSET', 'T_LAOE']",15.5328,21.34796,5.32757,42.76778
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_ISET', 'T_LCOE', 'T_LMOE']",1002.12,21.57553,2.70996,80.83981
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LAOE']",34.5856,21.59597,5.56919,42.84028
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SMRE', 'T_SARE']",103.3667,21.93708,3.18493,50.18837
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SMRE', 'T_LAOE', 'T_SARE']",104.2583,22.02667,3.16663,50.14764
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE']",114.1134,22.16056,2.66392,82.03454
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LMOE']",952.1492,22.21557,2.42652,84.0419
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE']",966.7904,22.2273,2.72668,84.0419
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE']",133.1662,22.25323,3.23193,82.03454
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE']",118.525,22.27714,2.68248,82.03454
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SMRE', 'T_LAOE']",104.2583,22.28536,3.11788,50.22612
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_ISET', 'T_LAOE']",19.9444,22.29023,7.11709,42.87385
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LMOE']",947.7376,22.35117,2.33758,84.0419
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_ISET', 'T_LMOE']",927.3985,22.46921,2.54796,82.90386
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_CSET', 'T_ISET', 'T_LMOE']",942.0397,22.5297,2.57225,82.90386
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE']",1041.5119,22.59874,2.93567,83.53868
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE']",1026.8707,22.60728,2.85911,83.53868
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_CSET', 'T_LMOE']",922.9869,22.74571,2.71163,82.90386
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE']",1022.4591,22.76926,3.27223,83.53868
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LAOE', 'T_SARE']",40.2835,23.1267,2.91487,49.35177
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_LAOE', 'T_SARE']",25.6423,23.37705,2.89374,48.71594
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_SARE']",24.7507,23.39998,3.13907,49.3402
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_SARE']",43.8035,23.41381,2.52373,49.69261
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_SARE']",58.4447,23.45416,2.67844,49.69261
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_SARE']",39.3919,23.489,2.88938,49.69261
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LAOE', 'T_SARE']",44.6951,23.55816,2.85154,49.35177
+lgb,l2(rmse),7,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LAOE', 'T_SARE']",59.3363,23.68232,2.89095,49.35177
+lgb,l2(rmse),6,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET', 'T_LAOE']",59.3363,24.77565,7.42197,48.33246
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_LAOE']",25.6423,24.82959,7.3571,46.34336
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_ISET', 'T_LAOE']",44.6951,24.8319,7.40353,48.33246
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_LAOE']",40.2835,24.91128,7.51293,48.33246
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_CSET', 'T_ISET']",33.694,38.21692,13.98324,109.71282
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_CSET']",39.3919,38.63011,14.02315,109.73872
+lgb,l2(rmse),4,"['Total Frames', 'Params', 'T_SLET', 'T_ISET']",43.8035,38.63332,13.95757,109.73872
+lgb,l2(rmse),5,"['Total Frames', 'Params', 'T_SLET', 'T_CSET', 'T_ISET']",58.4447,38.63428,14.04746,109.73872

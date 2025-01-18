@@ -5,18 +5,19 @@ import pandas as pd
 
 # 置き換えリスト
 rename_list = {
-    "matrix_conv": "T_LCOE",
     "matrix_convloop": "T_SCRE",
-    "matrix_dot": "T_LMOE",
+    "matrix_conv": "T_LCOE",
     "matrix_dotloop": "T_SMRE",
-    "matrix_add": "T_LAOE",
+    "matrix_dot": "T_LMOE",
     "matrix_addloop": "T_SARE",
+    "matrix_add": "T_LAOE",
     "transfer_all": "T_SLET",
     "transfer_continuous": "T_CSET",
     "transfer_roundtrip": "T_ISET"
 }
 
-# Time Cost重み
+# benchmarkのTime Cost(s)
+# 実行ループ回数
 M = 100
 weights = {
     "T_SLET": 0.247507 * M,
@@ -24,7 +25,7 @@ weights = {
     "T_ISET": 0.190528 * M,
     "T_LCOE": 0.747215 * M,
     "T_SCRE": 1.947857 * M,
-    "T_SMOE": 9.083457 * M,
+    "T_LMOE": 9.083457 * M,
     "T_SMRE": 1.033667 * M,
     "T_LAOE": 0.008916 * M,
     "T_SAOE": 0.886261 * M,
@@ -36,7 +37,7 @@ def main():
     data_dir = './ml_results'
     # 'spec_feature_search.csv' の場合、Time Cost計算をスキップ
     process_csv(data_dir,
-                'originalbenchmark_feature_loocv.csv',
+                'original_benchmark_feature_loocv.csv',
                 'benchmark_feature_loocv.csv',
                 calculate_time_cost=True)
     process_csv(data_dir,
