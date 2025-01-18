@@ -1,6 +1,10 @@
+import itertools
 import os
+
 import pandas as pd
+
 import light_gbm as lgb_reg
+from mldata_format import format_data_loocv
 """
 入力候補
 ['Directory Name', 'Total Frames', 'Width', 'Height', 'Pixels',
@@ -10,51 +14,131 @@ import light_gbm as lgb_reg
  'matrix_convloop', 'matrix_dot', 'matrix_dotloop', 'matrix_add',
  'matrix_addloop']
 """
-"""
-case 1 
-動画
-    総フレーム数, 動画サイズ, 高さ, 幅
-モデル
-    アーキテクチャ名,パラメータ数
-サーバー
-
-"""
-data_dir = './data/data_a'
-train_file = 'train.csv'
-test_file = 'test.csv'
-target = 'Inference Time (s)'
-const_features = ['Total Frames', 'Width', 'Height', 'Directory Size (MB)', 'Model Name', 'Params']
-
-server_features = [
-    'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop', 'matrix_dot',
-    'matrix_dotloop', 'matrix_add', 'matrix_addloop'
+# サーバーリスト
+SERVER_LIST = [
+    '13th corei5 - RTX3060 Ti', '13th corei7 - GTX1080', '13th corei5 - GTX1650',
+    '1th Xeon Gold - RTX4070', '13th corei7 - RTX3050', '13th corei5 - GTX1080',
+    '13th corei5 - RTX4070', '13th corei7 - RTX3060 Ti', '13th corei5 - RTX3050',
+    '1th Xeon Gold - GTX1080', '9th corei7 - RTX2080 Ti', '13th corei7 - RTX4070'
 ]
 
-output_csv = "output_model_info.csv"
+# データの出力先
+output_dir = './ml_results'
+data_dir = './data'
+
+# データファイル
+benchmark_data_file = 'data_benchmark.csv'
+server_spec_data_file = 'data_server_spec.csv'
+
+# 定数特徴量
+const_features = ['Total Frames', 'Params']
+
+# ベンチマーク特徴量
+benchmark_features = [
+    'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop',
+    'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop'
+]
+
+# ターゲット変数
+target = 'Inference Time (s)'
 
 
 def main():
-    train_csv = os.path.join(data_dir, train_file)
-    test_csv = os.path.join(data_dir, test_file)
+    """
+    メイン処理: ベンチマークデータの特徴量の組み合わせを評価し、結果をCSVに保存する。
+    """
+    # specの特徴量組み合わせ
+    # features_conbs = get_features_conb(server_spec_features)
+    # data_path = os.path.join(data_dir, server_spec_data_file)
+    # model_info = search_features_conb(features_conbs, data_path)
+    # output_csv = "spec_feature_search.csv"
+    # output_results_to_csv(model_info, output_csv)
 
-    train_df = pd.read_csv(train_csv, index_col=0)
-    test_df = pd.read_csv(test_csv, index_col=0)
+    # ベンチマークデータの特徴量組み合わせ
+    features_conbs = get_features_conb(benchmark_features, min_size=6)
+    data_path = os.path.join(data_dir, benchmark_data_file)
+    model_info = search_features_conb(features_conbs, data_path)
+    output_csv = "original_benchmark_feature_loocv.csv"
+    output_results_to_csv(model_info, output_csv)
 
-    features = const_features + server_features
+
+def search_features_conb(features_conbs, data_path):
+    """
+    特徴量の組み合わせごとに、leave-one-out交差検証を行う。
+    
+    Parameters:
+        features_conbs (list): 特徴量の組み合わせリスト
+        data_path (str): データのパス
+
+    Returns:
+        list: モデルの評価結果
+    """
     model_info = []
+    for server_features in features_conbs:
+        model_info.extend(loocv(const_features, server_features, data_path))  # リストを展開して追加
+    return model_info
 
-    lgb_result = lgb_reg.lgb_model(train_df, test_df, target, features)
 
-    model_info.append(lgb_result)
+def get_features_conb(features, min_size=2):
+    """
+    特徴量の組み合わせを生成する。
+    
+    Parameters:
+        features (list): 特徴量のリスト
+        min_size (int): 組み合わせの最小サイズ（デフォルトは2）
+    
+    Returns:
+        list: 特徴量の組み合わせリスト
+    """
+    conbs = [
+        list(conb)
+        for n in range(min_size,
+                       len(features) + 1)
+        for conb in itertools.combinations(features, n)
+    ]
+    return conbs
 
-    if model_info:
-        df = pd.DataFrame(model_info)
-        df.to_csv(output_csv, index=True)
+
+def loocv(const_features, server_features, data_path):
+    """
+    Leave-One-Out交差検証を実行し、各サーバーについてモデルの評価結果を取得する。
+    
+    Parameters:
+        const_features (list): 定数特徴量
+        server_features (list): サーバーに関する特徴量
+        data_path (str): データのパス
+
+    Returns:
+        list: サーバーごとのモデル評価結果
+    """
+    model_info = []
+    for server in SERVER_LIST:
+        print(f"features : {server_features}, Leave out server: {server}")
+        train_df, test_df = format_data_loocv(server, data_path)
+        features = const_features + server_features
+        lgb_result = lgb_reg.lgb_model(train_df, test_df, target, features)
+        lgb_result["Leave One"] = server  # サーバー名を結果に追加
+        model_info.append(lgb_result)
+    return model_info
+
+
+def output_results_to_csv(results, output_csv):
+    """
+    モデルの評価結果をCSVファイルに出力する。
+    
+    Parameters:
+        results (list): モデル評価結果のリスト
+        output_csv (str): 出力するCSVファイル名
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, output_csv)
+
+    if results:
+        df = pd.DataFrame(results)
+        df.to_csv(output_path, index=True)
         print(f"Model information has been written to {output_csv}")
     else:
-        print("No models.")
-
-    return
+        print("No models found.")
 
 
 if __name__ == "__main__":
