@@ -36,11 +36,11 @@ def main():
     data_dir = './ml_results'
     # 'spec_feature_search.csv' の場合、Time Cost計算をスキップ
     process_csv(data_dir,
-                'benchmark_feature_search.csv',
+                'originalbenchmark_feature_loocv.csv',
                 'benchmark_feature_loocv.csv',
                 calculate_time_cost=True)
     process_csv(data_dir,
-                'spec_feature_search.csv',
+                'original_spec_feature_loocv.csv',
                 'spec_feature_loocv.csv',
                 calculate_time_cost=False)
 

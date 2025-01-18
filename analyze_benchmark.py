@@ -2,10 +2,7 @@ import os
 
 import pandas as pd
 
-#命名例
-#Large_Matrix_One_Execution  Small_Matrix_Repeated_Executions
-#通信パターン（単一回転送、連続転送、反復転送）
-# Single_Large_Element_Transfer Iterative_Small_Element_Transfer Continuous_Small_Element_Transfer
+# 名前のリスト（元の文字列を置き換える）
 name_lists = {
     "matrix_conv": "$T_{LCOE}$",
     "matrix_convloop": "$T_{SCRE}$",
@@ -18,48 +15,52 @@ name_lists = {
     "transfer_roundtrip": "$T_{ISET}$"
 }
 
-#print(df.mean(numeric_only=True))
-# # 与えられたデータと重み(s)
-#M=100
-# data = {
-#     "T_{SLET}": 0.247507*M,
-#     "T_{CSET}": 0.146412*M,
-#     "T_{ISET}": 0.190528*M,
-#     "T_{LCOE}": 0.747215*M,
-#     "T_{SCRE}": 1.947857*M,
-#     "T_{SMOE}": 9.083457*M,
-#     "T_{SMRE}": 1.033667*M,
-#     "T_{LAOE}": 0.008916*M,
-#     "T_{SAOE}": 0.886261*M,
-# }
-
+# サーバー名
 server = 'CPU - GPU'
 
+# 行列計算に関するベンチマーク項目
 matrix_benchmarks = [
     "$T_{LCOE}$", "$T_{SCRE}$", "$T_{LMOE}$", "$T_{SMRE}$", "$T_{LAOE}$", "$T_{SARE}$"
 ]
+
+# 転送に関するベンチマーク項目
 transfer_benchmarks = ["$T_{SLET}$", "$T_{CSET}$", "$T_{ISET}$"]
 
+# 出力先ディレクトリ
 output_dir = './benchmark_analyze'
 
 
-# GPU parameters as measured with micro-benchmarks.
 def main():
+    # データファイルのパスを設定
     data_dir = './data'
     data_file = 'testbench_all.csv'
     data_path = os.path.join(data_dir, data_file)
+
+    # CSVファイルを読み込み
     df = pd.read_csv(data_path)
+
+    # 最初の列名を 'CPU - GPU' に変更
     df = df.rename(columns={df.columns[0]: 'CPU - GPU'})
+
+    # 特定の名前の置き換え
     df = df.rename(columns=name_lists)
+
+    # 'CPU - GPU' 列でソート（インデックスリセット）
     df = df.sort_values('CPU - GPU', ignore_index=True)
+
+    # ベンチマーク項目に 'CPU - GPU' を追加
     matrix_benchmarks.insert(0, server)
     transfer_benchmarks.insert(0, server)
+
+    # 行列計算のデータフレーム
     matrix_df = df[matrix_benchmarks]
+
+    # 転送のデータフレーム
     transfer_df = df[transfer_benchmarks]
+
     # インデックスなしでCSVに保存
     matrix_df.to_csv(f"{output_dir}/matrix_analyze.csv", index=False)
     transfer_df.to_csv(f"{output_dir}/transfer_analyze.csv", index=False)
-    return
 
 
 if __name__ == "__main__":
