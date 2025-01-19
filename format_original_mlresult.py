@@ -8,12 +8,12 @@ rename_list = {
     "transfer_all": "T_SLET",
     "transfer_continuous": "T_CSET",
     "transfer_roundtrip": "T_ISET",
-    "matrix_convloop": "T_SCRE",
-    "matrix_conv": "T_LCOE",
-    "matrix_dotloop": "T_SMRE",
-    "matrix_dot": "T_LMOE",
-    "matrix_addloop": "T_SARE",
-    "matrix_add": "T_LAOE"
+    "matrix_convloop": "T_CSCO",
+    "matrix_conv": "T_SLCO",
+    "matrix_dotloop": "T_CSMO",
+    "matrix_dot": "T_SLMO",
+    "matrix_addloop": "T_CSAO",
+    "matrix_add": "T_SLAO"
 }
 
 # benchmarkのTime Cost(s)
@@ -23,12 +23,12 @@ weights = {
     "T_SLET": 0.247507 * M,
     "T_CSET": 0.146412 * M,
     "T_ISET": 0.190528 * M,
-    "T_LCOE": 0.747215 * M,
-    "T_SCRE": 1.947857 * M,
-    "T_LMOE": 9.083457 * M,
-    "T_SMRE": 1.033667 * M,
-    "T_LAOE": 0.008916 * M,
-    "T_SARE": 0.886261 * M,
+    "T_SLCO": 0.747215 * M,
+    "T_CSCO": 1.947857 * M,
+    "T_SLMO": 9.083457 * M,
+    "T_CSMO": 1.033667 * M,
+    "T_SLAO": 0.008916 * M,
+    "T_CSAO": 0.886261 * M,
 }
 
 

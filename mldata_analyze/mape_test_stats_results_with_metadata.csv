@@ -1,502 +1,502 @@
 ML,loss,Parameter Num,Const Parameter,Variable Parameter Num,Variable Parameter,Time Cost (s),average MAPE test (%),min MAPE test (%),max MAPE test (%)
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SCRE', 'T_LMOE', 'T_SARE']",1191.7575,13.91877,3.12037,33.09912
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1192.6491,13.98171,3.06922,33.09027
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SCRE', 'T_SARE']",283.4118,14.00128,3.05065,33.08242
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SCRE', 'T_LAOE', 'T_SARE']",284.3034,14.1165,3.04274,33.05816
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SCRE', 'T_LMOE', 'T_LAOE']",1104.023,14.13123,2.97153,33.06094
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SCRE', 'T_SMRE']",298.1524,14.13794,3.13353,33.08917
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SCRE', 'T_LAOE']",195.6773,14.21099,3.00734,33.05636
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_SCRE', 'T_SARE']",358.1333,14.25016,3.09019,33.08611
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SCRE', 'T_LMOE']",1103.1314,14.39301,3.07574,33.10652
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",359.0249,14.42455,3.06927,33.07383
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_SCRE', 'T_LAOE']",270.3988,14.45916,3.01744,33.06938
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1267.3706,14.48282,3.06368,33.12458
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LCOE', 'T_SCRE']",269.5072,14.50572,3.17059,33.15427
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1266.479,14.51536,3.14879,33.14256
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LCOE', 'T_SARE']",163.3476,14.52718,3.21309,33.05751
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SCRE', 'T_LAOE']",210.3185,14.54151,3.17703,31.09088
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1178.7445,14.5428,3.023,33.07717
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_LMOE', 'T_LAOE']",983.9588,14.54798,2.99922,33.03499
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SCRE', 'T_LMOE', 'T_SMRE']",1206.4981,14.57132,3.11691,33.09427
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LCOE', 'T_LAOE']",75.6131,14.61947,3.09541,33.14985
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SCRE', 'T_SMRE', 'T_SARE']",386.7785,14.63459,3.10683,33.06487
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",402.3113,14.637,3.01907,31.21994
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1296.0158,14.64392,3.07457,33.10802
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_LMOE', 'T_SARE']",1071.6933,14.67393,3.06808,33.03122
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_LAOE', 'T_SARE']",164.2392,14.71462,3.06202,33.14299
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_SCRE', 'T_SMRE']",372.8739,14.75445,3.17682,33.14073
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1072.5849,14.76489,3.06416,33.22887
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",313.6852,14.77989,3.20463,31.28301
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SCRE', 'T_LAOE', 'T_SARE']",298.9446,14.7825,3.16708,31.18672
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1295.1242,14.7969,3.08763,33.09997
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SCRE', 'T_LMOE']",1127.8821,14.82146,2.62931,31.27124
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",387.6701,14.84525,2.98401,33.06187
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_SCRE', 'T_LMOE']",1177.8529,14.86134,3.11371,33.11181
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SCRE', 'T_SMRE', 'T_LAOE']",299.044,14.87148,3.09878,33.05931
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE']",229.3713,14.87975,3.06742,30.97557
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LMOE', 'T_LAOE', 'T_SARE']",997.8634,14.89254,3.09779,33.06031
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1207.3897,14.91341,2.98701,33.10763
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LMOE', 'T_SARE']",996.9718,14.92135,3.13841,33.05956
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SCRE', 'T_SARE']",298.053,14.95314,3.11727,30.99112
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SCRE', 'T_LAOE']",214.7301,15.00056,3.16162,31.14899
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LCOE', 'T_LMOE']",983.0672,15.018,2.90777,33.13143
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",462.3916,15.02131,3.10356,33.69125
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",332.738,15.06512,3.15015,30.93372
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1281.2196,15.07717,3.11919,33.10323
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",461.5,15.08543,3.10525,34.18909
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1118.6642,15.08697,2.75099,31.14389
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SCRE', 'T_SMRE', 'T_SARE']",401.4197,15.09677,3.34714,31.00582
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",317.9974,15.10283,3.12582,31.26737
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",421.3641,15.11652,2.9722,31.21974
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1231.2488,15.14284,2.86151,31.25251
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE']",331.8464,15.15378,3.27832,31.11503
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",406.7229,15.15878,3.21869,31.22024
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SCRE', 'T_LMOE']",1117.7726,15.16627,3.10565,31.05473
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",323.7947,15.1697,3.11218,31.13113
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",318.0968,15.17591,3.16202,30.96783
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_SCRE']",209.4269,15.18748,3.42416,31.14952
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LAOE']",235.0692,15.18811,3.09254,31.12629
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1370.7373,15.20484,3.11007,33.45761
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SCRE', 'T_SMRE']",312.7936,15.21425,3.68917,31.10861
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_SARE']",317.1058,15.22623,3.34675,31.01749
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",420.4725,15.24743,3.21355,31.23438
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",303.3562,15.25156,3.30031,31.33652
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SCRE', 'T_LAOE']",220.428,15.25943,3.07033,31.30372
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SCRE', 'T_LAOE', 'T_SARE']",309.0541,15.26251,3.01826,31.32117
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1222.0309,15.26656,2.76486,30.95497
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1217.3998,15.27685,2.67455,31.24397
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1310.657,15.28034,2.8287,31.1412
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1369.8457,15.29088,3.13802,33.2186
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SCRE', 'T_SMRE']",322.9031,15.2946,3.05078,31.0951
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",338.4359,15.30116,3.22367,31.212
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1231.1494,15.30511,2.73201,31.09603
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LAOE', 'T_SARE']",323.6953,15.32565,3.1057,31.30848
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1216.5082,15.3314,2.85906,30.97571
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SCRE', 'T_SMRE']",317.2052,15.33254,3.36601,31.17709
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1128.7737,15.33529,2.67755,31.07009
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",412.4208,15.33634,2.94245,31.06093
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_SCRE']",228.4797,15.36027,3.32765,31.04067
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1232.1404,15.36982,2.68601,31.07413
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1202.6036,15.37205,2.7097,31.09402
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_SCRE']",219.5364,15.37397,3.10596,31.23805
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SCRE', 'T_SARE']",302.4646,15.37772,3.45206,31.1722
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1232.041,15.38346,2.73441,31.23194
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",267.6059,15.39115,3.10356,33.69125
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1334.5161,15.39347,2.8734,31.36574
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1319.8749,15.40155,2.85531,31.36985
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",427.062,15.4017,3.32564,31.12077
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1320.7665,15.41233,2.90507,31.18457
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",342.7481,15.41247,3.26139,31.09855
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1143.4149,15.41616,2.74721,31.05615
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",373.7655,15.43906,3.03611,33.65685
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1123.0758,15.44099,3.1398,30.98988
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_SMRE', 'T_SARE']",266.7143,15.446,3.10525,34.18909
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1282.1112,15.44614,3.06699,33.2447
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1207.2903,15.44622,2.59188,31.10979
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1206.3987,15.44943,2.96383,30.99051
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1246.7816,15.45012,2.81658,31.14262
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1211.7019,15.48085,3.2339,31.50485
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1236.4526,15.48443,2.98353,31.1215
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LMOE', 'T_LAOE']",909.2373,15.49062,3.01748,33.05324
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1309.7654,15.49094,2.88614,31.16349
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_SCRE']",213.8385,15.50756,3.22412,31.10825
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1335.4077,15.51209,2.73653,31.30545
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1226.3431,15.52208,2.98178,31.14714
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1221.1393,15.52259,2.9996,31.2847
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1137.717,15.52549,3.25959,31.06865
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE', 'T_SARE']",426.1704,15.52618,3.23848,31.02755
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_SARE']",322.8037,15.52739,3.45009,31.24831
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LAOE', 'T_SARE']",328.1069,15.52747,3.15197,31.16782
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",405.8313,15.53443,3.14497,31.36506
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1339.8193,15.53519,2.84155,31.30446
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",431.4736,15.54637,3.07089,31.14552
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SCRE', 'T_SMRE', 'T_SARE']",411.5292,15.55258,3.10662,31.02729
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LCOE', 'T_SMRE']",178.0882,15.55471,3.17682,33.14073
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SCRE', 'T_SARE']",308.1625,15.5685,3.44839,31.06053
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1175.9516,15.57404,3.11007,33.45761
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1329.7098,15.57655,2.96614,31.06487
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1315.0686,15.58461,2.96812,30.95381
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1147.8265,15.58801,3.12395,30.97212
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1162.4677,15.58967,2.87365,30.96174
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1210.8103,15.59358,3.1181,31.09755
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",446.1148,15.59477,3.08862,31.10672
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_SCRE']",234.1776,15.6084,3.29734,31.03699
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE']",1142.5233,15.61272,3.03219,31.33012
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LAOE']",239.4808,15.61427,3.27226,31.01365
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1251.0938,15.63246,3.07384,31.1965
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE']",1161.5761,15.64528,3.15935,31.2632
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1250.2022,15.65082,2.86846,31.19912
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SARE']",341.8565,15.65289,3.00041,30.97618
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1175.06,15.65428,3.13802,33.2186
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LAOE']",254.122,15.65781,3.25254,31.00935
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_SMRE']",337.5443,15.67858,3.28655,30.98658
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1353.5689,15.67972,2.97222,31.31997
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1354.4605,15.6881,2.88906,31.34797
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1225.5509,15.69862,3.10815,31.24146
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",342.8475,15.7043,3.19453,31.09368
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1225.4515,15.70687,3.09473,31.21455
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE']",1146.9349,15.71821,3.23463,31.27765
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1251.1932,15.71904,3.01895,30.88708
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SCRE', 'T_LMOE']",1122.1842,15.72218,3.2823,31.33037
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1192.4941,15.72309,3.09604,31.18638
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1338.9277,15.73005,2.85654,31.26215
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1305.9703,15.7357,2.60459,32.04939
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_SARE']",327.2153,15.73766,3.395,31.24169
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_LAOE']",357.4887,15.74243,3.15127,31.24322
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1193.3857,15.74922,2.9634,31.03546
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SARE']",1235.561,15.80907,2.81171,31.15976
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1226.4425,15.80925,3.32224,31.197
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1241.0837,15.81821,3.13467,31.05359
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1291.2297,15.82199,2.70446,31.00832
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE']",1136.8254,15.85485,3.0905,31.26424
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1385.3785,15.8582,2.64304,31.21655
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",430.582,15.86192,3.29399,31.18016
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",477.0328,15.86442,2.86092,31.18242
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1265.8344,15.86785,3.04978,31.00144
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1314.177,15.86843,3.03274,31.4428
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1264.9428,15.87137,3.12171,31.37251
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE']",356.5971,15.88218,3.34299,31.04329
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_LMOE', 'T_SMRE']",1086.4339,15.89493,3.11919,33.10323
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",383.7756,15.90101,2.75539,32.30085
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1296.7524,15.90538,2.83014,30.90021
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LCOE', 'T_SCRE']",284.1484,15.91211,2.73362,30.97227
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE', 'T_SMRE', 'T_SARE']",445.2232,15.91479,3.36608,31.18408
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1240.1921,15.92061,3.23256,31.31599
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1328.8182,15.9238,3.24895,31.31466
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",285.04,15.9245,2.7848,31.07036
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",398.4168,15.92698,2.78938,32.30085
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SCRE']",253.2304,15.93053,3.29453,31.0224
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1250.3016,15.93074,3.11879,31.21753
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1305.8709,15.93849,2.68944,31.0861
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SCRE', 'T_SMRE']",341.9559,15.93914,3.37496,31.04716
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LMOE', 'T_SMRE']",1011.7124,15.94781,3.11691,33.09427
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LCOE', 'T_SCRE']",294.2579,15.95568,2.6841,32.28245
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1245.89,15.96007,2.69496,31.23885
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",373.6661,15.97676,2.78851,31.15005
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1197.7973,15.98942,3.23064,31.03484
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LCOE', 'T_SMRE', 'T_LAOE']",178.9798,15.9964,3.03611,33.65685
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1212.4385,15.99659,2.96731,31.14536
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1292.1213,15.9984,2.66923,31.22076
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1087.3255,16.00348,3.06699,33.2447
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1306.8619,16.01661,2.71325,31.75485
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_SCRE']",238.5892,16.02036,3.31279,31.11198
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1218.1364,16.03228,2.80514,30.98669
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1101.2301,16.03501,3.07457,33.10802
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1394.5964,16.03532,2.60769,31.33317
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1203.4952,16.03545,2.71431,31.07103
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",295.1495,16.03651,2.73455,31.98509
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1286.4234,16.03835,2.85429,31.38072
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",397.6246,16.04119,2.84181,32.65752
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",328.8435,16.04668,2.83771,31.73599
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",496.0856,16.04992,3.09414,31.17608
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",398.5162,16.05464,2.75907,31.8617
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",481.4444,16.05724,3.30283,30.99008
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1295.8608,16.0577,2.87264,30.95713
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",388.4067,16.06363,2.75211,30.84426
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",387.5151,16.0649,3.01763,31.1161
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE']",308.8991,16.06734,2.55331,32.28245
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1311.1741,16.07124,2.8479,31.31642
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1389.7901,16.0743,2.92112,31.00223
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1395.488,16.08186,2.74289,31.87172
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1281.1202,16.08454,2.79152,30.89651
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1409.2376,16.08559,2.68728,31.34168
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1410.1292,16.08723,2.64276,31.87172
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1222.548,16.09029,2.88708,31.06023
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1306.7625,16.10167,2.58452,31.22076
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE']",1237.1892,16.10794,2.85095,31.12887
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1217.2448,16.11713,2.72831,30.87888
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",487.1423,16.11745,2.69482,32.43618
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1282.0118,16.12014,2.6236,31.20502
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1404.4313,16.13446,2.87763,31.1445
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1414.5408,16.15296,2.80253,32.03052
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",413.1574,16.15597,2.60371,31.8617
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",309.7907,16.15999,2.78063,31.98509
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1301.0646,16.16312,2.97618,31.16465
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",304.0928,16.17183,3.15652,30.98983
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1285.5318,16.17693,3.08104,31.29176
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",378.0777,16.17848,3.15095,31.19628
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",501.7835,16.17954,2.86073,32.43618
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1384.4869,16.18517,2.62065,31.1535
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_SARE']",372.7745,16.18736,3.01776,31.01798
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",314.2023,16.19114,2.86011,31.73599
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1196.9057,16.19784,3.35719,31.10604
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LMOE', 'T_SMRE', 'T_SARE']",1100.3385,16.21029,3.08763,33.09997
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1325.8153,16.21254,2.96705,31.31642
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_SARE']",382.884,16.21777,3.00973,32.00317
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1321.5031,16.22647,2.95959,31.75485
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1211.5469,16.22767,3.10394,31.11324
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1236.2976,16.24533,2.92316,31.42419
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE']",289.4516,16.24683,3.16059,31.06918
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",432.2102,16.2503,2.9923,31.97444
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",486.2507,16.26002,2.69758,32.2618
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",476.1412,16.26224,2.79251,31.20396
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1096.444,16.26615,4.7702,31.26706
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",417.4696,16.26745,2.8818,32.5332
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",402.8284,16.27155,2.80706,32.5332
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE']",1221.6564,16.27265,2.92262,31.40658
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1301.164,16.27562,3.27454,31.14739
-lgb,l2(rmse),12,"['Total Frames', 'Directory Size (MB)', 'Params']",9,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1429.182,16.30171,2.83788,32.03052
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",407.4595,16.30685,3.08273,31.22485
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",520.8363,16.30918,2.97982,32.03806
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_LAOE', 'T_SARE']",188.9899,16.31723,4.78907,31.37356
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1315.8052,16.32127,2.9703,31.06988
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1325.9147,16.33035,3.11926,31.87214
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1324.9237,16.33356,2.91415,31.3781
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1300.2724,16.33524,3.05481,31.0612
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LMOE', 'T_LAOE', 'T_SARE']",1022.6141,16.33736,4.96766,31.40428
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",406.5679,16.34808,2.38935,31.1875
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE', 'T_SARE']",506.1951,16.35011,2.95155,32.03806
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1314.9136,16.35108,2.94511,31.30234
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",391.9267,16.35604,2.69483,31.26528
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1340.5559,16.36326,3.25652,31.87214
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1413.6492,16.36378,2.9553,31.23437
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_LMOE', 'T_SMRE', 'T_LAOE']",1012.604,16.37074,2.98701,33.10763
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",401.9368,16.37184,2.90804,32.54786
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE']",303.2012,16.3723,3.18433,31.02888
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",417.569,16.37345,3.01045,31.97444
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",505.3035,16.37446,2.66938,32.46354
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",412.2658,16.37868,2.6273,32.65752
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1428.2904,16.38946,2.92219,31.22607
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_LAOE']",392.8183,16.39082,3.10625,31.15493
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LMOE', 'T_SARE']",1021.7225,16.3952,4.90575,31.3215
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1325.0231,16.39671,2.94588,31.57161
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",500.8919,16.3968,2.67912,32.2618
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LAOE', 'T_SARE']",392.7189,16.40319,3.06501,31.28969
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_SARE']",397.5252,16.40344,2.71417,32.00317
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1339.6643,16.41005,2.8822,31.57161
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1388.8985,16.41951,3.05404,31.3009
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1300.173,16.43451,3.07941,31.11748
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",519.9447,16.43784,2.56104,32.46354
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE']",1320.6115,16.43796,2.90564,32.04939
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LCOE', 'T_SCRE']",288.56,16.44099,2.58904,30.9471
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SARE']",1310.2825,16.48128,2.82665,31.43013
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LCOE', 'T_SARE']",177.9888,16.48413,3.42461,31.40488
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",391.8273,16.49545,2.72209,31.32051
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",416.578,16.49576,2.80211,32.54786
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1403.5397,16.49867,3.12217,31.44304
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1097.3356,16.50679,4.96743,31.42217
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LAOE', 'T_SARE']",203.6311,16.5081,4.99056,31.47497
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LMOE', 'T_LAOE', 'T_SARE']",1037.2553,16.51006,5.01973,31.42256
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",495.194,16.51125,2.48645,31.32815
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LCOE', 'T_SARE']",188.0983,16.52421,5.4509,32.0481
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1111.0852,16.52662,5.20337,31.26346
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE', 'T_SARE']",480.5528,16.52987,2.6256,31.21518
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_LAOE', 'T_SARE']",89.5177,16.5332,3.05617,51.97611
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LMOE', 'T_SARE']",1036.3637,16.55259,5.25652,31.35341
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE']",327.9519,16.55732,2.53111,33.14169
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1086.3345,16.58222,3.5302,31.44447
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1111.9768,16.58291,4.95718,31.42217
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_LAOE', 'T_SARE']",178.8804,16.58732,3.37348,31.23715
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_SCRE', 'T_SARE']",377.1861,16.59382,2.90559,31.17153
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",431.3186,16.60056,2.66932,32.99866
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1087.2261,16.60064,3.39329,31.30045
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE']",313.3107,16.67256,2.56748,33.14169
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SCRE', 'T_SMRE']",416.6774,16.67498,2.67375,32.99866
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LMOE', 'T_LAOE', 'T_SARE']",1012.5046,16.69065,3.71273,31.07292
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",197.9332,16.6907,2.26941,31.11765
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1106.2789,16.70145,2.23573,31.02402
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",1031.5574,16.70345,2.14491,31.07612
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SARE']",197.0416,16.70641,3.19849,31.07824
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SARE']",202.7395,16.72241,5.3566,32.0481
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",1056.3081,16.72323,2.27553,31.01979
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LMOE', 'T_SARE']",1011.613,16.77659,3.65326,31.43868
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",1041.6669,16.77713,2.3445,31.00932
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",183.292,16.78499,2.10102,31.14072
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LMOE', 'T_LAOE', 'T_SARE']",1016.9162,16.79469,2.20609,30.96215
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",222.6839,16.82428,2.23758,31.10047
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LCOE', 'T_SARE']",182.4004,16.83171,3.42487,31.18086
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1091.6377,16.83846,2.06118,30.95546
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SARE']",221.7923,16.89335,3.50464,32.30784
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SARE']",207.1511,16.90526,3.63745,32.30784
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LAOE', 'T_SARE']",208.0427,16.90801,2.21585,31.12024
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1090.7461,16.94507,3.30318,31.19685
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1116.3884,16.95887,2.35929,31.2514
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1130.138,16.95981,3.29488,31.26051
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE', 'T_SARE']",1131.0296,16.97999,2.43797,31.2514
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1101.9667,17.01322,2.83014,41.20682
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SARE']",1055.4165,17.01341,3.32775,31.34375
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LMOE', 'T_SARE']",1040.7753,17.05002,3.26009,31.34375
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1115.4968,17.06295,3.08293,31.26051
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SARE']",1105.3873,17.10228,3.29113,31.22999
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1190.5928,17.13542,2.64304,41.75136
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",282.2471,17.14164,2.86092,41.75136
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",193.621,17.17147,2.75211,41.20682
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LMOE', 'T_SARE']",1030.6658,17.18383,3.33993,31.27783
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1027.2452,17.18557,2.76486,42.47252
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LMOE', 'T_SARE']",1016.0246,17.25792,3.45586,31.34725
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1189.7012,17.26075,2.62065,41.62298
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1101.0751,17.26508,2.87264,41.61234
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LCOE', 'T_SMRE']",192.7294,17.27228,3.01763,41.61234
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1115.8713,17.30321,2.8287,42.8946
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",301.2999,17.32714,3.09414,41.75136
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1111.1846,17.32855,2.60459,40.02178
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",286.6587,17.33446,3.30283,41.75136
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_SMRE', 'T_SARE']",281.3555,17.33782,2.79251,41.62298
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1195.0044,17.35152,2.92112,41.75136
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1106.3783,17.38341,3.27454,41.20682
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LMOE', 'T_SMRE']",1036.4631,17.39684,2.86151,39.99759
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1209.6456,17.41167,2.87763,41.75136
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",212.6738,17.41469,3.08273,41.20682
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1121.0195,17.42911,2.9703,41.20682
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1114.9797,17.46569,2.88614,42.79434
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LMOE', 'T_SMRE']",1026.3536,17.48798,2.9996,43.25632
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1194.1128,17.49278,3.05404,41.62298
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",198.0326,17.49866,3.10625,41.20682
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1105.4867,17.54261,3.05481,41.61234
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE']",211.7822,17.55545,2.38935,41.61234
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1120.1279,17.55845,2.94511,41.61234
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LCOE', 'T_SMRE']",197.141,17.56342,2.69483,41.61234
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1208.754,17.57368,3.12217,41.62298
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1134.9241,17.57784,2.96614,42.8946
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1120.2829,17.58404,2.96812,42.8946
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",300.4083,17.58684,2.48645,41.62298
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE']",109.3071,17.58821,3.99438,35.30268
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",285.7671,17.60545,2.6256,41.62298
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1112.0762,17.61203,2.71325,38.50015
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1199.8107,17.63396,2.60769,38.4759
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LCOE', 'T_SMRE']",202.8389,17.63405,2.84181,40.02178
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",203.7305,17.65006,2.75907,38.50015
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1214.4519,17.68423,2.68728,38.4759
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1017.6528,17.70637,3.49035,35.30268
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1046.298,17.71246,3.13467,42.47252
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1200.7023,17.72032,2.74289,39.23155
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",998.6,17.72173,3.56547,35.30268
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1215.3435,17.7269,2.64276,39.23155
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LCOE', 'T_LAOE']",94.6659,17.73199,7.60191,35.30268
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1125.9808,17.73544,2.90507,39.39292
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LCOE', 'T_LAOE']",90.2543,17.7462,3.56118,35.30268
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",218.3717,17.75139,2.60371,38.50015
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",292.3566,17.75712,2.69482,39.23155
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1003.0116,17.76874,7.30213,35.30268
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1037.3547,17.77005,2.68601,38.69988
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1139.7304,17.77892,2.8734,38.25561
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1031.6568,17.78451,3.32224,42.47252
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1125.0892,17.78518,2.85531,38.25561
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1219.7551,17.79263,2.80253,39.23155
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1145.0336,17.80279,2.84155,39.39292
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1119.3913,17.81474,3.03274,42.79434
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",306.9978,17.8192,2.86073,39.23155
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1126.7174,17.82189,2.95959,38.50015
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1051.9959,17.83496,2.81658,38.69988
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",237.4245,17.84572,2.9923,38.50015
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1140.622,17.8525,2.73653,39.39292
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LMOE', 'T_SMRE']",1030.7652,17.85297,3.10815,43.25632
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE']",217.4801,17.85368,2.6273,38.79102
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_SMRE', 'T_SARE']",291.465,17.85866,2.69758,38.4759
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1130.2374,17.8717,2.94588,38.79102
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1134.0325,17.87754,3.24895,42.79434
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1144.8786,17.88504,2.8822,38.79102
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_SMRE']",1125.8258,17.91296,2.90564,38.79102
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1131.129,17.92577,3.11926,38.50015
-lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1234.3963,17.94138,2.83788,39.23155
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE']",942.9313,17.94839,3.22604,41.5972
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",326.0506,17.94885,2.97982,39.23155
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",1159.6748,17.95022,2.88906,39.39292
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1145.7702,17.95868,3.25652,38.50015
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1218.8635,17.96242,2.9553,38.4759
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE']",222.7833,17.96887,3.01045,38.50015
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE']",1045.4064,17.96999,3.23256,43.25632
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",310.5178,17.9731,2.66938,38.4759
-lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_SMRE', 'T_SARE']",1233.5047,17.98719,2.92219,38.4759
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_LAOE', 'T_SARE']",311.4094,17.98977,2.95155,39.23155
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_SMRE', 'T_SARE']",306.1062,17.99544,2.67912,38.4759
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE', 'T_SARE']",325.159,18.03648,2.56104,38.4759
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE']",1070.1571,18.04925,3.12171,38.73602
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1158.7832,18.05144,2.97222,38.25561
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_SMRE']",118.0079,18.05178,3.3723,42.1748
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_SMRE']",236.5329,18.07555,2.66932,38.79102
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LMOE', 'T_LAOE']",923.8785,18.07601,3.30489,41.5972
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1056.4075,18.08328,3.01895,38.69988
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LMOE', 'T_SMRE']",1051.1043,18.09026,2.69496,38.73602
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LMOE', 'T_LAOE']",928.2901,18.0995,8.02314,41.5972
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_SARE']",1144.142,18.10559,2.85654,38.25561
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_SMRE']",137.0607,18.12058,3.43942,42.1748
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LMOE', 'T_SMRE']",1055.5159,18.12874,3.11879,38.73602
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_SMRE']",221.8917,18.14998,2.67375,38.79102
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_SMRE', 'T_LAOE']",1071.0487,18.21029,3.04978,38.69988
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_SMRE']",122.4195,18.24813,3.52697,42.1748
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SMRE', 'T_LAOE', 'T_SARE']",207.5256,18.38838,2.90588,43.74968
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_SMRE']",128.1174,18.39083,3.06237,38.08273
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1023.3507,18.4159,7.27741,32.39186
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1008.7095,18.43161,7.28569,32.39186
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LCOE', 'T_LAOE']",100.3638,18.47461,7.24017,33.139
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1042.4035,18.51004,7.64788,32.60163
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE', 'T_LAOE']",1027.7623,18.58496,7.68667,32.60163
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LAOE']",115.005,18.62596,7.51676,33.139
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SMRE', 'T_LAOE']",118.8995,18.64377,3.09926,43.7228
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LAOE']",119.4166,18.67592,8.81927,33.13633
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LMOE', 'T_LAOE']",953.0408,18.69641,8.59365,37.15721
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LAOE']",134.0578,18.7151,8.86109,33.13633
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE', 'T_LAOE']",967.682,18.79302,8.77002,37.15721
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",226.5784,18.83159,2.83453,43.96975
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LMOE', 'T_LAOE']",933.988,18.83763,8.67329,37.15721
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LMOE', 'T_LAOE']",948.6292,18.86435,8.58647,37.15721
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SMRE', 'T_SARE']",225.6868,18.87583,3.15061,43.51677
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_SMRE']",142.7586,18.87971,3.1633,39.38127
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SMRE', 'T_SARE']",206.634,18.88686,3.10267,42.99153
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE']",137.9523,18.89554,3.03678,44.17015
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SMRE', 'T_LAOE']",123.3111,18.89628,2.93705,44.4676
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_LMOE']",933.0964,18.9272,2.68007,49.54769
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",211.9372,19.01205,2.93081,43.94348
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE']",161.8114,19.03748,3.3351,39.38127
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_SMRE']",147.1702,19.07393,3.26326,39.38127
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SMRE', 'T_SARE']",211.0456,19.0773,3.01875,43.74185
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_LCOE']",99.4722,19.13746,2.1605,48.04246
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SMRE', 'T_LAOE']",129.009,19.16122,2.98731,47.24977
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SMRE', 'T_LAOE', 'T_SARE']",217.6351,19.17076,3.16444,47.0822
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_SARE']",122.3201,19.21153,2.40462,41.05363
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SMRE', 'T_LAOE']",143.6502,19.23566,2.89539,47.24977
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SMRE', 'T_LAOE', 'T_SARE']",232.2763,19.36155,3.1652,47.0822
-lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",251.3291,19.52678,2.97589,47.13905
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SMRE', 'T_LAOE', 'T_SARE']",236.6879,19.53975,2.9842,47.13905
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SMRE', 'T_SARE']",235.7963,19.55124,3.10955,47.11253
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_SARE']",107.6789,19.55607,2.18487,40.16709
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SMRE', 'T_SARE']",216.7435,19.58314,2.92599,46.60992
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_SARE']",250.4375,19.58757,2.845,47.11253
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SMRE', 'T_LAOE']",162.703,19.64752,3.03568,47.92303
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_LCOE']",108.4155,19.67546,2.26611,81.52775
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_SARE']",103.2673,19.69327,3.84794,41.90172
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LAOE', 'T_SARE']",123.2117,19.70182,2.34987,41.11615
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SMRE', 'T_LAOE']",148.0618,19.70268,3.07255,47.92303
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SMRE', 'T_SARE']",231.3847,19.72295,3.05377,46.60992
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_LCOE']",89.3627,19.78569,2.00894,81.52775
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LCOE', 'T_LMOE']",1007.8179,19.80921,2.31156,47.91732
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LCOE', 'T_LMOE']",997.7084,19.83301,2.24541,81.0342
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE']",1016.7612,19.84885,2.57594,81.0342
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_LAOE', 'T_SARE']",104.1589,19.95877,3.37568,42.61185
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LAOE', 'T_SARE']",108.5705,20.36175,2.38946,40.88334
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_LCOE']",93.7743,21.14996,2.0085,81.52775
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_LCOE', 'T_LMOE']",1002.12,21.33718,2.40846,81.0342
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_LAOE']",15.5328,21.49154,4.66684,43.49137
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_LAOE']",34.5856,21.59708,5.00627,43.55132
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SMRE', 'T_SARE']",191.9928,21.8749,3.07624,50.45011
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_LCOE']",114.1134,21.94991,2.35568,83.22747
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_LMOE']",952.1492,21.9529,2.43496,85.82585
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_LMOE']",947.7376,21.96598,2.30241,85.82585
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LMOE']",966.7904,21.97074,2.37848,85.82585
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SMRE', 'T_LAOE', 'T_SARE']",192.8844,21.98934,2.99033,50.42793
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_LCOE']",118.525,22.18619,2.29183,83.22747
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SMRE', 'T_LAOE']",104.2583,22.25667,3.06683,50.43301
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE']",133.1662,22.27421,2.05467,83.22747
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LCOE', 'T_LMOE']",1022.4591,22.2919,2.06748,83.0234
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_LMOE']",927.3985,22.30024,2.9006,83.5388
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LCOE', 'T_LMOE']",1026.8707,22.31679,2.99642,83.0234
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_LMOE']",942.0397,22.34377,2.70556,83.5388
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_LMOE']",922.9869,22.41999,2.33792,83.5388
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LCOE', 'T_LMOE']",1041.5119,22.51077,2.07329,83.0234
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_LAOE']",19.9444,22.54933,6.97501,43.90195
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_SARE']",132.4296,22.77837,2.29304,49.36134
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SARE']",147.0708,22.79785,2.1268,49.36134
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_SARE']",128.018,22.9562,2.83491,49.36134
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_SARE']",113.3768,22.98301,2.91397,49.13977
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_LAOE', 'T_SARE']",128.9096,23.42553,2.97834,51.1682
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_LAOE', 'T_SARE']",114.2684,23.52677,2.66174,50.75569
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_LAOE', 'T_SARE']",133.3212,23.5476,2.6837,51.1682
-lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LAOE', 'T_SARE']",147.9624,23.61744,2.88138,51.1682
-lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_LAOE']",25.6423,24.41324,7.2493,46.70616
-lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_LAOE']",59.3363,24.467,7.62436,48.64802
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_LAOE']",44.6951,24.47589,7.39629,48.64802
-lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_LAOE']",40.2835,24.49668,7.49542,48.64802
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSCO', 'T_SLMO', 'T_CSAO']",1191.7575,13.91877,3.12037,33.09912
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1192.6491,13.98171,3.06922,33.09027
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSCO', 'T_CSAO']",283.4118,14.00128,3.05065,33.08242
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSCO', 'T_SLAO', 'T_CSAO']",284.3034,14.1165,3.04274,33.05816
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSCO', 'T_SLMO', 'T_SLAO']",1104.023,14.13123,2.97153,33.06094
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSCO', 'T_CSMO']",298.1524,14.13794,3.13353,33.08917
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSCO', 'T_SLAO']",195.6773,14.21099,3.00734,33.05636
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_CSCO', 'T_CSAO']",358.1333,14.25016,3.09019,33.08611
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSCO', 'T_SLMO']",1103.1314,14.39301,3.07574,33.10652
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",359.0249,14.42455,3.06927,33.07383
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_CSCO', 'T_SLAO']",270.3988,14.45916,3.01744,33.06938
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1267.3706,14.48282,3.06368,33.12458
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLCO', 'T_CSCO']",269.5072,14.50572,3.17059,33.15427
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1266.479,14.51536,3.14879,33.14256
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLCO', 'T_CSAO']",163.3476,14.52718,3.21309,33.05751
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_CSCO', 'T_SLAO']",210.3185,14.54151,3.17703,31.09088
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1178.7445,14.5428,3.023,33.07717
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_SLMO', 'T_SLAO']",983.9588,14.54798,2.99922,33.03499
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSCO', 'T_SLMO', 'T_CSMO']",1206.4981,14.57132,3.11691,33.09427
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLCO', 'T_SLAO']",75.6131,14.61947,3.09541,33.14985
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSCO', 'T_CSMO', 'T_CSAO']",386.7785,14.63459,3.10683,33.06487
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",402.3113,14.637,3.01907,31.21994
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1296.0158,14.64392,3.07457,33.10802
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_SLMO', 'T_CSAO']",1071.6933,14.67393,3.06808,33.03122
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_SLAO', 'T_CSAO']",164.2392,14.71462,3.06202,33.14299
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_CSCO', 'T_CSMO']",372.8739,14.75445,3.17682,33.14073
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1072.5849,14.76489,3.06416,33.22887
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_CSCO', 'T_CSMO', 'T_SLAO']",313.6852,14.77989,3.20463,31.28301
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_CSCO', 'T_SLAO', 'T_CSAO']",298.9446,14.7825,3.16708,31.18672
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1295.1242,14.7969,3.08763,33.09997
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSCO', 'T_SLMO']",1127.8821,14.82146,2.62931,31.27124
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",387.6701,14.84525,2.98401,33.06187
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_CSCO', 'T_SLMO']",1177.8529,14.86134,3.11371,33.11181
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSCO', 'T_CSMO', 'T_SLAO']",299.044,14.87148,3.09878,33.05931
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLAO']",229.3713,14.87975,3.06742,30.97557
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLMO', 'T_SLAO', 'T_CSAO']",997.8634,14.89254,3.09779,33.06031
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1207.3897,14.91341,2.98701,33.10763
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLMO', 'T_CSAO']",996.9718,14.92135,3.13841,33.05956
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_CSCO', 'T_CSAO']",298.053,14.95314,3.11727,30.99112
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_CSCO', 'T_SLAO']",214.7301,15.00056,3.16162,31.14899
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLCO', 'T_SLMO']",983.0672,15.018,2.90777,33.13143
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",462.3916,15.02131,3.10356,33.69125
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO']",332.738,15.06512,3.15015,30.93372
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1281.2196,15.07717,3.11919,33.10323
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",461.5,15.08543,3.10525,34.18909
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1118.6642,15.08697,2.75099,31.14389
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_CSCO', 'T_CSMO', 'T_CSAO']",401.4197,15.09677,3.34714,31.00582
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLAO', 'T_CSAO']",317.9974,15.10283,3.12582,31.26737
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",421.3641,15.11652,2.9722,31.21974
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1231.2488,15.14284,2.86151,31.25251
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO']",331.8464,15.15378,3.27832,31.11503
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",406.7229,15.15878,3.21869,31.22024
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_CSCO', 'T_SLMO']",1117.7726,15.16627,3.10565,31.05473
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSCO', 'T_CSMO', 'T_SLAO']",323.7947,15.1697,3.11218,31.13113
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO']",318.0968,15.17591,3.16202,30.96783
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_CSCO']",209.4269,15.18748,3.42416,31.14952
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLAO']",235.0692,15.18811,3.09254,31.12629
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1370.7373,15.20484,3.11007,33.45761
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_CSCO', 'T_CSMO']",312.7936,15.21425,3.68917,31.10861
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_CSAO']",317.1058,15.22623,3.34675,31.01749
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_CSAO']",420.4725,15.24743,3.21355,31.23438
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_CSCO', 'T_SLAO', 'T_CSAO']",303.3562,15.25156,3.30031,31.33652
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSCO', 'T_SLAO']",220.428,15.25943,3.07033,31.30372
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSCO', 'T_SLAO', 'T_CSAO']",309.0541,15.26251,3.01826,31.32117
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1222.0309,15.26656,2.76486,30.95497
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1217.3998,15.27685,2.67455,31.24397
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1310.657,15.28034,2.8287,31.1412
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1369.8457,15.29088,3.13802,33.2186
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSCO', 'T_CSMO']",322.9031,15.2946,3.05078,31.0951
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_CSMO', 'T_SLAO']",338.4359,15.30116,3.22367,31.212
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1231.1494,15.30511,2.73201,31.09603
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLAO', 'T_CSAO']",323.6953,15.32565,3.1057,31.30848
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1216.5082,15.3314,2.85906,30.97571
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_CSCO', 'T_CSMO']",317.2052,15.33254,3.36601,31.17709
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1128.7737,15.33529,2.67755,31.07009
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",412.4208,15.33634,2.94245,31.06093
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_CSCO']",228.4797,15.36027,3.32765,31.04067
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1232.1404,15.36982,2.68601,31.07413
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO']",1202.6036,15.37205,2.7097,31.09402
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_CSCO']",219.5364,15.37397,3.10596,31.23805
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_CSCO', 'T_CSAO']",302.4646,15.37772,3.45206,31.1722
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1232.041,15.38346,2.73441,31.23194
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",267.6059,15.39115,3.10356,33.69125
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1334.5161,15.39347,2.8734,31.36574
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1319.8749,15.40155,2.85531,31.36985
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",427.062,15.4017,3.32564,31.12077
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1320.7665,15.41233,2.90507,31.18457
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLAO', 'T_CSAO']",342.7481,15.41247,3.26139,31.09855
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1143.4149,15.41616,2.74721,31.05615
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",373.7655,15.43906,3.03611,33.65685
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1123.0758,15.44099,3.1398,30.98988
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_CSMO', 'T_CSAO']",266.7143,15.446,3.10525,34.18909
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1282.1112,15.44614,3.06699,33.2447
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1207.2903,15.44622,2.59188,31.10979
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1206.3987,15.44943,2.96383,30.99051
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1246.7816,15.45012,2.81658,31.14262
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1211.7019,15.48085,3.2339,31.50485
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1236.4526,15.48443,2.98353,31.1215
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLMO', 'T_SLAO']",909.2373,15.49062,3.01748,33.05324
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1309.7654,15.49094,2.88614,31.16349
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_CSCO']",213.8385,15.50756,3.22412,31.10825
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1335.4077,15.51209,2.73653,31.30545
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1226.3431,15.52208,2.98178,31.14714
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1221.1393,15.52259,2.9996,31.2847
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1137.717,15.52549,3.25959,31.06865
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_CSMO', 'T_CSAO']",426.1704,15.52618,3.23848,31.02755
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_CSAO']",322.8037,15.52739,3.45009,31.24831
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLAO', 'T_CSAO']",328.1069,15.52747,3.15197,31.16782
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_CSCO', 'T_CSMO', 'T_CSAO']",405.8313,15.53443,3.14497,31.36506
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1339.8193,15.53519,2.84155,31.30446
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",431.4736,15.54637,3.07089,31.14552
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSCO', 'T_CSMO', 'T_CSAO']",411.5292,15.55258,3.10662,31.02729
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLCO', 'T_CSMO']",178.0882,15.55471,3.17682,33.14073
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSCO', 'T_CSAO']",308.1625,15.5685,3.44839,31.06053
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1175.9516,15.57404,3.11007,33.45761
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1329.7098,15.57655,2.96614,31.06487
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1315.0686,15.58461,2.96812,30.95381
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1147.8265,15.58801,3.12395,30.97212
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1162.4677,15.58967,2.87365,30.96174
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1210.8103,15.59358,3.1181,31.09755
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",446.1148,15.59477,3.08862,31.10672
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_CSCO']",234.1776,15.6084,3.29734,31.03699
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO']",1142.5233,15.61272,3.03219,31.33012
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLAO']",239.4808,15.61427,3.27226,31.01365
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1251.0938,15.63246,3.07384,31.1965
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO']",1161.5761,15.64528,3.15935,31.2632
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1250.2022,15.65082,2.86846,31.19912
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_CSAO']",341.8565,15.65289,3.00041,30.97618
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1175.06,15.65428,3.13802,33.2186
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLAO']",254.122,15.65781,3.25254,31.00935
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_CSMO']",337.5443,15.67858,3.28655,30.98658
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1353.5689,15.67972,2.97222,31.31997
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1354.4605,15.6881,2.88906,31.34797
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1225.5509,15.69862,3.10815,31.24146
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO']",342.8475,15.7043,3.19453,31.09368
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1225.4515,15.70687,3.09473,31.21455
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO']",1146.9349,15.71821,3.23463,31.27765
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1251.1932,15.71904,3.01895,30.88708
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_CSCO', 'T_SLMO']",1122.1842,15.72218,3.2823,31.33037
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO']",1192.4941,15.72309,3.09604,31.18638
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1338.9277,15.73005,2.85654,31.26215
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1305.9703,15.7357,2.60459,32.04939
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_CSAO']",327.2153,15.73766,3.395,31.24169
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_SLAO']",357.4887,15.74243,3.15127,31.24322
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1193.3857,15.74922,2.9634,31.03546
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1235.561,15.80907,2.81171,31.15976
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1226.4425,15.80925,3.32224,31.197
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1241.0837,15.81821,3.13467,31.05359
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1291.2297,15.82199,2.70446,31.00832
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO']",1136.8254,15.85485,3.0905,31.26424
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1385.3785,15.8582,2.64304,31.21655
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_CSAO']",430.582,15.86192,3.29399,31.18016
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",477.0328,15.86442,2.86092,31.18242
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1265.8344,15.86785,3.04978,31.00144
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1314.177,15.86843,3.03274,31.4428
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1264.9428,15.87137,3.12171,31.37251
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO']",356.5971,15.88218,3.34299,31.04329
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_SLMO', 'T_CSMO']",1086.4339,15.89493,3.11919,33.10323
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",383.7756,15.90101,2.75539,32.30085
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1296.7524,15.90538,2.83014,30.90021
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLCO', 'T_CSCO']",284.1484,15.91211,2.73362,30.97227
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO', 'T_CSMO', 'T_CSAO']",445.2232,15.91479,3.36608,31.18408
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1240.1921,15.92061,3.23256,31.31599
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1328.8182,15.9238,3.24895,31.31466
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLAO']",285.04,15.9245,2.7848,31.07036
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",398.4168,15.92698,2.78938,32.30085
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSCO']",253.2304,15.93053,3.29453,31.0224
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1250.3016,15.93074,3.11879,31.21753
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1305.8709,15.93849,2.68944,31.0861
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_CSCO', 'T_CSMO']",341.9559,15.93914,3.37496,31.04716
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLMO', 'T_CSMO']",1011.7124,15.94781,3.11691,33.09427
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLCO', 'T_CSCO']",294.2579,15.95568,2.6841,32.28245
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1245.89,15.96007,2.69496,31.23885
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",373.6661,15.97676,2.78851,31.15005
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1197.7973,15.98942,3.23064,31.03484
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLCO', 'T_CSMO', 'T_SLAO']",178.9798,15.9964,3.03611,33.65685
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1212.4385,15.99659,2.96731,31.14536
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1292.1213,15.9984,2.66923,31.22076
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1087.3255,16.00348,3.06699,33.2447
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1306.8619,16.01661,2.71325,31.75485
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_CSCO']",238.5892,16.02036,3.31279,31.11198
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1218.1364,16.03228,2.80514,30.98669
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1101.2301,16.03501,3.07457,33.10802
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1394.5964,16.03532,2.60769,31.33317
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1203.4952,16.03545,2.71431,31.07103
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLAO']",295.1495,16.03651,2.73455,31.98509
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1286.4234,16.03835,2.85429,31.38072
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_CSMO']",397.6246,16.04119,2.84181,32.65752
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO']",328.8435,16.04668,2.83771,31.73599
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",496.0856,16.04992,3.09414,31.17608
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",398.5162,16.05464,2.75907,31.8617
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",481.4444,16.05724,3.30283,30.99008
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1295.8608,16.0577,2.87264,30.95713
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",388.4067,16.06363,2.75211,30.84426
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO']",387.5151,16.0649,3.01763,31.1161
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO']",308.8991,16.06734,2.55331,32.28245
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1311.1741,16.07124,2.8479,31.31642
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1389.7901,16.0743,2.92112,31.00223
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1395.488,16.08186,2.74289,31.87172
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1281.1202,16.08454,2.79152,30.89651
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1409.2376,16.08559,2.68728,31.34168
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1410.1292,16.08723,2.64276,31.87172
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1222.548,16.09029,2.88708,31.06023
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1306.7625,16.10167,2.58452,31.22076
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO']",1237.1892,16.10794,2.85095,31.12887
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO']",1217.2448,16.11713,2.72831,30.87888
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",487.1423,16.11745,2.69482,32.43618
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1282.0118,16.12014,2.6236,31.20502
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1404.4313,16.13446,2.87763,31.1445
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1414.5408,16.15296,2.80253,32.03052
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",413.1574,16.15597,2.60371,31.8617
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLAO']",309.7907,16.15999,2.78063,31.98509
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1301.0646,16.16312,2.97618,31.16465
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO']",304.0928,16.17183,3.15652,30.98983
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1285.5318,16.17693,3.08104,31.29176
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",378.0777,16.17848,3.15095,31.19628
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",501.7835,16.17954,2.86073,32.43618
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1384.4869,16.18517,2.62065,31.1535
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSAO']",372.7745,16.18736,3.01776,31.01798
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO']",314.2023,16.19114,2.86011,31.73599
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO']",1196.9057,16.19784,3.35719,31.10604
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLMO', 'T_CSMO', 'T_CSAO']",1100.3385,16.21029,3.08763,33.09997
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1325.8153,16.21254,2.96705,31.31642
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_CSAO']",382.884,16.21777,3.00973,32.00317
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1321.5031,16.22647,2.95959,31.75485
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO']",1211.5469,16.22767,3.10394,31.11324
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO']",1236.2976,16.24533,2.92316,31.42419
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO']",289.4516,16.24683,3.16059,31.06918
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",432.2102,16.2503,2.9923,31.97444
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",486.2507,16.26002,2.69758,32.2618
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",476.1412,16.26224,2.79251,31.20396
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_SLMO', 'T_CSAO']",1096.444,16.26615,4.7702,31.26706
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",417.4696,16.26745,2.8818,32.5332
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",402.8284,16.27155,2.80706,32.5332
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO']",1221.6564,16.27265,2.92262,31.40658
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1301.164,16.27562,3.27454,31.14739
+lgb,l2(rmse),12,"['Total Frames', 'Directory Size (MB)', 'Params']",9,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1429.182,16.30171,2.83788,32.03052
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",407.4595,16.30685,3.08273,31.22485
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",520.8363,16.30918,2.97982,32.03806
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_SLAO', 'T_CSAO']",188.9899,16.31723,4.78907,31.37356
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1315.8052,16.32127,2.9703,31.06988
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1325.9147,16.33035,3.11926,31.87214
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1324.9237,16.33356,2.91415,31.3781
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1300.2724,16.33524,3.05481,31.0612
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1022.6141,16.33736,4.96766,31.40428
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO']",406.5679,16.34808,2.38935,31.1875
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",506.1951,16.35011,2.95155,32.03806
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1314.9136,16.35108,2.94511,31.30234
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO']",391.9267,16.35604,2.69483,31.26528
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1340.5559,16.36326,3.25652,31.87214
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1413.6492,16.36378,2.9553,31.23437
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLMO', 'T_CSMO', 'T_SLAO']",1012.604,16.37074,2.98701,33.10763
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSAO']",401.9368,16.37184,2.90804,32.54786
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO']",303.2012,16.3723,3.18433,31.02888
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",417.569,16.37345,3.01045,31.97444
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",505.3035,16.37446,2.66938,32.46354
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO']",412.2658,16.37868,2.6273,32.65752
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1428.2904,16.38946,2.92219,31.22607
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_SLAO']",392.8183,16.39082,3.10625,31.15493
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLMO', 'T_CSAO']",1021.7225,16.3952,4.90575,31.3215
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1325.0231,16.39671,2.94588,31.57161
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",500.8919,16.3968,2.67912,32.2618
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLAO', 'T_CSAO']",392.7189,16.40319,3.06501,31.28969
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_CSAO']",397.5252,16.40344,2.71417,32.00317
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1339.6643,16.41005,2.8822,31.57161
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1388.8985,16.41951,3.05404,31.3009
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1300.173,16.43451,3.07941,31.11748
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",519.9447,16.43784,2.56104,32.46354
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO']",1320.6115,16.43796,2.90564,32.04939
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLCO', 'T_CSCO']",288.56,16.44099,2.58904,30.9471
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSAO']",1310.2825,16.48128,2.82665,31.43013
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLCO', 'T_CSAO']",177.9888,16.48413,3.42461,31.40488
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSAO']",391.8273,16.49545,2.72209,31.32051
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSAO']",416.578,16.49576,2.80211,32.54786
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1403.5397,16.49867,3.12217,31.44304
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1097.3356,16.50679,4.96743,31.42217
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLAO', 'T_CSAO']",203.6311,16.5081,4.99056,31.47497
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1037.2553,16.51006,5.01973,31.42256
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",495.194,16.51125,2.48645,31.32815
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLCO', 'T_CSAO']",188.0983,16.52421,5.4509,32.0481
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSAO']",1111.0852,16.52662,5.20337,31.26346
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO', 'T_CSAO']",480.5528,16.52987,2.6256,31.21518
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLAO', 'T_CSAO']",89.5177,16.5332,3.05617,51.97611
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLMO', 'T_CSAO']",1036.3637,16.55259,5.25652,31.35341
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO']",327.9519,16.55732,2.53111,33.14169
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSAO']",1086.3345,16.58222,3.5302,31.44447
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1111.9768,16.58291,4.95718,31.42217
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_SLAO', 'T_CSAO']",178.8804,16.58732,3.37348,31.23715
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSAO']",377.1861,16.59382,2.90559,31.17153
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO']",431.3186,16.60056,2.66932,32.99866
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1087.2261,16.60064,3.39329,31.30045
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO']",313.3107,16.67256,2.56748,33.14169
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSCO', 'T_CSMO']",416.6774,16.67498,2.67375,32.99866
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1012.5046,16.69065,3.71273,31.07292
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLAO', 'T_CSAO']",197.9332,16.6907,2.26941,31.11765
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1106.2789,16.70145,2.23573,31.02402
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1031.5574,16.70345,2.14491,31.07612
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSAO']",197.0416,16.70641,3.19849,31.07824
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSAO']",202.7395,16.72241,5.3566,32.0481
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1056.3081,16.72323,2.27553,31.01979
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLMO', 'T_CSAO']",1011.613,16.77659,3.65326,31.43868
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1041.6669,16.77713,2.3445,31.00932
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_SLAO', 'T_CSAO']",183.292,16.78499,2.10102,31.14072
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1016.9162,16.79469,2.20609,30.96215
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLAO', 'T_CSAO']",222.6839,16.82428,2.23758,31.10047
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLCO', 'T_CSAO']",182.4004,16.83171,3.42487,31.18086
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1091.6377,16.83846,2.06118,30.95546
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSAO']",221.7923,16.89335,3.50464,32.30784
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSAO']",207.1511,16.90526,3.63745,32.30784
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLAO', 'T_CSAO']",208.0427,16.90801,2.21585,31.12024
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSAO']",1090.7461,16.94507,3.30318,31.19685
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1116.3884,16.95887,2.35929,31.2514
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSAO']",1130.138,16.95981,3.29488,31.26051
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO', 'T_CSAO']",1131.0296,16.97999,2.43797,31.2514
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1101.9667,17.01322,2.83014,41.20682
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO', 'T_CSAO']",1055.4165,17.01341,3.32775,31.34375
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLMO', 'T_CSAO']",1040.7753,17.05002,3.26009,31.34375
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSAO']",1115.4968,17.06295,3.08293,31.26051
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSAO']",1105.3873,17.10228,3.29113,31.22999
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1190.5928,17.13542,2.64304,41.75136
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",282.2471,17.14164,2.86092,41.75136
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_CSMO', 'T_SLAO']",193.621,17.17147,2.75211,41.20682
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLMO', 'T_CSAO']",1030.6658,17.18383,3.33993,31.27783
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1027.2452,17.18557,2.76486,42.47252
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLMO', 'T_CSAO']",1016.0246,17.25792,3.45586,31.34725
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1189.7012,17.26075,2.62065,41.62298
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO']",1101.0751,17.26508,2.87264,41.61234
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLCO', 'T_CSMO']",192.7294,17.27228,3.01763,41.61234
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1115.8713,17.30321,2.8287,42.8946
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",301.2999,17.32714,3.09414,41.75136
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_SLMO', 'T_CSMO']",1111.1846,17.32855,2.60459,40.02178
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",286.6587,17.33446,3.30283,41.75136
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_CSMO', 'T_CSAO']",281.3555,17.33782,2.79251,41.62298
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1195.0044,17.35152,2.92112,41.75136
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1106.3783,17.38341,3.27454,41.20682
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLMO', 'T_CSMO']",1036.4631,17.39684,2.86151,39.99759
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1209.6456,17.41167,2.87763,41.75136
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO']",212.6738,17.41469,3.08273,41.20682
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1121.0195,17.42911,2.9703,41.20682
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1114.9797,17.46569,2.88614,42.79434
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLMO', 'T_CSMO']",1026.3536,17.48798,2.9996,43.25632
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1194.1128,17.49278,3.05404,41.62298
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO']",198.0326,17.49866,3.10625,41.20682
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO']",1105.4867,17.54261,3.05481,41.61234
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO']",211.7822,17.55545,2.38935,41.61234
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO']",1120.1279,17.55845,2.94511,41.61234
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLCO', 'T_CSMO']",197.141,17.56342,2.69483,41.61234
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1208.754,17.57368,3.12217,41.62298
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1134.9241,17.57784,2.96614,42.8946
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1120.2829,17.58404,2.96812,42.8946
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_CSAO']",300.4083,17.58684,2.48645,41.62298
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLAO']",109.3071,17.58821,3.99438,35.30268
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_CSMO', 'T_CSAO']",285.7671,17.60545,2.6256,41.62298
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1112.0762,17.61203,2.71325,38.50015
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1199.8107,17.63396,2.60769,38.4759
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLCO', 'T_CSMO']",202.8389,17.63405,2.84181,40.02178
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_CSMO', 'T_SLAO']",203.7305,17.65006,2.75907,38.50015
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1214.4519,17.68423,2.68728,38.4759
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO']",1017.6528,17.70637,3.49035,35.30268
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1046.298,17.71246,3.13467,42.47252
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1200.7023,17.72032,2.74289,39.23155
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_SLCO', 'T_SLMO', 'T_SLAO']",998.6,17.72173,3.56547,35.30268
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1215.3435,17.7269,2.64276,39.23155
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLCO', 'T_SLAO']",94.6659,17.73199,7.60191,35.30268
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1125.9808,17.73544,2.90507,39.39292
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLCO', 'T_SLAO']",90.2543,17.7462,3.56118,35.30268
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSMO', 'T_SLAO']",218.3717,17.75139,2.60371,38.50015
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",292.3566,17.75712,2.69482,39.23155
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO']",1003.0116,17.76874,7.30213,35.30268
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1037.3547,17.77005,2.68601,38.69988
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1139.7304,17.77892,2.8734,38.25561
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1031.6568,17.78451,3.32224,42.47252
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1125.0892,17.78518,2.85531,38.25561
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1219.7551,17.79263,2.80253,39.23155
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1145.0336,17.80279,2.84155,39.39292
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1119.3913,17.81474,3.03274,42.79434
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",306.9978,17.8192,2.86073,39.23155
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1126.7174,17.82189,2.95959,38.50015
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1051.9959,17.83496,2.81658,38.69988
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO']",237.4245,17.84572,2.9923,38.50015
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1140.622,17.8525,2.73653,39.39292
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLMO', 'T_CSMO']",1030.7652,17.85297,3.10815,43.25632
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSMO']",217.4801,17.85368,2.6273,38.79102
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_CSMO', 'T_CSAO']",291.465,17.85866,2.69758,38.4759
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO']",1130.2374,17.8717,2.94588,38.79102
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1134.0325,17.87754,3.24895,42.79434
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO']",1144.8786,17.88504,2.8822,38.79102
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO', 'T_CSMO']",1125.8258,17.91296,2.90564,38.79102
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1131.129,17.92577,3.11926,38.50015
+lgb,l2(rmse),11,"['Total Frames', 'Directory Size (MB)', 'Params']",8,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1234.3963,17.94138,2.83788,39.23155
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLMO', 'T_SLAO']",942.9313,17.94839,3.22604,41.5972
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",326.0506,17.94885,2.97982,39.23155
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",1159.6748,17.95022,2.88906,39.39292
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1145.7702,17.95868,3.25652,38.50015
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1218.8635,17.96242,2.9553,38.4759
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO']",222.7833,17.96887,3.01045,38.50015
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO']",1045.4064,17.96999,3.23256,43.25632
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_CSAO']",310.5178,17.9731,2.66938,38.4759
+lgb,l2(rmse),10,"['Total Frames', 'Directory Size (MB)', 'Params']",7,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1233.5047,17.98719,2.92219,38.4759
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",311.4094,17.98977,2.95155,39.23155
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_CSMO', 'T_CSAO']",306.1062,17.99544,2.67912,38.4759
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO', 'T_CSAO']",325.159,18.03648,2.56104,38.4759
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO']",1070.1571,18.04925,3.12171,38.73602
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1158.7832,18.05144,2.97222,38.25561
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_CSMO']",118.0079,18.05178,3.3723,42.1748
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_CSMO']",236.5329,18.07555,2.66932,38.79102
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLMO', 'T_SLAO']",923.8785,18.07601,3.30489,41.5972
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1056.4075,18.08328,3.01895,38.69988
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLMO', 'T_CSMO']",1051.1043,18.09026,2.69496,38.73602
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLMO', 'T_SLAO']",928.2901,18.0995,8.02314,41.5972
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_CSAO']",1144.142,18.10559,2.85654,38.25561
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_CSMO']",137.0607,18.12058,3.43942,42.1748
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLMO', 'T_CSMO']",1055.5159,18.12874,3.11879,38.73602
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_CSMO']",221.8917,18.14998,2.67375,38.79102
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO', 'T_CSMO', 'T_SLAO']",1071.0487,18.21029,3.04978,38.69988
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_CSMO']",122.4195,18.24813,3.52697,42.1748
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_CSMO', 'T_SLAO', 'T_CSAO']",207.5256,18.38838,2.90588,43.74968
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_CSMO']",128.1174,18.39083,3.06237,38.08273
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO', 'T_SLAO']",1023.3507,18.4159,7.27741,32.39186
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_SLCO', 'T_SLMO', 'T_SLAO']",1008.7095,18.43161,7.28569,32.39186
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLCO', 'T_SLAO']",100.3638,18.47461,7.24017,33.139
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO']",1042.4035,18.51004,7.64788,32.60163
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO', 'T_SLAO']",1027.7623,18.58496,7.68667,32.60163
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLAO']",115.005,18.62596,7.51676,33.139
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_CSMO', 'T_SLAO']",118.8995,18.64377,3.09926,43.7228
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLAO']",119.4166,18.67592,8.81927,33.13633
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLMO', 'T_SLAO']",953.0408,18.69641,8.59365,37.15721
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLAO']",134.0578,18.7151,8.86109,33.13633
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO', 'T_SLAO']",967.682,18.79302,8.77002,37.15721
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSET', 'T_ISET', 'T_CSMO', 'T_SLAO', 'T_CSAO']",226.5784,18.83159,2.83453,43.96975
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLMO', 'T_SLAO']",933.988,18.83763,8.67329,37.15721
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLMO', 'T_SLAO']",948.6292,18.86435,8.58647,37.15721
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_CSMO', 'T_CSAO']",225.6868,18.87583,3.15061,43.51677
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_CSMO']",142.7586,18.87971,3.1633,39.38127
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_CSMO', 'T_CSAO']",206.634,18.88686,3.10267,42.99153
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_CSMO', 'T_SLAO']",137.9523,18.89554,3.03678,44.17015
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_CSMO', 'T_SLAO']",123.3111,18.89628,2.93705,44.4676
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_SLMO']",933.0964,18.9272,2.68007,49.54769
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_ISET', 'T_CSMO', 'T_SLAO', 'T_CSAO']",211.9372,19.01205,2.93081,43.94348
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSMO']",161.8114,19.03748,3.3351,39.38127
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_CSMO']",147.1702,19.07393,3.26326,39.38127
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_CSMO', 'T_CSAO']",211.0456,19.0773,3.01875,43.74185
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_SLCO']",99.4722,19.13746,2.1605,48.04246
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSMO', 'T_SLAO']",129.009,19.16122,2.98731,47.24977
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSMO', 'T_SLAO', 'T_CSAO']",217.6351,19.17076,3.16444,47.0822
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_CSAO']",122.3201,19.21153,2.40462,41.05363
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_CSMO', 'T_SLAO']",143.6502,19.23566,2.89539,47.24977
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_CSMO', 'T_SLAO', 'T_CSAO']",232.2763,19.36155,3.1652,47.0822
+lgb,l2(rmse),9,"['Total Frames', 'Directory Size (MB)', 'Params']",6,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSMO', 'T_SLAO', 'T_CSAO']",251.3291,19.52678,2.97589,47.13905
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_ISET', 'T_CSMO', 'T_SLAO', 'T_CSAO']",236.6879,19.53975,2.9842,47.13905
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_CSMO', 'T_CSAO']",235.7963,19.55124,3.10955,47.11253
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_CSAO']",107.6789,19.55607,2.18487,40.16709
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSMO', 'T_CSAO']",216.7435,19.58314,2.92599,46.60992
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSMO', 'T_CSAO']",250.4375,19.58757,2.845,47.11253
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSMO', 'T_SLAO']",162.703,19.64752,3.03568,47.92303
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_SLCO']",108.4155,19.67546,2.26611,81.52775
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_CSAO']",103.2673,19.69327,3.84794,41.90172
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLAO', 'T_CSAO']",123.2117,19.70182,2.34987,41.11615
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_CSMO', 'T_SLAO']",148.0618,19.70268,3.07255,47.92303
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_CSMO', 'T_CSAO']",231.3847,19.72295,3.05377,46.60992
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_SLCO']",89.3627,19.78569,2.00894,81.52775
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLCO', 'T_SLMO']",1007.8179,19.80921,2.31156,47.91732
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLCO', 'T_SLMO']",997.7084,19.83301,2.24541,81.0342
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO']",1016.7612,19.84885,2.57594,81.0342
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_SLAO', 'T_CSAO']",104.1589,19.95877,3.37568,42.61185
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLAO', 'T_CSAO']",108.5705,20.36175,2.38946,40.88334
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_SLCO']",93.7743,21.14996,2.0085,81.52775
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_ISET', 'T_SLCO', 'T_SLMO']",1002.12,21.33718,2.40846,81.0342
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_SLAO']",15.5328,21.49154,4.66684,43.49137
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_SLAO']",34.5856,21.59708,5.00627,43.55132
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSMO', 'T_CSAO']",191.9928,21.8749,3.07624,50.45011
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_SLCO']",114.1134,21.94991,2.35568,83.22747
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_SLMO']",952.1492,21.9529,2.43496,85.82585
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_SLMO']",947.7376,21.96598,2.30241,85.82585
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLMO']",966.7904,21.97074,2.37848,85.82585
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSMO', 'T_SLAO', 'T_CSAO']",192.8844,21.98934,2.99033,50.42793
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_SLCO']",118.525,22.18619,2.29183,83.22747
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSMO', 'T_SLAO']",104.2583,22.25667,3.06683,50.43301
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO']",133.1662,22.27421,2.05467,83.22747
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLCO', 'T_SLMO']",1022.4591,22.2919,2.06748,83.0234
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_SLMO']",927.3985,22.30024,2.9006,83.5388
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLCO', 'T_SLMO']",1026.8707,22.31679,2.99642,83.0234
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSET', 'T_ISET', 'T_SLMO']",942.0397,22.34377,2.70556,83.5388
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_SLMO']",922.9869,22.41999,2.33792,83.5388
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLCO', 'T_SLMO']",1041.5119,22.51077,2.07329,83.0234
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_ISET', 'T_SLAO']",19.9444,22.54933,6.97501,43.90195
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_CSAO']",132.4296,22.77837,2.29304,49.36134
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_CSAO']",147.0708,22.79785,2.1268,49.36134
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_CSAO']",128.018,22.9562,2.83491,49.36134
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_CSAO']",113.3768,22.98301,2.91397,49.13977
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_SLAO', 'T_CSAO']",128.9096,23.42553,2.97834,51.1682
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_SLAO', 'T_CSAO']",114.2684,23.52677,2.66174,50.75569
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_ISET', 'T_SLAO', 'T_CSAO']",133.3212,23.5476,2.6837,51.1682
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLAO', 'T_CSAO']",147.9624,23.61744,2.88138,51.1682
+lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_SLAO']",25.6423,24.41324,7.2493,46.70616
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_SLET', 'T_CSET', 'T_ISET', 'T_SLAO']",59.3363,24.467,7.62436,48.64802
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_ISET', 'T_SLAO']",44.6951,24.47589,7.39629,48.64802
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_SLAO']",40.2835,24.49668,7.49542,48.64802
 lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_CSET', 'T_ISET']",33.694,38.29235,13.94626,110.06391
 lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLET', 'T_CSET', 'T_ISET']",58.4447,38.57426,14.0338,110.05771
 lgb,l2(rmse),5,"['Total Frames', 'Directory Size (MB)', 'Params']",2,"['T_SLET', 'T_CSET']",39.3919,38.57577,14.01821,110.05771
