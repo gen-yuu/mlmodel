@@ -58,10 +58,13 @@ def process_csv(data_dir, data_file, output_file, calculate_time_cost=True):
     # Time Cost (s)を計算して新しい列を追加（必要な場合）
     if calculate_time_cost:
 
+        # コスト計算関数
         def calculate_time_cost(inputs):
             # 文字列をリストに変換
             input_list = ast.literal_eval(inputs)
-            return sum(weights.get(parameter, 0) for parameter in input_list)
+            cost = sum(weights.get(parameter, 0) for parameter in input_list)
+            # 小数点以下5桁に丸める
+            return round(cost, 5)
 
         df["Time Cost (s)"] = df['Variable Parameter'].apply(calculate_time_cost)
 

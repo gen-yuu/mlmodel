@@ -38,6 +38,11 @@ benchmark_parameters = [
     'transfer_all', 'transfer_continuous', 'transfer_roundtrip', 'matrix_conv', 'matrix_convloop',
     'matrix_dot', 'matrix_dotloop', 'matrix_add', 'matrix_addloop'
 ]
+# スペック特徴量
+server_spec_parameters = [
+    'cpu_core', 'cpu_boost_clock(GHz)', 'cpu_thread', 'cpu_cache(MB)', 'gpu_architecture',
+    'gpu_core', 'gpu_boost_clock(GHz)', 'VRAM(GB)'
+]
 
 # ターゲット変数
 target = 'Inference Time (s)'
@@ -47,18 +52,18 @@ def main():
     """
     メイン処理: ベンチマークデータの特徴量の組み合わせを評価し、結果をCSVに保存する。
     """
-    # specの特徴量組み合わせ
-    # parameters_conbs = get_parameters_conb(server_spec_parameters)
-    # data_path = os.path.join(data_dir, server_spec_data_file)
-    # model_info = search_parameters_conb(parameters_conbs, data_path)
-    # output_csv = "spec_feature_search.csv"
-    # output_results_to_csv(model_info, output_csv)
+    #specの特徴量組み合わせ
+    parameters_conbs = get_parameters_conb(server_spec_parameters, min_size=2)
+    data_path = os.path.join(data_dir, server_spec_data_file)
+    model_info = search_parameters_conb(parameters_conbs, data_path)
+    output_csv = "original_spec_parameter_loocv.csv"
+    output_results_to_csv(model_info, output_csv)
 
     # ベンチマークデータの特徴量組み合わせ
-    parameters_conbs = get_parameters_conb(benchmark_parameters, min_size=6)
+    parameters_conbs = get_parameters_conb(benchmark_parameters, min_size=2)
     data_path = os.path.join(data_dir, benchmark_data_file)
     model_info = search_parameters_conb(parameters_conbs, data_path)
-    output_csv = "original_benchmark_feature_loocv.csv"
+    output_csv = "original_benchmark_parameter_loocv.csv"
     output_results_to_csv(model_info, output_csv)
 
 

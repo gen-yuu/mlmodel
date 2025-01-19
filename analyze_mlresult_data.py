@@ -18,11 +18,11 @@ def load_data(data_dir, data_file):
 
 # 各Inputの統計量を計算
 def calculate_stats(df):
-    unique_inputs = df["Input"].unique()
+    unique_inputs = df['Variable Parameter'].unique()
     results = []
 
     for input_value in unique_inputs:
-        filtered_df = df[df["Input"] == input_value]
+        filtered_df = df[df['Variable Parameter'] == input_value]
 
         # 各種指標を計算
         avg_mape_test = round(filtered_df["MAPE test (%)"].mean(), 5)
@@ -51,6 +51,7 @@ def calculate_stats(df):
             'Const Parameter': const_parameters,
             'Variable Parameter Num': variable_parameter_num,
             'Variable Parameter': variable_parameters,
+            'Time Cost (s)': time_cost,
             "average MAPE test (%)": avg_mape_test,
             "min MAPE test (%)": min_mape_test,
             "max MAPE test (%)": max_mape_test
