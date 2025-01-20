@@ -120,9 +120,25 @@ def loocv(const_parameters, server_parameters, data_path):
     for server in SERVER_LIST:
         print(f"parameters : {server_parameters}, Leave out server: {server}")
         train_df, test_df = format_data_loocv(server, data_path)
-        lgb_result = lgb_reg.lgb_model(train_df, test_df, target, const_parameters,
-                                       server_parameters)
-        lgb_result["Leave One"] = server  # サーバー名を結果に追加
+        parameters = const_parameters + server_parameters
+        #lightGBM
+        #訓練データが8:2でtrain:valに分割される
+        lgb_model, loss, train_df, val_df = lgb_reg.train_lgb_model(train_df, target, parameters)
+        mape_train = lgb_reg.predict_and_evaluate(lgb_model, train_df, target, parameters)
+        mape_val = lgb_reg.predict_and_evaluate(lgb_model, val_df, target, parameters)
+        mape_test = lgb_reg.predict_and_evaluate(lgb_model, test_df, target, parameters)
+        lgb_result = {
+            'ML': 'lgb',
+            'loss': loss,
+            'Parameter Num': len(parameters),
+            'Const Parameter': const_parameters,
+            'Variable Parameter Num': len(server_parameters),
+            'Variable Parameter': server_parameters,
+            'MAPE train (%)': mape_train,
+            'MAPE val (%)': mape_val,
+            'MAPE test (%)': mape_test,
+            'Leave One': server
+        }
         model_info.append(lgb_result)
     return model_info
 
