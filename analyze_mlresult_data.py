@@ -1,6 +1,7 @@
-import pandas as pd
 import os
 import sys
+
+import pandas as pd
 
 
 def main():
@@ -36,7 +37,7 @@ def main():
 
     # ベンチマーク項目の定義
     matrix_benchmarks = ["T_SLCO", "T_CSCO", "T_SLMO", "T_CSMO", "T_SLAO", "T_CSAO"]
-    transfer_benchmarks = ["T_SLET", "T_CSET", "T_ISET"]
+    transfer_benchmarks = ["T_SLMT", "T_CSMT", "T_ISMT"]
 
     # Variable Parameterを条件にフィルタリング
     filtered_df = filter_variable_parameters(results_df, matrix_benchmarks, transfer_benchmarks)

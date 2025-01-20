@@ -1,4 +1,5 @@
 import os
+
 import pandas as pd
 
 # 名前のリスト（元の文字列を置き換える）
@@ -9,9 +10,9 @@ NAME_LISTS = {
     "matrix_dotloop": "$T_{CSMO}$",
     "matrix_add": "$T_{SLAO}$",
     "matrix_addloop": "$T_{CSAO}$",
-    "transfer_all": "$T_{SLET}$",
-    "transfer_continuous": "$T_{CSET}$",
-    "transfer_roundtrip": "$T_{ISET}$"
+    "transfer_all": "$T_{SLMT}$",
+    "transfer_continuous": "$T_{CSMT}$",
+    "transfer_roundtrip": "$T_{ISMT}$"
 }
 
 # サーバー名
@@ -23,7 +24,7 @@ MATRIX_BENCHMARKS = [
 ]
 
 # 転送に関するベンチマーク項目
-TRANSFER_BENCHMARKS = ["$T_{SLET}$", "$T_{CSET}$", "$T_{ISET}$"]
+TRANSFER_BENCHMARKS = ["$T_{SLMT}$", "$T_{CSMT}$", "$T_{ISMT}$"]
 
 # 出力先ディレクトリ
 OUTPUT_DIR = './benchmark_analyze'
