@@ -1,7 +1,8 @@
-import pandas as pd
-import os
-import matplotlib.pyplot as plt
 import ast
+import os
+
+import matplotlib.pyplot as plt
+import pandas as pd
 
 # 出力ディレクトリ
 output_dir = './shap'
@@ -45,7 +46,7 @@ def visualize_shap_mean(shap_mean, variable_parameter):
                                                 y='Mean Absolute SHAP Value',
                                                 legend=False,
                                                 color='skyblue')
-    plt.title(f"Mean Absolute SHAP Values for {latex_inputs}")
+    plt.title(f"Mean Absolute SHAP Values for \n{latex_inputs}")
     plt.xlabel("Parameter")
     plt.ylabel("Mean Absolute SHAP Value")
     plt.xticks(rotation=0, ha='right')

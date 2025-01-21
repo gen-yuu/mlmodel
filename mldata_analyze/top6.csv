@@ -1,0 +1,7 @@
+ML,loss,Parameter Num,Const Parameter,Variable Parameter Num,Variable Parameter,Time Cost (s),average MAPE test (%),min MAPE test (%),max MAPE test (%)
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_CSMT', 'T_CSCO', 'T_SLAO']",210.3185,14.54151,3.17703,31.09088
+lgb,l2(rmse),8,"['Total Frames', 'Directory Size (MB)', 'Params']",5,"['T_CSMT', 'T_CSCO', 'T_CSMO', 'T_SLAO', 'T_CSAO']",402.3113,14.637,3.01907,31.21994
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSMT', 'T_CSCO', 'T_CSMO', 'T_SLAO']",313.6852,14.77989,3.20463,31.28301
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSMT', 'T_CSCO', 'T_SLAO', 'T_CSAO']",298.9446,14.7825,3.16708,31.18672
+lgb,l2(rmse),6,"['Total Frames', 'Directory Size (MB)', 'Params']",3,"['T_SLMT', 'T_CSCO', 'T_SLMO']",1127.8821,14.82146,2.62931,31.27124
+lgb,l2(rmse),7,"['Total Frames', 'Directory Size (MB)', 'Params']",4,"['T_CSMT', 'T_ISMT', 'T_CSCO', 'T_SLAO']",229.3713,14.87975,3.06742,30.97557
