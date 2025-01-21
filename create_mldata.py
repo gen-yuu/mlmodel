@@ -120,8 +120,8 @@ def get_server_spec(server):
 
     # サーバー名からCPUとGPUを抽出して、対応するスペックを結合
     cpu, gpu = server.split(" - ")
-    feature = {**cpu_info[cpu], **gpu_info[gpu]}
-    return feature
+    parameter = {**cpu_info[cpu], **gpu_info[gpu]}
+    return parameter
 
 
 if __name__ == "__main__":

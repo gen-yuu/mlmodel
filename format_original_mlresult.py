@@ -5,43 +5,44 @@ import pandas as pd
 
 # 置き換えリスト
 rename_list = {
-    "matrix_conv": "T_LCOE",
-    "matrix_convloop": "T_SCRE",
-    "matrix_dot": "T_LMOE",
-    "matrix_dotloop": "T_SMRE",
-    "matrix_add": "T_LAOE",
-    "matrix_addloop": "T_SARE",
-    "transfer_all": "T_SLET",
-    "transfer_continuous": "T_CSET",
-    "transfer_roundtrip": "T_ISET"
+    "transfer_all": "T_SLMT",
+    "transfer_continuous": "T_CSMT",
+    "transfer_roundtrip": "T_ISMT",
+    "matrix_convloop": "T_CSCO",
+    "matrix_conv": "T_SLCO",
+    "matrix_dotloop": "T_CSMO",
+    "matrix_dot": "T_SLMO",
+    "matrix_addloop": "T_CSAO",
+    "matrix_add": "T_SLAO"
 }
 
-# Time Cost重み
+# benchmarkのTime Cost(s)
+# 実行ループ回数
 M = 100
 weights = {
-    "T_SLET": 0.247507 * M,
-    "T_CSET": 0.146412 * M,
-    "T_ISET": 0.190528 * M,
-    "T_LCOE": 0.747215 * M,
-    "T_SCRE": 1.947857 * M,
-    "T_SMOE": 9.083457 * M,
-    "T_SMRE": 1.033667 * M,
-    "T_LAOE": 0.008916 * M,
-    "T_SAOE": 0.886261 * M,
+    "T_SLMT": 0.247507 * M,
+    "T_CSMT": 0.146412 * M,
+    "T_ISMT": 0.190528 * M,
+    "T_SLCO": 0.747215 * M,
+    "T_CSCO": 1.947857 * M,
+    "T_SLMO": 9.083457 * M,
+    "T_CSMO": 1.033667 * M,
+    "T_SLAO": 0.008916 * M,
+    "T_CSAO": 0.886261 * M,
 }
 
 
 # メイン処理をまとめる関数
 def main():
     data_dir = './ml_results'
-    # 'spec_feature_search.csv' の場合、Time Cost計算をスキップ
+    # 'spec_parameter_search.csv' の場合、Time Cost計算をスキップ
     process_csv(data_dir,
-                'originalbenchmark_feature_loocv.csv',
-                'benchmark_feature_loocv.csv',
+                'original_benchmark_parameter_loocv.csv',
+                'benchmark_parameter_loocv.csv',
                 calculate_time_cost=True)
     process_csv(data_dir,
-                'original_spec_feature_loocv.csv',
-                'spec_feature_loocv.csv',
+                'original_spec_parameter_loocv.csv',
+                'spec_parameter_loocv.csv',
                 calculate_time_cost=False)
 
 
@@ -57,18 +58,21 @@ def process_csv(data_dir, data_file, output_file, calculate_time_cost=True):
     # Time Cost (s)を計算して新しい列を追加（必要な場合）
     if calculate_time_cost:
 
+        # コスト計算関数
         def calculate_time_cost(inputs):
             # 文字列をリストに変換
             input_list = ast.literal_eval(inputs)
-            return sum(weights.get(feature, 0) for feature in input_list)
+            cost = sum(weights.get(parameter, 0) for parameter in input_list)
+            # 小数点以下5桁に丸める
+            return round(cost, 5)
 
-        df["Time Cost (s)"] = df["Input"].apply(calculate_time_cost)
+        df["Time Cost (s)"] = df['Variable Parameter'].apply(calculate_time_cost)
 
     # 列の並び替え
     columns = df.columns.tolist()  # 現在の列順を取得
     if "Time Cost (s)" in columns:
         columns.remove("Time Cost (s)")  # 一旦 "Time Cost (s)" を除去
-        columns.insert(columns.index("Input") + 1,
+        columns.insert(columns.index('Variable Parameter') + 1,
                        "Time Cost (s)")  # "Input" の次に "Time Cost (s)" を挿入
     columns.remove("Leave One")  # 一旦 "Leave One" を除去
     columns.insert(columns.index("MAPE train (%)"),
