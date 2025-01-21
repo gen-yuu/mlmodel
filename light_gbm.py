@@ -8,7 +8,7 @@ def calculate_mape(predictions, actuals, alpha=1):
     """
     平均絶対誤差率(MAPE)を計算するヘルパー関数
 
-    Parameters:
+    Args:
         predictions (list or array): モデルの予測値
         actuals (list or array): 実際の値
         alpha (float): 補正用パラメータ（デフォルトは1）
@@ -24,7 +24,7 @@ def train_lgb_model(train_df, target, parameters):
     """
     LightGBMモデルを学習し、学習済みモデルを返す関数
 
-    Parameters:
+    Args:
         train_df (DataFrame): 学習データ
         target (str): 目的変数のカラム名
         parameters (list): 使用する特徴量のリスト
@@ -79,7 +79,7 @@ def predict_and_evaluate(model, dataset, target, parameters):
     """
     モデルを使って予測し、MAPEを計算する関数
 
-    Parameters:
+    Args:
         model: 学習済みモデル
         dataset (DataFrame): 予測するデータ
         target (str): 目的変数のカラム名

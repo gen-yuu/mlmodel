@@ -56,7 +56,7 @@ def load_data(data_dir, data_file):
     """
     指定されたディレクトリからデータを読み込む関数。
 
-    Parameters:
+    Args:
         data_dir (str): データディレクトリのパス
         data_file (str): データファイル名
 
@@ -83,7 +83,7 @@ def calculate_stats(df):
     """
     各Variable Parameterの統計量を計算する関数。
 
-    Parameters:
+    Args:
         df (pd.DataFrame): 入力データフレーム
 
     Returns:
@@ -135,7 +135,7 @@ def save_results(df, output_dir, output_file):
     """
     データフレームを指定されたディレクトリに保存する関数。
 
-    Parameters:
+    Args:
         df (pd.DataFrame): 保存するデータフレーム
         output_dir (str): 保存先ディレクトリのパス
         output_file (str): 保存するファイル名
@@ -150,7 +150,7 @@ def filter_by_mape_range(df, range_delta):
     """
     平均MAPEの範囲を指定してフィルタリングする関数。
 
-    Parameters:
+    Args:
         df (pd.DataFrame): 入力データフレーム
         range_delta (float): 平均MAPEの範囲を指定
 
@@ -167,7 +167,7 @@ def filter_by_mape_range(df, range_delta):
     filtered_df = df[(df['average MAPE test (%)'] >= min_mape_value) &
                      (df['average MAPE test (%)'] <= max_mape_value)]
     # Time Cost (s)の小さい順に並べ替え
-    filtered_df = filtered_df.sort_values(by="Time Cost (s)", ascending=True)
+    #filtered_df = filtered_df.sort_values(by="Time Cost (s)", ascending=True)
 
     return filtered_df
 
@@ -176,7 +176,7 @@ def filter_variable_parameters(df, matrix_benchmarks, transfer_benchmarks):
     """
     Variable Parameterに行列計算と転送ベンチマーク項目を含む行を抽出する関数。
 
-    Parameters:
+    Args:
         df (pd.DataFrame): 入力データフレーム
         matrix_benchmarks (list): 行列計算に関するベンチマーク項目のリスト
         transfer_benchmarks (list): 転送に関するベンチマーク項目のリスト

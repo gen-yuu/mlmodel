@@ -71,7 +71,7 @@ def search_parameters_conb(parameters_conbs, data_path):
     """
     特徴量の組み合わせごとに、leave-one-out交差検証を行う。
     
-    Parameters:
+    Args:
         parameters_conbs (list): 特徴量の組み合わせリスト
         data_path (str): データのパス
 
@@ -88,7 +88,7 @@ def get_parameters_conb(parameters, min_size=2):
     """
     特徴量の組み合わせを生成する。
     
-    Parameters:
+    Args:
         parameters (list): 特徴量のリスト
         min_size (int): 組み合わせの最小サイズ（デフォルトは2）
     
@@ -108,7 +108,7 @@ def loocv(const_parameters, server_parameters, data_path):
     """
     Leave-One-Out交差検証を実行し、各サーバーについてモデルの評価結果を取得する。
     
-    Parameters:
+    Args:
         const_parameters (list): 定数特徴量
         server_parameters (list): サーバーに関する特徴量
         data_path (str): データのパス
@@ -147,7 +147,7 @@ def output_results_to_csv(results, output_csv):
     """
     モデルの評価結果をCSVファイルに出力する。
     
-    Parameters:
+    Args:
         results (list): モデル評価結果のリスト
         output_csv (str): 出力するCSVファイル名
     """
