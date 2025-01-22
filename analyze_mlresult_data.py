@@ -12,7 +12,8 @@ def main():
     # ディレクトリとファイル名の設定
     data_dir = './ml_results'
     output_dir = './mldata_analyze'
-    data_file = 'benchmark_parameter_loocv.csv'
+
+    data_file = 'format_benchmark_parameter_loocv.csv'
 
     # データの読み込み
     df = load_data(data_dir, data_file)
@@ -20,50 +21,94 @@ def main():
     # Parameterごとの統計量の計算
     results_df = calculate_stats(df)
 
-    # 結果を平均MAPEで昇順に並べ替え
-    results_df = results_df.sort_values(by="average MAPE test (%)", ascending=True)
-
     # 結果を保存
-    save_results(results_df, output_dir, "benchmark_mape_test_stats_results_with_metadata.csv")
-
-    # MAPEの範囲を指定（例：最小値から+1(%)の範囲）
-    range_delta = 1
-
-    # 指定したMAPE範囲でフィルタリング
-    filtered_df = filter_by_mape_range(results_df, range_delta)
-
-    # フィルタリングされた結果を保存
-    save_results(filtered_df, output_dir, "benchmark_mape_test_filtered_results.csv")
+    save_results(results_df, output_dir, "benchmark_parameter_stats_results_with_metadata.csv")
 
     # ベンチマーク項目の定義
     matrix_benchmarks = ["T_SLCO", "T_CSCO", "T_SLMO", "T_CSMO", "T_SLAO", "T_CSAO"]
     transfer_benchmarks = ["T_SLMT", "T_CSMT", "T_ISMT"]
 
-    # Variable Parameterを条件にフィルタリング
+    # Variable Parameterを制約条件にフィルタリング
     filtered_df = filter_variable_parameters(results_df, matrix_benchmarks, transfer_benchmarks)
 
-    # MAPEの範囲を指定（例：最小値から+1(%)の範囲）
-    range_delta = 1
-
-    # 指定したMAPE範囲でフィルタリング
-    filtered_df = filter_by_mape_range(filtered_df, range_delta)
-
-    #filtered_df = filtered_df.sort_values(by="Time Cost (s)", ascending=True)
-
     # フィルタリング結果を保存
-    save_results(filtered_df, output_dir, "benchmark_filtered_by_variable_parameters_mape_test.csv")
+    save_results(filtered_df, output_dir,
+                 "benchmark_parameter_stats_results_filterd_by_variable_toc.csv")
 
-    data_file = 'spec_parameter_loocv.csv'
+    data_file = 'format_spec_parameter_loocv.csv'
     # データの読み込み
     df = load_data(data_dir, data_file)
     # Parameterごとの統計量の計算
-    results_df = calculate_spec_stats(df)
-
-    # 結果を平均MAPEで昇順に並べ替え
-    results_df = results_df.sort_values(by="average MAPE test (%)", ascending=True)
-
+    results_df = calculate_stats(df, has_time_cost=False)
     # 結果を保存
     save_results(results_df, output_dir, "spec_mape_test_stats_results_with_metadata.csv")
+
+
+def calculate_stats(df, has_time_cost=True):
+    """
+    各Variable Parameterの統計量を計算する関数。
+
+    Args:
+        df (pd.DataFrame): 入力データフレーム
+        has_time_cost (bool): データフレームに "Time Cost (s)" 列が含まれるかどうか
+
+    Returns:
+        pd.DataFrame: 統計量を計算した結果
+    """
+    unique_inputs = df['Variable Parameter'].unique()
+    results = []
+
+    for input_value in unique_inputs:
+        filtered_df = df[df['Variable Parameter'] == input_value]
+
+        # 各種指標を計算
+        avg_mape_test = round(filtered_df["MAPE test (%)"].mean(), 5)
+        min_mape_test = filtered_df["MAPE test (%)"].min()
+        max_mape_test = filtered_df["MAPE test (%)"].max()
+        low_mape_list, high_mape_list = filter_leave_one_by_mape(filtered_df)
+
+        # 他の列の代表値を取得
+        ml = filtered_df["ML"].iloc[0] if not filtered_df["ML"].empty else None
+        loss = filtered_df["loss"].iloc[0] if not filtered_df["loss"].empty else None
+        parameter_num = filtered_df['Parameter Num'].iloc[
+            0] if not filtered_df['Parameter Num'].empty else None
+        const_parameters = filtered_df['Const Parameter'].iloc[
+            0] if not filtered_df['Const Parameter'].empty else None
+        variable_parameter_num = filtered_df['Variable Parameter Num'].iloc[
+            0] if not filtered_df['Variable Parameter Num'].empty else None
+        variable_parameters = filtered_df['Variable Parameter'].iloc[
+            0] if not filtered_df['Variable Parameter'].empty else None
+
+        # "Time Cost (s)" を含む場合にのみ計算
+        time_cost = (round(filtered_df["Time Cost (s)"].iloc[0], 5)
+                     if has_time_cost and not filtered_df["Time Cost (s)"].empty else None)
+
+        # 結果をリストに追加
+        result = {
+            'ML': ml,
+            'loss': loss,
+            'Parameter Num': parameter_num,
+            'Const Parameter': const_parameters,
+            'Variable Parameter Num': variable_parameter_num,
+            'Variable Parameter': variable_parameters,
+        }
+
+        # "Time Cost (s)" を含む場合、Variable Parameter の右隣に追加
+        if has_time_cost:
+            result["Time Cost (s)"] = time_cost
+
+        result.update({
+            "average MAPE test (%)": avg_mape_test,
+            "min MAPE test (%)": min_mape_test,
+            "max MAPE test (%)": max_mape_test,
+            "Low Mape Server": low_mape_list,
+            "High Mape Server": high_mape_list
+        })
+
+        results.append(result)
+        results_df = pd.DataFrame(results).sort_values(by="average MAPE test (%)", ascending=True)
+
+    return results_df
 
 
 def filter_leave_one_by_mape(df, low_threshold=10, high_threshold=20):
@@ -87,6 +132,36 @@ def filter_leave_one_by_mape(df, low_threshold=10, high_threshold=20):
     high_mape_list = df[df["MAPE test (%)"] >= high_threshold]["Leave One"].tolist()
 
     return low_mape_list, high_mape_list
+
+
+def filter_variable_parameters(df, matrix_benchmarks, transfer_benchmarks):
+    """
+    Variable Parameterに行列計算と転送ベンチマーク項目を含む行を抽出する関数。
+
+    Args:
+        df (pd.DataFrame): 入力データフレーム
+        matrix_benchmarks (list): 行列計算に関するベンチマーク項目のリスト
+        transfer_benchmarks (list): 転送に関するベンチマーク項目のリスト
+
+    Returns:
+        pd.DataFrame: 条件を満たす行を抽出したデータフレーム
+    """
+
+    # ベンチマークが含まれているかを判定するヘルパー関数
+    def contains_any(item_list, benchmarks):
+        return any(benchmark in item_list for benchmark in benchmarks)
+
+    # Variable Parameter列をリスト化
+    df["Variable Parameter List"] = df["Variable Parameter"].apply(eval)
+
+    # 行列計算ベンチマークと転送ベンチマークの両方を含む行をフィルタリング
+    filtered_df = df[
+        df["Variable Parameter List"].apply(lambda x: contains_any(x, matrix_benchmarks)) &
+        df["Variable Parameter List"].apply(lambda x: contains_any(x, transfer_benchmarks))]
+
+    # 不要な中間列を削除
+    filtered_df = filtered_df.drop(columns=["Variable Parameter List"])
+    return filtered_df
 
 
 def load_data(data_dir, data_file):
@@ -114,111 +189,6 @@ def load_data(data_dir, data_file):
     except ValueError as e:
         print(e)
         sys.exit(1)
-
-
-def calculate_stats(df):
-    """
-    各Variable Parameterの統計量を計算する関数。
-
-    Args:
-        df (pd.DataFrame): 入力データフレーム
-
-    Returns:
-        pd.DataFrame: 統計量を計算した結果
-    """
-    unique_inputs = df['Variable Parameter'].unique()
-    results = []
-
-    for input_value in unique_inputs:
-        filtered_df = df[df['Variable Parameter'] == input_value]
-
-        # 各種指標を計算
-        avg_mape_test = round(filtered_df["MAPE test (%)"].mean(), 5)
-        min_mape_test = filtered_df["MAPE test (%)"].min()
-        max_mape_test = filtered_df["MAPE test (%)"].max()
-        low_mape_list, high_mape_list = filter_leave_one_by_mape(filtered_df)
-        # 他の列の代表値を取得
-        ml = filtered_df["ML"].iloc[0] if not filtered_df["ML"].empty else None
-        loss = filtered_df["loss"].iloc[0] if not filtered_df["loss"].empty else None
-        parameter_num = filtered_df['Parameter Num'].iloc[
-            0] if not filtered_df['Parameter Num'].empty else None
-        const_parameters = filtered_df['Const Parameter'].iloc[
-            0] if not filtered_df['Const Parameter'].empty else None
-        variable_parameter_num = filtered_df['Variable Parameter Num'].iloc[
-            0] if not filtered_df['Variable Parameter Num'].empty else None
-        variable_parameters = filtered_df['Variable Parameter'].iloc[
-            0] if not filtered_df['Variable Parameter'].empty else None
-        time_cost = round(filtered_df["Time Cost (s)"].iloc[0],
-                          5) if not filtered_df["Time Cost (s)"].empty else None
-
-        # 結果をリストに追加
-        results.append({
-            'ML': ml,
-            'loss': loss,
-            'Parameter Num': parameter_num,
-            'Const Parameter': const_parameters,
-            'Variable Parameter Num': variable_parameter_num,
-            'Variable Parameter': variable_parameters,
-            'Time Cost (s)': time_cost,
-            "average MAPE test (%)": avg_mape_test,
-            "min MAPE test (%)": min_mape_test,
-            "max MAPE test (%)": max_mape_test,
-            "Low Mape Server": low_mape_list,
-            "High Mape Server": high_mape_list
-        })
-
-    return pd.DataFrame(results)
-
-
-def calculate_spec_stats(df):
-    """
-    各Variable Parameterの統計量を計算する関数。
-
-    Args:
-        df (pd.DataFrame): 入力データフレーム
-
-    Returns:
-        pd.DataFrame: 統計量を計算した結果
-    """
-    unique_inputs = df['Variable Parameter'].unique()
-    results = []
-
-    for input_value in unique_inputs:
-        filtered_df = df[df['Variable Parameter'] == input_value]
-
-        # 各種指標を計算
-        avg_mape_test = round(filtered_df["MAPE test (%)"].mean(), 5)
-        min_mape_test = filtered_df["MAPE test (%)"].min()
-        max_mape_test = filtered_df["MAPE test (%)"].max()
-        low_mape_list, high_mape_list = filter_leave_one_by_mape(filtered_df)
-        # 他の列の代表値を取得
-        ml = filtered_df["ML"].iloc[0] if not filtered_df["ML"].empty else None
-        loss = filtered_df["loss"].iloc[0] if not filtered_df["loss"].empty else None
-        parameter_num = filtered_df['Parameter Num'].iloc[
-            0] if not filtered_df['Parameter Num'].empty else None
-        const_parameters = filtered_df['Const Parameter'].iloc[
-            0] if not filtered_df['Const Parameter'].empty else None
-        variable_parameter_num = filtered_df['Variable Parameter Num'].iloc[
-            0] if not filtered_df['Variable Parameter Num'].empty else None
-        variable_parameters = filtered_df['Variable Parameter'].iloc[
-            0] if not filtered_df['Variable Parameter'].empty else None
-
-        # 結果をリストに追加
-        results.append({
-            'ML': ml,
-            'loss': loss,
-            'Parameter Num': parameter_num,
-            'Const Parameter': const_parameters,
-            'Variable Parameter Num': variable_parameter_num,
-            'Variable Parameter': variable_parameters,
-            "average MAPE test (%)": avg_mape_test,
-            "min MAPE test (%)": min_mape_test,
-            "max MAPE test (%)": max_mape_test,
-            "Low Mape Server": low_mape_list,
-            "High Mape Server": high_mape_list
-        })
-
-    return pd.DataFrame(results)
 
 
 def save_results(df, output_dir, output_file):
@@ -259,36 +229,6 @@ def filter_by_mape_range(df, range_delta):
     # Time Cost (s)の小さい順に並べ替え
     #filtered_df = filtered_df.sort_values(by="Time Cost (s)", ascending=True)
 
-    return filtered_df
-
-
-def filter_variable_parameters(df, matrix_benchmarks, transfer_benchmarks):
-    """
-    Variable Parameterに行列計算と転送ベンチマーク項目を含む行を抽出する関数。
-
-    Args:
-        df (pd.DataFrame): 入力データフレーム
-        matrix_benchmarks (list): 行列計算に関するベンチマーク項目のリスト
-        transfer_benchmarks (list): 転送に関するベンチマーク項目のリスト
-
-    Returns:
-        pd.DataFrame: 条件を満たす行を抽出したデータフレーム
-    """
-
-    # ベンチマークが含まれているかを判定するヘルパー関数
-    def contains_any(item_list, benchmarks):
-        return any(benchmark in item_list for benchmark in benchmarks)
-
-    # Variable Parameter列をリスト化
-    df["Variable Parameter List"] = df["Variable Parameter"].apply(eval)
-
-    # 行列計算ベンチマークと転送ベンチマークの両方を含む行をフィルタリング
-    filtered_df = df[
-        df["Variable Parameter List"].apply(lambda x: contains_any(x, matrix_benchmarks)) &
-        df["Variable Parameter List"].apply(lambda x: contains_any(x, transfer_benchmarks))]
-
-    # 不要な中間列を削除
-    filtered_df = filtered_df.drop(columns=["Variable Parameter List"])
     return filtered_df
 
 

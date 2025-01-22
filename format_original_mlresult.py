@@ -38,11 +38,11 @@ def main():
     # 'spec_parameter_search.csv' の場合、Time Cost計算をスキップ
     process_csv(data_dir,
                 'original_benchmark_parameter_loocv.csv',
-                'benchmark_parameter_loocv.csv',
+                'format_benchmark_parameter_loocv.csv',
                 calculate_time_cost=True)
     process_csv(data_dir,
                 'original_spec_parameter_loocv.csv',
-                'spec_parameter_loocv.csv',
+                'format_spec_parameter_loocv.csv',
                 calculate_time_cost=False)
 
 
