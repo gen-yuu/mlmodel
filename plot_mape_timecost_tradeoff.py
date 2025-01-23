@@ -1,12 +1,11 @@
-import matplotlib.pyplot as plt
-import pandas as pd
+import ast
 
 import matplotlib.pyplot as plt
 import numpy as np
-import ast
+import pandas as pd
 
 max_mape_list = ['T_CSCO', 'T_SLMO', 'T_CSAO']
-trade_off_list = ['T_CSCO', 'T_CSAO']
+trade_off_list = ['T_CSCO']
 cost_on_list = ['T_SLCO']
 
 
@@ -110,6 +109,7 @@ def save_plot(fig, output_dir, output_file):
         variable_parameter (str): グラフファイルの名前に使用する変数パラメータ
     """
     import os
+
     # 出力ディレクトリが存在しない場合は作成する
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
