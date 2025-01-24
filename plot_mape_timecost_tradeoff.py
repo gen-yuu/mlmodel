@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-max_mape_list = ['T_CSCO', 'T_SLMO', 'T_CSAO']
-trade_off_list = ['T_CSCO']
-cost_on_list = ['T_SLCO']
+max_mape_list = ['T_MCO', 'T_SMO', 'T_MAO']
+trade_off_list = ['T_MCO']
+cost_on_list = ['T_SCO']
 
 
 def main():

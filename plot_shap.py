@@ -68,7 +68,7 @@ def to_latex_subscript(parameter):
 
 
 def main():
-    csv_file = 'shap_sample.csv'
+    csv_file = 'soturon_shap_graph.csv'
     data_dir = './mldata_analyze'
 
     # 入力ファイルのパスを設定

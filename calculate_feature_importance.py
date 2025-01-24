@@ -1,11 +1,11 @@
 import ast
 import itertools
 import os
-import shap
+
 import pandas as pd
 
 import light_gbm as lgb_reg
-
+import shap
 from mldata_format import format_data_loocv
 
 # サーバーリスト
@@ -23,7 +23,7 @@ parameterdata_dir = './mldata_analyze'
 # parameterデータファイル
 # transferとoperationが両方含まれる
 csv_file = 'filtered_by_variable_parameters_mape_test.csv'
-sample_csv = 'sample.csv'
+sample_csv = 'soturon_shap_param_list.csv'
 # mlデータファイル
 mldata_dir = './data'
 benchmark_data_file = 'data_benchmark.csv'
@@ -36,15 +36,15 @@ const_parameters = ['Total Frames', 'Directory Size (MB)', 'Params']
 target = 'Inference Time (s)'
 
 rename_list = {
-    'T_SLMT': 'transfer_all',
-    'T_CSMT': 'transfer_continuous',
-    'T_ISMT': 'transfer_roundtrip',
-    'T_CSCO': 'matrix_convloop',
-    'T_SLCO': 'matrix_conv',
-    'T_CSMO': 'matrix_dotloop',
-    'T_SLMO': 'matrix_dot',
-    'T_CSAO': 'matrix_addloop',
-    'T_SLAO': 'matrix_add'
+    'T_SLT': 'transfer_all',
+    'T_BST': 'transfer_continuous',
+    'T_IST': 'transfer_roundtrip',
+    'T_MCO': 'matrix_convloop',
+    'T_SCO': 'matrix_conv',
+    'T_MMO': 'matrix_dotloop',
+    'T_SMO': 'matrix_dot',
+    'T_MAO': 'matrix_addloop',
+    'T_SAO': 'matrix_add'
 }
 reverse_rename_list = {v: k for k, v in rename_list.items()}
 
@@ -60,7 +60,7 @@ def main():
     for variable_parameter in variable_parameter_list:
         model_info.extend(loocv(const_parameters, variable_parameter, mldata_path))
         pass
-    output_results_to_csv(model_info, 'shap_sample.csv')
+    output_results_to_csv(model_info, 'soturon_shap_graph.csv')
     return 0
 
 

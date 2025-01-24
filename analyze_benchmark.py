@@ -4,27 +4,25 @@ import pandas as pd
 
 # 名前のリスト（元の文字列を置き換える）
 NAME_LISTS = {
-    "matrix_conv": "$T_{SLCO}$",
-    "matrix_convloop": "$T_{CSCO}$",
-    "matrix_dot": "$T_{SLMO}$",
-    "matrix_dotloop": "$T_{CSMO}$",
-    "matrix_add": "$T_{SLAO}$",
-    "matrix_addloop": "$T_{CSAO}$",
-    "transfer_all": "$T_{SLMT}$",
-    "transfer_continuous": "$T_{CSMT}$",
-    "transfer_roundtrip": "$T_{ISMT}$"
+    "matrix_conv": "$T_{SCO}$",
+    "matrix_convloop": "$T_{MCO}$",
+    "matrix_dot": "$T_{SMO}$",
+    "matrix_dotloop": "$T_{MMO}$",
+    "matrix_add": "$T_{SAO}$",
+    "matrix_addloop": "$T_{MAO}$",
+    "transfer_all": "$T_{SLT}$",
+    "transfer_continuous": "$T_{BST}$",
+    "transfer_roundtrip": "$T_{IST}$"
 }
 
 # サーバー名
 SERVER_NAME = 'CPU - GPU'
 
 # 行列計算に関するベンチマーク項目
-MATRIX_BENCHMARKS = [
-    "$T_{SLCO}$", "$T_{CSCO}$", "$T_{SLMO}$", "$T_{CSMO}$", "$T_{SLAO}$", "$T_{CSAO}$"
-]
+MATRIX_BENCHMARKS = ["$T_{SCO}$", "$T_{MCO}$", "$T_{SMO}$", "$T_{MMO}$", "$T_{SAO}$", "$T_{MAO}$"]
 
 # 転送に関するベンチマーク項目
-TRANSFER_BENCHMARKS = ["$T_{SLMT}$", "$T_{CSMT}$", "$T_{ISMT}$"]
+TRANSFER_BENCHMARKS = ["$T_{SLT}$", "$T_{BST}$", "$T_{IST}$"]
 
 # 出力先ディレクトリ
 OUTPUT_DIR = './benchmark_analyze'

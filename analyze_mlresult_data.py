@@ -25,8 +25,8 @@ def main():
     save_results(results_df, output_dir, "benchmark_parameter_stats_results_with_metadata.csv")
 
     # ベンチマーク項目の定義
-    matrix_benchmarks = ["T_SLCO", "T_CSCO", "T_SLMO", "T_CSMO", "T_SLAO", "T_CSAO"]
-    transfer_benchmarks = ["T_SLMT", "T_CSMT", "T_ISMT"]
+    matrix_benchmarks = ["T_SCO", "T_MCO", "T_SMO", "T_MMO", "T_SAO", "T_MAO"]
+    transfer_benchmarks = ["T_SLT", "T_BST", "T_IST"]
 
     # Variable Parameterを制約条件にフィルタリング
     filtered_df = filter_variable_parameters(results_df, matrix_benchmarks, transfer_benchmarks)
