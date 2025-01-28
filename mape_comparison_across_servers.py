@@ -1,7 +1,8 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import os
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 
 # パラメータリスト
 PARAMETER_LISTS = [['T_MCO', 'T_SMO', 'T_MAO'], ['T_BST', 'T_MCO', 'T_SAO']]
@@ -119,26 +120,31 @@ def plot_mape_comparison(df_filtered, output_dir):
         df_filtered (pd.DataFrame): フィルタリングされたデータフレーム。
         output_dir (str): グラフの保存先ディレクトリ。
     """
-    plt.figure(figsize=(14, 7))
+    plt.figure(figsize=(9, 6))
     ax = plt.gca()
     ax.grid(axis='y', linestyle='--', zorder=1)  # グリッドをzorder=1で描画
 
+    # Benchmark Parameter CombinationsをPARAMETER_LISTSの順番にソート
+    hue_order = [get_label(param_list) for param_list in PARAMETER_LISTS]
+    # 色の設定: 青とオレンジ
+    palette = ["#1f77b4", "#ff7f0e"]  # 青とオレンジ
     # 棒グラフのプロット
     sns.barplot(
         x='Leave One',
         y='MAPE test (%)',
         hue='Benchmark Parameter Combinations',
         data=df_filtered,
-        palette='Set1',
+        palette=palette,
         order=SERVER_ORDER,
+        hue_order=hue_order,
         zorder=2  # 棒グラフをzorder=2で描画
     )
 
     # タイトルとラベルの設定
-    plt.title('MAPE Comparison for Different Parameter Lists Across Servers', fontsize=16)
+    #plt.title('MAPE Comparison for Different Parameter Lists Across Servers', fontsize=16)
     plt.xlabel('Test Server', fontsize=12)
     plt.ylabel('MAPE (%)', fontsize=12)
-    plt.xticks(rotation=30, ha='right', fontsize=9)
+    plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.tight_layout()
 
     # グラフを保存

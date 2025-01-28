@@ -1,17 +1,8 @@
-import os
 import sys
-
-import matplotlib.pyplot as plt
+import os
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
-
-# サーバーの順序
-SERVER_ORDER = [
-    "13th corei5 - GTX1080", "13th corei5 - GTX1650", "13th corei5 - RTX3050",
-    "13th corei5 - RTX3060 Ti", "13th corei5 - RTX4070", "13th corei7 - GTX1080",
-    "13th corei7 - RTX3050", "13th corei7 - RTX3060 Ti", "13th corei7 - RTX4070",
-    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th corei7 - RTX2080 Ti"
-]
 
 
 def main():
@@ -41,59 +32,27 @@ def main():
     benchmark_filtered_df = benchmark_df[benchmark_df['Variable Parameter'].apply(
         lambda x: set(x) == set(benchmark_parameter))]
 
-    # `Model Type` 列を追加して、どのデータが何のパラメータに対応するかを明示
-    spec_filtered_df['Model Type'] = 'Hardware spec Model'
-    benchmark_filtered_df['Model Type'] = 'Benchmark Model'
+    # `Category` 列を追加して、どのデータが何のパラメータに対応するかを明示
+    spec_filtered_df['Category'] = 'Hardware spec Model'
+    benchmark_filtered_df['Category'] = 'Benchmark Model'
 
-    hue_order = ['Benchmark Model', 'Hardware spec Model']
     # データフレームを結合
     combined_df = pd.concat([benchmark_filtered_df, spec_filtered_df])
 
-    # 棒グラフの作成
-    plt.figure(figsize=(9, 6))
-    ax = plt.gca()
-    ax.grid(axis='y', linestyle='--', zorder=1)  # グリッドをzorder=1で描画
-    palette = ['#1f77b4', '#ff7f0e']
-    # 棒グラフのプロット
-    sns.barplot(
-        x='Leave One',
-        y='MAPE test (%)',
-        hue='Model Type',
-        data=combined_df,
-        palette=palette,
-        order=SERVER_ORDER,
-        hue_order=hue_order,
-        zorder=2  # 棒グラフをzorder=2で描画
-    )
-
-    # Model Type ごとの平均 MAPE を計算
-    avg_mape = combined_df.groupby('Model Type')['MAPE test (%)'].mean().reset_index()
-
-    # 平均MAPEを直線でY軸に描画
-    for model_type in hue_order:
-        # 指定したModel Typeのデータを抽出
-        model_data = avg_mape[avg_mape['Model Type'] == model_type]
-
-        # 直線の色を設定
-        if model_type == 'Benchmark Model':
-            line_color = '#1f77b4'  # 青色
-        elif model_type == 'Hardware spec Model':
-            line_color = '#ff7f0e'  # オレンジ色
-
-        # Y軸に平均MAPEの直線を引く
-        ax.axhline(y=model_data['MAPE test (%)'].values[0],
-                   color=line_color,
-                   linestyle='--',
-                   linewidth=1,
-                   label=f'{model_type} average MAPE')
+    # 箱ひげ図の作成
+    plt.figure(figsize=(10, 6))
+    sns.boxplot(x='Category',
+                y='MAPE test (%)',
+                data=combined_df,
+                showmeans=True,
+                palette='Set3',
+                width=0.5,
+                whis=2.0)
 
     # タイトルとラベル設定
-    # 凡例を設定
-    plt.legend(loc='upper right')
-    plt.tight_layout()
-    plt.xlabel('Test Server', fontsize=12)
+    plt.xlabel('Model Type', fontsize=12)
     plt.ylabel('MAPE (%)', fontsize=12)
-    plt.xticks(rotation=45, ha='right', fontsize=10)
+    plt.xticks(fontsize=9)
     plt.tight_layout()
 
     # 出力ディレクトリの設定
@@ -101,7 +60,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)  # ディレクトリがない場合は作成
 
     # ファイルパスを設定して保存
-    output_path = os.path.join(output_dir, 'mape_comparison_spec_barplot.png')
+    output_path = os.path.join(output_dir, 'mape_comparison_spec_boxplot.png')
     plt.savefig(output_path, format='png')
 
     # 結果を表示

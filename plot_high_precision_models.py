@@ -1,7 +1,8 @@
 import os
 import sys
-import pandas as pd
+
 import matplotlib.pyplot as plt
+import pandas as pd
 
 
 def main():
@@ -79,14 +80,14 @@ def plot_feature_importance(high_precision_models, output_dir):
         feature for features in high_precision_models['Variable Parameter'] for feature in features
     ]).value_counts()
 
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(8, 6))
     ax = plt.gca()
     ax.grid(axis='y', linestyle='--', zorder=1)  # グリッドを zorder=1 に設定
-    ax.bar(feature_counts.index, feature_counts.values, color='skyblue', zorder=2)  # 棒グラフ
+    ax.bar(feature_counts.index, feature_counts.values, zorder=2)  # 棒グラフ
     #plt.title('Feature Importance in High-Precision Models', fontsize=14)
-    plt.xlabel('Feature', fontsize=12)
-    plt.ylabel('The Number of Feature in High-Precision Models', fontsize=12)
-    plt.xticks(rotation=0, ha='right')
+    plt.xlabel('Benchmark', fontsize=12)
+    plt.ylabel('The Number of Benchmark in High-Precision Models', fontsize=12)
+    plt.xticks(rotation=0, ha='center', fontsize=10)
     save_path = os.path.join(output_dir, 'high_precision_benchmark_models.png')
     plt.savefig(save_path, bbox_inches='tight')  # PNG形式で保存
     plt.close()  # グラフを閉じる

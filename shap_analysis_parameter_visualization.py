@@ -1,8 +1,9 @@
-import pandas as pd
 import ast
-import matplotlib.pyplot as plt
-import seaborn as sns
 import os
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 from matplotlib.ticker import MaxNLocator  # MaxNLocatorをインポート
 
 csv_file = 'soturon_shap_graph.csv'
@@ -48,6 +49,9 @@ output_dir = './soturon_graph_data'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
+# 1週目と2週目のPNGを保存するためのカウント
+roop_counter = 1
+
 for inputs in unique_inputs:
     # Variable Parameterに基づいてフィルタリング
     filtered_df = df[df['Variable Parameter'] == inputs]
@@ -72,7 +76,7 @@ for inputs in unique_inputs:
     shap_df['Parameter'] = shap_df['Parameter'].apply(to_latex_subscript)
 
     # グラフ作成: 各サーバーごとにパラメータのSHAP値を棒グラフで表示
-    plt.figure(figsize=(16, 8))  # 各グラフごとにサイズを設定
+    plt.figure(figsize=(9, 6))  # 各グラフごとにサイズを設定
 
     # 軸オブジェクトを取得
     ax = plt.gca()
@@ -96,13 +100,28 @@ for inputs in unique_inputs:
                                                                                10]))  # 10ごとの補助線
     # タイトルや設定
     #plt.title(f'Mean Absolute SHAP Values by Parameter and Server ({inputs})', fontsize=16)
-    plt.xticks(rotation=30, ha="right", fontsize=9)
+    plt.xlabel('Test Server', fontsize=12)
+    plt.ylabel('Mean Absolute SHAP Value', fontsize=12)
+    plt.xticks(rotation=45, ha="right", fontsize=10)
+    # 凡例の位置を右上に固定
+    plt.legend(loc='upper right')
+
     plt.tight_layout()
 
+    # 保存ファイル名の設定
+    if roop_counter == 1:
+        save_path = os.path.join(output_dir, "shap_graph_operation.png")
+    else:
+        save_path = os.path.join(output_dir, "shap_graph_transfer_and_operation.png")
+
     # 画像保存
-    save_path = os.path.join(output_dir, f"shap_graph_{inputs}.png")
     plt.savefig(save_path, bbox_inches='tight')  # PNG形式で保存
 
     # 現在の図をリセット
     plt.clf()  # 図をクリア
     plt.close()  # 図を閉じる
+
+    # 週数のカウントを進める
+    roop_counter += 1
+    if roop_counter > 2:
+        roop_counter = 1  # 1週目と2週目でローテーション

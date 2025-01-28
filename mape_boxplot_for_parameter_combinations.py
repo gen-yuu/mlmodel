@@ -1,7 +1,8 @@
 import os
 import sys
-import pandas as pd
+
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
 
 # LOO方式のMAPEを箱ひげ図で評価
@@ -73,7 +74,7 @@ def plot_combined_boxplot(df, output_dir):
         ordered=True)
 
     # 箱ひげ図を作成
-    plt.figure(figsize=(10, 6))  # 横幅を広げるために figsize を調整
+    plt.figure(figsize=(8, 6))  # 横幅を広げるために figsize を調整
     sns.boxplot(
         x='Model Label',
         y='MAPE test (%)',
@@ -83,15 +84,15 @@ def plot_combined_boxplot(df, output_dir):
         # 中央値非表示
         #medianprops={'visible': False},
         width=0.7,
-        whis=2.0)
+        whis=10.0)
 
     # ラベルとタイトルの設定
     #plt.title('MAPE (%) Distribution Across Models', fontsize=16)
-    plt.xlabel('Benchmark Parameter Combinations', fontsize=12)
+    plt.xlabel('Benchmark Combinations', fontsize=12)
     plt.ylabel('MAPE (%)', fontsize=12)
 
     # X軸ラベルを回転しつつフォントサイズを小さく設定
-    plt.xticks(rotation=30, ha='right', fontsize=9)
+    plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.grid(axis='y', linestyle='--')
 
     # グラフを保存
