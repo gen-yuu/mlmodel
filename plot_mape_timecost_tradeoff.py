@@ -12,7 +12,7 @@ cost_on_list = ['T_SCO']
 def main():
     # ディレクトリとファイル名の設定
     data_dir = './mldata_analyze'
-    output_dir = './mape_timecost_tradeoff'
+    output_dir = './soturon_graph_data'
 
     data_file = 'benchmark_parameter_stats_results_with_metadata.csv'
 
@@ -28,7 +28,7 @@ def main():
     condition_other = ~condition_1 & ~condition_2 & ~condition_3  # その他は青
 
     # # グラフの描画
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(9, 6))
 
     # 青の点（それ以外）
     ax.scatter(df['Time Cost (s)'][condition_other],
@@ -37,24 +37,53 @@ def main():
                label='Other')
 
     # 赤の点 max
-    ax.scatter(df['Time Cost (s)'][condition_1],
-               df['average MAPE test (%)'][condition_1],
-               color='red',
-               label=f"{', '.join(max_mape_list)}")
+    scatter_max = ax.scatter(df['Time Cost (s)'][condition_1],
+                             df['average MAPE test (%)'][condition_1],
+                             color='red',
+                             label=f"{', '.join(max_mape_list)}")
 
     # 青の点 trade_off
-    ax.scatter(df['Time Cost (s)'][condition_2],
-               df['average MAPE test (%)'][condition_2],
-               color='blue',
-               label=f"{', '.join(trade_off_list)}")
-    #緑の点
-    ax.scatter(df['Time Cost (s)'][condition_3],
-               df['average MAPE test (%)'][condition_3],
-               color='orange',
-               label=f"{', '.join(cost_on_list)}")
+    scatter_trade_off = ax.scatter(df['Time Cost (s)'][condition_2],
+                                   df['average MAPE test (%)'][condition_2],
+                                   color='blue',
+                                   label=f"{', '.join(trade_off_list)}")
+    #オレンジcletの点
+    scatter_cost_on = ax.scatter(df['Time Cost (s)'][condition_3],
+                                 df['average MAPE test (%)'][condition_3],
+                                 color='orange',
+                                 label=f"{', '.join(cost_on_list)}")
+
+    # 各点の上に 'average MAPE test (%)' の値を表示（lightblueを除く）
+    def adjust_text_position(x, y, color):
+        """テキストが点と重ならないようにオフセットを調整する関数"""
+        y_offset = 0.5  # y軸方向にオフセット
+        if color == 'red':
+            return x, y + y_offset
+        elif color == 'blue':
+            return x, y + y_offset
+        elif color == 'orange':
+            return x, y + y_offset
+        return x, y  # lightblueはテキストを表示しないのでそのまま
+
+    for scatter, condition, color in [(scatter_max, condition_1, 'red'),
+                                      (scatter_trade_off, condition_2, 'blue'),
+                                      (scatter_cost_on, condition_3, 'orange')]:
+        for i in range(len(df)):
+            if condition.iloc[i]:
+                mape_value = df['average MAPE test (%)'].iloc[i]
+                x, y = df['Time Cost (s)'].iloc[i], mape_value
+                # テキスト位置調整
+                x_adj, y_adj = adjust_text_position(x, y, color)
+                ax.text(x_adj,
+                        y_adj,
+                        f'{mape_value:.2f}%',
+                        color=color,
+                        fontsize=10,
+                        ha='left',
+                        va='center')
 
     # グラフの設定
-    ax.set_title('MAPE vs Time Cost', fontsize=14)
+    #ax.set_title('MAPE vs Time Cost', fontsize=14)
     ax.set_xlabel('Time Cost (s)', fontsize=12)
     ax.set_ylabel('average MAPE test (%)', fontsize=12)
     ax.grid(True)
@@ -63,8 +92,9 @@ def main():
     ax.set_xlim(0, max(df['Time Cost (s)']) + 100)
     ax.set_ylim(min(df['average MAPE test (%)']) - 0.5, max(df['average MAPE test (%)']) + 0.5)
     ax.legend()
+    plt.tight_layout()
     # 画像として保存
-    save_plot(fig, output_dir, 'mape_timecost_tradeoff_all_blue.png')
+    save_plot(fig, output_dir, 'timecost_mape_tradeoff.png')
     # 表示
     plt.show()
 
