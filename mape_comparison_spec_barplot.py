@@ -7,10 +7,10 @@ import seaborn as sns
 
 # サーバーの順序
 SERVER_ORDER = [
-    "13th corei5 - GTX1080", "13th corei5 - GTX1650", "13th corei5 - RTX3050",
-    "13th corei5 - RTX3060 Ti", "13th corei5 - RTX4070", "13th corei7 - GTX1080",
-    "13th corei7 - RTX3050", "13th corei7 - RTX3060 Ti", "13th corei7 - RTX4070",
-    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th corei7 - RTX2080 Ti"
+    "13th Core i5 - GTX1080", "13th Core i5 - GTX1650", "13th Core i5 - RTX3050",
+    "13th Core i5 - RTX3060 Ti", "13th Core i5 - RTX4070", "13th Core i7 - GTX1080",
+    "13th Core i7 - RTX3050", "13th Core i7 - RTX3060 Ti", "13th Core i7 - RTX4070",
+    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th Core i7 - RTX2080 Ti"
 ]
 
 
@@ -95,7 +95,7 @@ def main():
     plt.ylabel('MAPE (%)', fontsize=12)
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.tight_layout()
-    plt.subplots_adjust(left=0.14, right=0.9, bottom=0.28, top=0.99)  # 余白調整
+    plt.subplots_adjust(left=0.15, right=0.9, bottom=0.28, top=0.99)  # 余白調整
 
     # 出力ディレクトリの設定
     output_dir = './soturon_graph_data'

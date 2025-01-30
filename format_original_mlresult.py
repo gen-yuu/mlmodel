@@ -67,6 +67,13 @@ def process_csv(data_dir, data_file, output_file, calculate_time_cost=True):
             return round(cost, 5)
 
         df["Time Cost (s)"] = df['Variable Parameter'].apply(calculate_time_cost)
+        # "Leave One" 列の値を修正（正規表現を使用）
+    df["Leave One"] = df["Leave One"].replace(
+        {
+            r'corei5': 'Core i5',
+            r'corei7': 'Core i7',
+            r'corei9': 'Core i9'
+        }, regex=True)
 
     # 列の並び替え
     columns = df.columns.tolist()  # 現在の列順を取得

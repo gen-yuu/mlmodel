@@ -18,12 +18,20 @@ df = pd.read_csv(csv_path)
 # ユニークなVariable Parameterの抽出
 unique_inputs = df['Variable Parameter'].unique()
 
+# "Leave One" 列の値を修正（正規表現を使用）
+df["Leave One"] = df["Leave One"].replace(
+    {
+        r'corei5': 'Core i5',
+        r'corei7': 'Core i7',
+        r'corei9': 'Core i9'
+    }, regex=True)
+
 # サーバー順序を指定
 server_order = [
-    "13th corei5 - GTX1080", "13th corei5 - GTX1650", "13th corei5 - RTX3050",
-    "13th corei5 - RTX3060 Ti", "13th corei5 - RTX4070", "13th corei7 - GTX1080",
-    "13th corei7 - RTX3050", "13th corei7 - RTX3060 Ti", "13th corei7 - RTX4070",
-    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th corei7 - RTX2080 Ti"
+    "13th Core i5 - GTX1080", "13th Core i5 - GTX1650", "13th Core i5 - RTX3050",
+    "13th Core i5 - RTX3060 Ti", "13th Core i5 - RTX4070", "13th Core i7 - GTX1080",
+    "13th Core i7 - RTX3050", "13th Core i7 - RTX3060 Ti", "13th Core i7 - RTX4070",
+    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th Core i7 - RTX2080 Ti"
 ]
 
 
