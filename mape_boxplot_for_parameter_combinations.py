@@ -74,7 +74,7 @@ def plot_combined_boxplot(df, output_dir):
         ordered=True)
 
     # 箱ひげ図を作成
-    plt.figure(figsize=(8, 6))  # 横幅を広げるために figsize を調整
+    plt.figure(figsize=(7, 6))  # 横幅を広げるために figsize を調整
     sns.boxplot(
         x='Model Label',
         y='MAPE test (%)',
@@ -98,7 +98,8 @@ def plot_combined_boxplot(df, output_dir):
     # グラフを保存
     output_file = os.path.join(output_dir, 'mape_boxplot.png')
     plt.tight_layout()
-    plt.savefig(output_file, bbox_inches='tight', format='png')  # png形式で保存
+    plt.subplots_adjust(left=0.09, right=0.94, bottom=0.33, top=0.99)  # 余白調整
+    plt.savefig(output_file, bbox_inches=None, format='png')  # png形式で保存
     print(f"Graph saved to {output_file}")
 
     # グラフを表示

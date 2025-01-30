@@ -28,7 +28,7 @@ def main():
     condition_other = ~condition_1 & ~condition_2 & ~condition_3  # その他は青
 
     # # グラフの描画
-    fig, ax = plt.subplots(figsize=(9, 6))
+    fig, ax = plt.subplots(figsize=(7, 6))
 
     # 青の点（それ以外）
     ax.scatter(df['Time Cost (s)'][condition_other],
@@ -40,18 +40,18 @@ def main():
     scatter_max = ax.scatter(df['Time Cost (s)'][condition_1],
                              df['average MAPE test (%)'][condition_1],
                              color='red',
-                             label=f"{', '.join(max_mape_list)}")
+                             label=f"[{', '.join(max_mape_list)}]")
 
     # 青の点 trade_off
     scatter_trade_off = ax.scatter(df['Time Cost (s)'][condition_2],
                                    df['average MAPE test (%)'][condition_2],
                                    color='blue',
-                                   label=f"{', '.join(trade_off_list)}")
+                                   label=f"[{', '.join(trade_off_list)}]")
     #オレンジcletの点
     scatter_cost_on = ax.scatter(df['Time Cost (s)'][condition_3],
                                  df['average MAPE test (%)'][condition_3],
                                  color='orange',
-                                 label=f"{', '.join(cost_on_list)}")
+                                 label=f"[{', '.join(cost_on_list)}]")
 
     # 各点の上に 'average MAPE test (%)' の値を表示（lightblueを除く）
     def adjust_text_position(x, y, color):
@@ -78,7 +78,7 @@ def main():
                         y_adj,
                         f'{mape_value:.2f}%',
                         color=color,
-                        fontsize=10,
+                        fontsize=12,
                         ha='left',
                         va='center')
 
@@ -93,6 +93,7 @@ def main():
     ax.set_ylim(min(df['average MAPE test (%)']) - 0.5, max(df['average MAPE test (%)']) + 0.5)
     ax.legend()
     plt.tight_layout()
+    plt.subplots_adjust(right=0.93)  # 余白調整
     # 画像として保存
     save_plot(fig, output_dir, 'timecost_mape_tradeoff.png')
     # 表示

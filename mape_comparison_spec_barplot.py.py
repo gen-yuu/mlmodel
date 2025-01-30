@@ -50,7 +50,7 @@ def main():
     combined_df = pd.concat([benchmark_filtered_df, spec_filtered_df])
 
     # 棒グラフの作成
-    plt.figure(figsize=(9, 6))
+    plt.figure(figsize=(7, 6))
     ax = plt.gca()
     ax.grid(axis='y', linestyle='--', zorder=1)  # グリッドをzorder=1で描画
     palette = ['#1f77b4', '#ff7f0e']
@@ -95,6 +95,7 @@ def main():
     plt.ylabel('MAPE (%)', fontsize=12)
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.tight_layout()
+    plt.subplots_adjust(left=0.14, right=0.9, bottom=0.28, top=0.99)  # 余白調整
 
     # 出力ディレクトリの設定
     output_dir = './soturon_graph_data'

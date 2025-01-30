@@ -76,7 +76,7 @@ for inputs in unique_inputs:
     shap_df['Parameter'] = shap_df['Parameter'].apply(to_latex_subscript)
 
     # グラフ作成: 各サーバーごとにパラメータのSHAP値を棒グラフで表示
-    plt.figure(figsize=(9, 6))  # 各グラフごとにサイズを設定
+    plt.figure(figsize=(8, 6))  # 各グラフごとにサイズを設定
 
     # 軸オブジェクトを取得
     ax = plt.gca()
@@ -104,9 +104,10 @@ for inputs in unique_inputs:
     plt.ylabel('Mean Absolute SHAP Value', fontsize=12)
     plt.xticks(rotation=45, ha="right", fontsize=10)
     # 凡例の位置を右上に固定
-    plt.legend(loc='upper right')
+    plt.legend(loc='upper left')
 
     plt.tight_layout()
+    plt.subplots_adjust(left=0.14, right=0.89, bottom=0.28, top=0.99)  # 余白調整
 
     # 保存ファイル名の設定
     if roop_counter == 1:
@@ -115,7 +116,7 @@ for inputs in unique_inputs:
         save_path = os.path.join(output_dir, "shap_graph_transfer_and_operation.png")
 
     # 画像保存
-    plt.savefig(save_path, bbox_inches='tight')  # PNG形式で保存
+    plt.savefig(save_path, bbox_inches=None)  # PNG形式で保存
 
     # 現在の図をリセット
     plt.clf()  # 図をクリア

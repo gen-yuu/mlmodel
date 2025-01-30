@@ -108,7 +108,7 @@ def prepare_data(df):
     Returns:
         pd.DataFrame: 変換後のデータフレーム。
     """
-    df['Benchmark Parameter Combinations'] = df['Variable Parameter'].apply(lambda x: get_label(x))
+    df['Benchmark Combinations'] = df['Variable Parameter'].apply(lambda x: get_label(x))
     return df
 
 
@@ -120,7 +120,7 @@ def plot_mape_comparison(df_filtered, output_dir):
         df_filtered (pd.DataFrame): フィルタリングされたデータフレーム。
         output_dir (str): グラフの保存先ディレクトリ。
     """
-    plt.figure(figsize=(9, 6))
+    plt.figure(figsize=(7, 6))
     ax = plt.gca()
     ax.grid(axis='y', linestyle='--', zorder=1)  # グリッドをzorder=1で描画
 
@@ -132,7 +132,7 @@ def plot_mape_comparison(df_filtered, output_dir):
     sns.barplot(
         x='Leave One',
         y='MAPE test (%)',
-        hue='Benchmark Parameter Combinations',
+        hue='Benchmark Combinations',
         data=df_filtered,
         palette=palette,
         order=SERVER_ORDER,
@@ -146,11 +146,12 @@ def plot_mape_comparison(df_filtered, output_dir):
     plt.ylabel('MAPE (%)', fontsize=12)
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.tight_layout()
+    plt.subplots_adjust(left=0.14, right=0.9, bottom=0.28, top=0.99)  # 余白調整
 
     # グラフを保存
     os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, 'mape_comparison_operation_transfer.png')
-    plt.savefig(output_path, bbox_inches='tight', format='png')
+    plt.savefig(output_path, bbox_inches=None, format='png')
     plt.close()
 
 

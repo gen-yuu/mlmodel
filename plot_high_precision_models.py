@@ -80,7 +80,7 @@ def plot_feature_importance(high_precision_models, output_dir):
         feature for features in high_precision_models['Variable Parameter'] for feature in features
     ]).value_counts()
 
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(7, 6))
     ax = plt.gca()
     ax.grid(axis='y', linestyle='--', zorder=1)  # グリッドを zorder=1 に設定
     ax.bar(feature_counts.index, feature_counts.values, zorder=2)  # 棒グラフ
