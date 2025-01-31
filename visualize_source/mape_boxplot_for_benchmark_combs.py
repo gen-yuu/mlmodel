@@ -14,8 +14,8 @@ PARAMETER_LISTS = [["T_MCO", "T_SMO", "T_MAO"], ["T_MCO", "T_MAO"], ["T_MCO"],
 
 
 def main():
-    data_dir = './ml_results'
-    output_dir = './soturon_graph_data'  # 保存先のディレクトリ
+    data_dir = '../ml_results'
+    output_dir = '../soturon_graph'  # 保存先のディレクトリ
     os.makedirs(output_dir, exist_ok=True)  # 保存先フォルダを作成
 
     data_file = 'format_benchmark_parameter_loocv.csv'

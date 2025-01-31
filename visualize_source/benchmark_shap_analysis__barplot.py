@@ -7,7 +7,7 @@ import seaborn as sns
 from matplotlib.ticker import MaxNLocator  # MaxNLocatorをインポート
 
 csv_file = 'soturon_shap_graph.csv'
-data_dir = './mldata_analyze'
+data_dir = '../mlresults_analyze'
 
 # 入力ファイルのパスを設定
 csv_path = os.path.join(data_dir, csv_file)
@@ -53,7 +53,7 @@ parameter_colors = {
 }
 
 # グラフ保存ディレクトリの指定
-output_dir = './soturon_graph_data'
+output_dir = '../soturon_graph'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 

@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 import light_gbm as lgb_reg
-from mldata_format import format_data_loocv
+from format_mldata import format_data_loocv
 """
 入力候補
 ['Directory Name', 'Total Frames', 'Width', 'Height', 'Pixels',

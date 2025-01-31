@@ -17,9 +17,9 @@ SERVER_ORDER = [
 
 
 def main():
-    data_dir = './ml_results'
+    data_dir = '../ml_results'
     csv_file = 'format_benchmark_parameter_loocv.csv'
-    output_dir = './soturon_graph_data'
+    output_dir = '../soturon_graph'
 
     # データ読み込み
     df = load_data(data_dir, csv_file)

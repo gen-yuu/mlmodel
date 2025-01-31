@@ -11,8 +11,8 @@ cost_on_list = ['T_SCO']
 
 def main():
     # ディレクトリとファイル名の設定
-    data_dir = './mldata_analyze'
-    output_dir = './soturon_graph_data'
+    data_dir = '../mlresults_analyze'
+    output_dir = '../soturon_graph'
 
     data_file = 'benchmark_parameter_stats_results_with_metadata.csv'
 

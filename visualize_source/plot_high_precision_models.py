@@ -6,8 +6,8 @@ import pandas as pd
 
 
 def main():
-    data_dir = './mldata_analyze'
-    output_dir = './soturon_graph_data'  # 保存先のディレクトリ
+    data_dir = '../mlresults_analyze'
+    output_dir = '../soturon_graph'  # 保存先のディレクトリ
     os.makedirs(output_dir, exist_ok=True)  # 保存先フォルダを作成
 
     data_file = 'benchmark_parameter_stats_results_with_metadata.csv'

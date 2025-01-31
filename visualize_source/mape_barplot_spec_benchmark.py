@@ -21,7 +21,7 @@ def main():
     ]
     benchmark_parameter = ["T_MCO", "T_SMO", "T_MAO"]
 
-    data_dir = "./ml_results"
+    data_dir = "../ml_results"
     spec_csv = "format_spec_parameter_loocv.csv"
     benchmark_csv = "format_benchmark_parameter_loocv.csv"
 
@@ -98,7 +98,7 @@ def main():
     plt.subplots_adjust(left=0.15, right=0.9, bottom=0.28, top=0.99)  # 余白調整
 
     # 出力ディレクトリの設定
-    output_dir = './soturon_graph_data'
+    output_dir = '../soturon_graph'
     os.makedirs(output_dir, exist_ok=True)  # ディレクトリがない場合は作成
 
     # ファイルパスを設定して保存

@@ -6,7 +6,7 @@ import pandas as pd
 
 import light_gbm as lgb_reg
 import shap
-from mldata_format import format_data_loocv
+from format_mldata import format_data_loocv
 
 # サーバーリスト
 SERVER_LIST = [
@@ -17,8 +17,8 @@ SERVER_LIST = [
 ]
 
 # データの出力先
-output_dir = './mldata_analyze'
-parameterdata_dir = './mldata_analyze'
+output_dir = './mlresults_analyze'
+parameterdata_dir = './mlresults_analyze'
 
 # parameterデータファイル
 # transferとoperationが両方含まれる

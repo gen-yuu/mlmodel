@@ -11,7 +11,7 @@ def main():
     """
     # ディレクトリとファイル名の設定
     data_dir = './ml_results'
-    output_dir = './mldata_analyze'
+    output_dir = './mlresults_analyze'
 
     data_file = 'format_benchmark_parameter_loocv.csv'
 
