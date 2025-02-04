@@ -4,14 +4,9 @@ import sys
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from config import SERVER_ORDER, PLT_FONT
 
-# サーバーの順序
-SERVER_ORDER = [
-    "13th Core i5 - GTX1080", "13th Core i5 - GTX1650", "13th Core i5 - RTX3050",
-    "13th Core i5 - RTX3060 Ti", "13th Core i5 - RTX4070", "13th Core i7 - GTX1080",
-    "13th Core i7 - RTX3050", "13th Core i7 - RTX3060 Ti", "13th Core i7 - RTX4070",
-    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th Core i7 - RTX2080 Ti"
-]
+plt.rcParams['font.family'] = PLT_FONT
 
 
 def main():
@@ -85,7 +80,7 @@ def main():
                    color=line_color,
                    linestyle='--',
                    linewidth=1,
-                   label=f'{model_type} average MAPE')
+                   label=f'{model_type} の平均MAPE')
 
     # タイトルとラベル設定
     # 凡例を設定
@@ -95,7 +90,7 @@ def main():
     plt.ylabel('MAPE (%)', fontsize=12)
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.tight_layout()
-    plt.subplots_adjust(left=0.15, right=0.9, bottom=0.28, top=0.99)  # 余白調整
+    plt.subplots_adjust(left=0.16, right=0.9, bottom=0.30, top=0.99)  # 余白調整
 
     # 出力ディレクトリの設定
     output_dir = '../soturon_graph'
@@ -107,8 +102,6 @@ def main():
 
     # 結果を表示
     print(f"図は {output_path} に保存されました。")
-
-    plt.show()
 
 
 def load_data(data_dir, data_file):

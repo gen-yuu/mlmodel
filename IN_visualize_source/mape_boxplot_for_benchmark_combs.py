@@ -4,7 +4,9 @@ import sys
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from config import SERVER_ORDER, PLT_FONT
 
+plt.rcParams['font.family'] = PLT_FONT
 # LOO方式のMAPEを箱ひげ図で評価
 PARAMETER_LISTS = [["T_MCO", "T_SMO", "T_MAO"], ["T_MCO", "T_MAO"], ["T_MCO"],
                    ["T_BST", "T_MCO", "T_SAO"], ["T_BST", "T_MCO", "T_MMO", "T_SAO", "T_MAO"],
@@ -75,7 +77,7 @@ def plot_combined_boxplot(df, output_dir):
         ordered=True)
 
     # 箱ひげ図を作成
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(8, 6))
     ax = sns.boxplot(
         x='Model Label',
         y='MAPE test (%)',
@@ -135,7 +137,7 @@ def plot_combined_boxplot(df, output_dir):
     # グラフの保存
     # =======================
     output_file = os.path.join(output_dir, 'mape_boxplot.png')
-    plt.subplots_adjust(left=0.05, right=0.8, bottom=0.30, top=0.99)  # 下部の余白を確保
+    plt.subplots_adjust(left=0.02, right=0.8, bottom=0.30, top=0.99)  # 下部の余白を確保
     plt.savefig(output_file, bbox_inches="tight", format='png')
 
     print(f"Graph saved to {output_file}")

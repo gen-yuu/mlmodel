@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from matplotlib.ticker import MaxNLocator  # MaxNLocatorをインポート
+from config import SERVER_ORDER, PLT_FONT
+
+plt.rcParams['font.family'] = PLT_FONT
 
 csv_file = 'soturon_shap_graph.csv'
 data_dir = '../mlresults_analyze'
@@ -25,14 +28,6 @@ df["Leave One"] = df["Leave One"].replace(
         r'corei7': 'Core i7',
         r'corei9': 'Core i9'
     }, regex=True)
-
-# サーバー順序を指定
-server_order = [
-    "13th Core i5 - GTX1080", "13th Core i5 - GTX1650", "13th Core i5 - RTX3050",
-    "13th Core i5 - RTX3060 Ti", "13th Core i5 - RTX4070", "13th Core i7 - GTX1080",
-    "13th Core i7 - RTX3050", "13th Core i7 - RTX3060 Ti", "13th Core i7 - RTX4070",
-    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th Core i7 - RTX2080 Ti"
-]
 
 
 def to_latex_subscript(parameter):
@@ -98,7 +93,7 @@ for inputs in unique_inputs:
         hue='Parameter',
         ci=None,
         palette=parameter_colors,  # ここで色を設定
-        order=server_order,
+        order=SERVER_ORDER,
         zorder=2)
 
     # y軸の補助線の間隔を固定（例として10間隔に設定）
@@ -113,7 +108,7 @@ for inputs in unique_inputs:
     plt.legend(loc='upper left')
 
     plt.tight_layout()
-    plt.subplots_adjust(left=0.14, right=0.89, bottom=0.28, top=0.99)  # 余白調整
+    plt.subplots_adjust(left=0.14, right=0.89, bottom=0.29, top=0.99)  # 余白調整
 
     # 保存ファイル名の設定
     if roop_counter == 1:

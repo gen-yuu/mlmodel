@@ -3,6 +3,9 @@ import sys
 
 import matplotlib.pyplot as plt
 import pandas as pd
+from config import SERVER_ORDER, PLT_FONT
+
+plt.rcParams['font.family'] = PLT_FONT
 
 
 def main():
@@ -113,7 +116,7 @@ def plot_mape_vs_time_cost(df, high_precision_models, output_dir):
 
     plt.title('MAPE vs Time Cost', fontsize=14)
     plt.xlabel('Time Cost (s)', fontsize=12)
-    plt.ylabel('average MAPE test (%)', fontsize=12)
+    plt.ylabel('平均MAPE (%)', fontsize=12)
     plt.legend()
     save_path = os.path.join(output_dir, 'mape_vs_time_cost_high_precision_model.png')
     plt.savefig(save_path, bbox_inches='tight')  # PNG形式で保存

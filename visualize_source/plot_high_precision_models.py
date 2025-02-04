@@ -3,6 +3,9 @@ import sys
 
 import matplotlib.pyplot as plt
 import pandas as pd
+from config import SERVER_ORDER, PLT_FONT
+
+plt.rcParams['font.family'] = PLT_FONT
 
 
 def main():
@@ -84,7 +87,7 @@ def plot_feature_importance(high_precision_models, output_dir):
     plt.xticks(rotation=0, ha='center', fontsize=10)
     plt.tight_layout()
     save_path = os.path.join(output_dir, 'high_precision_benchmark_models.png')
-    plt.savefig(save_path, bbox_inches='tight')  # PNG形式で保存
+    plt.savefig(save_path)  # PNG形式で保存
     plt.close()  # グラフを閉じる
 
 

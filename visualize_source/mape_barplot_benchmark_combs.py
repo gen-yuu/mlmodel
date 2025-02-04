@@ -3,17 +3,11 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from config import SERVER_ORDER, PLT_FONT
 
+plt.rcParams['font.family'] = PLT_FONT
 # パラメータリスト
 PARAMETER_LISTS = [['T_MCO', 'T_SMO', 'T_MAO'], ['T_BST', 'T_MCO', 'T_SAO']]
-
-# サーバーの順序
-SERVER_ORDER = [
-    "13th Core i5 - GTX1080", "13th Core i5 - GTX1650", "13th Core i5 - RTX3050",
-    "13th Core i5 - RTX3060 Ti", "13th Core i5 - RTX4070", "13th Core i7 - GTX1080",
-    "13th Core i7 - RTX3050", "13th Core i7 - RTX3060 Ti", "13th Core i7 - RTX4070",
-    "1th Xeon Gold - GTX1080", "1th Xeon Gold - RTX4070", "9th Core i7 - RTX2080 Ti"
-]
 
 
 def main():
@@ -140,7 +134,7 @@ def plot_mape_comparison(df_filtered, output_dir):
     plt.ylabel('MAPE (%)', fontsize=12)
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.tight_layout()
-    plt.subplots_adjust(left=0.15, right=0.9, bottom=0.28, top=0.99)  # 余白調整
+    plt.subplots_adjust(left=0.16, right=0.9, bottom=0.30, top=0.99)  # 余白調整
 
     # グラフを保存
     os.makedirs(output_dir, exist_ok=True)

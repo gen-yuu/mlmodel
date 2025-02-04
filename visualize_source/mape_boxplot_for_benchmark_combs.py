@@ -4,7 +4,9 @@ import sys
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from config import SERVER_ORDER, PLT_FONT
 
+plt.rcParams['font.family'] = PLT_FONT
 # LOO方式のMAPEを箱ひげ図で評価
 PARAMETER_LISTS = [["T_MCO", "T_SMO", "T_MAO"], ["T_MCO", "T_MAO"], ["T_MCO"],
                    ["T_BST", "T_MCO", "T_SAO"], ["T_BST", "T_MCO", "T_MMO", "T_SAO", "T_MAO"],
@@ -43,23 +45,24 @@ def main():
     return 0
 
 
-# MAPE test (%) に対する箱ひげ図を1つのグラフにまとめて描画する関数
+import matplotlib.patches as mpatches  # 色付き凡例用
+
+
 def plot_combined_boxplot(df, output_dir):
     """
     すべてのモデルに対するMAPE（Mean Absolute Percentage Error）テスト結果の箱ひげ図を1つのグラフにまとめて描画する。
 
-    この関数は、各モデルのパラメータリスト（例えば ["T_MCO", "T_SMO", "T_MAO"]）に対して、MAPEの値を箱ひげ図として表示する。
-    モデルごとにMAPEの分布を視覚的に比較することができます。
-
-    箱ひげ図では、各モデルごとのMAPEの中央値、四分位範囲（IQR）、外れ値を確認できます。
+    各モデルのベンチマーク組み合わせごとに異なる色を設定し、凡例を3列3行のグリッドとしてグラフ下部に追加する。
 
     引数:
     df (pd.DataFrame): 'Variable Parameter' 列にモデルのパラメータリスト、'MAPE test (%)' 列にMAPEの値が含まれるデータフレーム。
     """
 
+    # 色のリスト（Set3 の色を手動設定）
+    color_palette = sns.color_palette("Set3", n_colors=len(PARAMETER_LISTS))
+
     # 各モデルにラベルを付けるためにデータフレームを加工
     def get_label(param_list):
-        # LaTeX形式でリストとして表示
         return f"[{','.join([to_latex_subscript(param) for param in param_list])}]"
 
     df['Model Label'] = df['Variable Parameter'].apply(lambda x: get_label(x))
@@ -74,36 +77,70 @@ def plot_combined_boxplot(df, output_dir):
         ordered=True)
 
     # 箱ひげ図を作成
-    plt.figure(figsize=(7, 6))  # 横幅を広げるために figsize を調整
-    sns.boxplot(
+    plt.figure(figsize=(8, 6))
+    ax = sns.boxplot(
         x='Model Label',
         y='MAPE test (%)',
         data=df,
-        palette="Set3",
+        palette=color_palette,  # カラーを設定
         showmeans=True,
-        # 中央値非表示
-        #medianprops={'visible': False},
         width=0.7,
         whis=10.0)
 
-    # ラベルとタイトルの設定
-    #plt.title('MAPE (%) Distribution Across Models', fontsize=16)
-    plt.xlabel('Benchmark Combinations', fontsize=12)
+    # 軸ラベルの設定
     plt.ylabel('MAPE (%)', fontsize=12)
-
-    # X軸ラベルを回転しつつフォントサイズを小さく設定
-    plt.xticks(rotation=45, ha='right', fontsize=10)
+    plt.xlabel('')
+    plt.xticks([])
     plt.grid(axis='y', linestyle='--')
 
-    # グラフを保存
-    output_file = os.path.join(output_dir, 'mape_boxplot.png')
-    plt.tight_layout()
-    plt.subplots_adjust(left=0.09, right=0.94, bottom=0.33, top=0.99)  # 余白調整
-    plt.savefig(output_file, bbox_inches=None, format='png')  # png形式で保存
-    print(f"Graph saved to {output_file}")
+    # =======================
+    # 凡例の追加（3列×3行のグリッド）
+    # =======================
+    row_count = 3  # 列数
+    row_spacing = 0.07  # 行間隔
+    col_spacing = 0.37  # 列間隔
 
-    # グラフを表示
-    #plt.show()
+    legend_x_start = 0.5 - (row_count * col_spacing) / 2  # X位置を中央寄せ
+    legend_y_start = -0.1  # Y位置を調整（図の真ん中下部）
+
+    for i, (param_list, color) in enumerate(zip(PARAMETER_LISTS, color_palette)):
+        col = i // row_count  # 列の決定（先に列を増やす）
+        row = i % row_count  # 行の決定（行を折り返す）
+        x_pos = legend_x_start + col * col_spacing
+        y_pos = legend_y_start - row * row_spacing
+
+        # 色付きの四角形
+        plt.gca().add_patch(
+            mpatches.Rectangle(
+                (x_pos, y_pos),
+                0.05,
+                0.05,
+                facecolor=color,
+                edgecolor="gray",  # 枠線の色
+                linewidth=1.5,  # 枠線の太さ
+                transform=plt.gca().transAxes,
+                clip_on=False))
+
+        # ラベル（黒色）
+        plt.text(
+            x_pos + 0.06,
+            y_pos + 0.02,
+            f"[{','.join([to_latex_subscript(param) for param in param_list])}]",
+            fontsize=10,
+            ha='left',
+            va='center',
+            color='black',
+            transform=plt.gca().transAxes,
+        )
+
+    # =======================
+    # グラフの保存
+    # =======================
+    output_file = os.path.join(output_dir, 'mape_boxplot.png')
+    plt.subplots_adjust(left=0.05, right=0.8, bottom=0.30, top=0.99)  # 下部の余白を確保
+    plt.savefig(output_file, bbox_inches="tight", format='png')
+
+    print(f"Graph saved to {output_file}")
 
 
 def to_latex_subscript(parameter):
