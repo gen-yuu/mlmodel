@@ -33,14 +33,8 @@ def main():
 def to_latex_subscript(parameter):
     """
     LaTeX形式で変数を下付き文字として変換する
-    
-    Args:
-        parameter (str): 入力パラメータ（例: 'T_MCO'）
-        
-    Returns:
-        str: LaTeX形式の下付き文字（例: '$T_{MCO}$'）
     """
-    return f"$T_{{{parameter[2:]}}}$"
+    return f"T$_{{\\text{{{parameter[2:]}}}}}$"  # 'T_'の後ろを下付き文字として変換
 
 
 def load_data(data_dir, data_file):
@@ -80,7 +74,7 @@ def plot_feature_importance(high_precision_models, output_dir):
         feature for features in high_precision_models['Variable Parameter'] for feature in features
     ]).value_counts()
 
-    plt.figure(figsize=(7, 6))
+    plt.figure(figsize=(6, 5))
     ax = plt.gca()
     ax.grid(axis='y', linestyle='--', zorder=1)  # グリッドを zorder=1 に設定
     ax.bar(feature_counts.index, feature_counts.values, zorder=2)  # 棒グラフ
@@ -88,6 +82,7 @@ def plot_feature_importance(high_precision_models, output_dir):
     plt.xlabel('Benchmark', fontsize=12)
     plt.ylabel('The Number of Benchmark in High-Precision Models', fontsize=12)
     plt.xticks(rotation=0, ha='center', fontsize=10)
+    plt.tight_layout()
     save_path = os.path.join(output_dir, 'high_precision_benchmark_models.png')
     plt.savefig(save_path, bbox_inches='tight')  # PNG形式で保存
     plt.close()  # グラフを閉じる

@@ -110,7 +110,7 @@ def to_latex_subscript(parameter):
     """
     LaTeX形式で変数を下付き文字として変換する
     """
-    return f"$T_{{{parameter[2:]}}}$"  # 'T_'の後ろを下付き文字として変換
+    return f"T$_{{\\text{{{parameter[2:]}}}}}$"  # 'T_'の後ろを下付き文字として変換
 
 
 def load_data(data_dir, data_file):

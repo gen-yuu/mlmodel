@@ -35,23 +35,21 @@ server_order = [
 ]
 
 
-# LaTeX形式でのパラメータ名を変換する関数
 def to_latex_subscript(parameter):
     """
-    T_XXX 形式の文字列を $T_{XXX}$ 形式に変換
+    LaTeX形式で変数を下付き文字として変換する
     """
-    return f"$T_{{{parameter[2:]}}}$"
+    return f"T$_{{\\text{{{parameter[2:]}}}}}$"  # 'T_'の後ろを下付き文字として変換
 
 
-# 色設定
+# 色設定（関数を使ってキーを生成）
 parameter_colors = {
-    "$T_{MCO}$": "#1f77b4",  # 青
-    "$T_{SMO}$": "#2ca02c",  # 緑
-    "$T_{MAO}$": "#9467bd",  # 紫
-    "$T_{BST}$": "#ff7f0e",  # オレンジ
-    "$T_{SAO}$": "#d62728",  # 赤
+    to_latex_subscript("T_MCO"): "#1f77b4",  # 青
+    to_latex_subscript("T_SMO"): "#2ca02c",  # 緑
+    to_latex_subscript("T_MAO"): "#9467bd",  # 紫
+    to_latex_subscript("T_BST"): "#ff7f0e",  # オレンジ
+    to_latex_subscript("T_SAO"): "#d62728",  # 赤
 }
-
 # グラフ保存ディレクトリの指定
 output_dir = '../soturon_graph'
 if not os.path.exists(output_dir):

@@ -35,23 +35,29 @@ def main():
                df['average MAPE test (%)'][condition_other],
                color='lightblue',
                label='Other')
+
     # "#1f77b4", "#ff7f0e"
+
+    # 各モデルにラベルを付けるためにデータフレームを加工
+    def get_label(param_list):
+        return f"[{','.join([to_latex_subscript(param) for param in param_list])}]"
+
     # 赤の点 max
     scatter_max = ax.scatter(df['Time Cost (s)'][condition_1],
                              df['average MAPE test (%)'][condition_1],
                              color='red',
-                             label=f"[{', '.join(max_mape_list)}]")
+                             label=get_label(max_mape_list))
 
     # 青の点 trade_off
     scatter_trade_off = ax.scatter(df['Time Cost (s)'][condition_2],
                                    df['average MAPE test (%)'][condition_2],
                                    color='blue',
-                                   label=f"[{', '.join(trade_off_list)}]")
+                                   label=get_label(trade_off_list))
     #オレンジcletの点
     scatter_cost_on = ax.scatter(df['Time Cost (s)'][condition_3],
                                  df['average MAPE test (%)'][condition_3],
                                  color='#ff7f0e',
-                                 label=f"[{', '.join(cost_on_list)}]")
+                                 label=get_label(cost_on_list))
 
     # 各点の上に 'average MAPE test (%)' の値を表示（lightblueを除く）
     def adjust_text_position(x, y, color):
@@ -127,6 +133,13 @@ def load_data(data_dir, data_file):
     except ValueError as e:
         print(e)
         sys.exit(1)
+
+
+def to_latex_subscript(parameter):
+    """
+    LaTeX形式で変数を下付き文字として変換する
+    """
+    return f"T$_{{\\text{{{parameter[2:]}}}}}$"  # 'T_'の後ろを下付き文字として変換
 
 
 def save_plot(fig, output_dir, output_file):

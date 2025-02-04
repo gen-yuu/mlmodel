@@ -33,14 +33,8 @@ def main():
 def to_latex_subscript(parameter):
     """
     LaTeX形式で変数を下付き文字として変換する
-    
-    Args:
-        parameter (str): 入力パラメータ（例: 'T_MCO'）
-        
-    Returns:
-        str: LaTeX形式の下付き文字（例: '$T_{MCO}$'）
     """
-    return f"$T_{{{parameter[2:]}}}$"
+    return f"T$_{{\\text{{{parameter[2:]}}}}}$"  # 'T_'の後ろを下付き文字として変換
 
 
 def load_data(data_dir, data_file):

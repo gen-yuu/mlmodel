@@ -17,8 +17,8 @@ SERVER_LIST = [
 ]
 
 # データの出力先
-output_dir = './mlresults_analyze'
-parameterdata_dir = './mlresults_analyze'
+output_dir = './mldata_analyze'
+parameterdata_dir = './mldata_analyze'
 
 # parameterデータファイル
 # transferとoperationが両方含まれる

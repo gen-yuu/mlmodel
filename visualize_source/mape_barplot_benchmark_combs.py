@@ -74,15 +74,9 @@ def filter_by_parameter(df):
 
 def to_latex_subscript(parameter):
     """
-    パラメータをLaTeX形式の下付き文字に変換。
-
-    Args:
-        parameter (str): パラメータ名。
-
-    Returns:
-        str: LaTeX形式の下付き文字。
+    LaTeX形式で変数を下付き文字として変換する
     """
-    return f"$T_{{{parameter[2:]}}}$"
+    return f"T$_{{\\text{{{parameter[2:]}}}}}$"  # 'T_'の後ろを下付き文字として変換
 
 
 def get_label(param_list):
