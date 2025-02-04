@@ -5,30 +5,30 @@ import pandas as pd
 
 # 置き換えリスト
 rename_list = {
-    "transfer_all": "T_SLMT",
-    "transfer_continuous": "T_CSMT",
-    "transfer_roundtrip": "T_ISMT",
-    "matrix_convloop": "T_CSCO",
-    "matrix_conv": "T_SLCO",
-    "matrix_dotloop": "T_CSMO",
-    "matrix_dot": "T_SLMO",
-    "matrix_addloop": "T_CSAO",
-    "matrix_add": "T_SLAO"
+    "transfer_all": "T_SLT",
+    "transfer_continuous": "T_BST",
+    "transfer_roundtrip": "T_IST",
+    "matrix_convloop": "T_MCO",
+    "matrix_conv": "T_SCO",
+    "matrix_dotloop": "T_MMO",
+    "matrix_dot": "T_SMO",
+    "matrix_addloop": "T_MAO",
+    "matrix_add": "T_SAO"
 }
 
 # benchmarkのTime Cost(s)
 # 実行ループ回数
 M = 100
 weights = {
-    "T_SLMT": 0.247507 * M,
-    "T_CSMT": 0.146412 * M,
-    "T_ISMT": 0.190528 * M,
-    "T_SLCO": 0.747215 * M,
-    "T_CSCO": 1.947857 * M,
-    "T_SLMO": 9.083457 * M,
-    "T_CSMO": 1.033667 * M,
-    "T_SLAO": 0.008916 * M,
-    "T_CSAO": 0.886261 * M,
+    "T_SLT": 0.247507 * M,
+    "T_BST": 0.146412 * M,
+    "T_IST": 0.190528 * M,
+    "T_SCO": 0.747215 * M,
+    "T_MCO": 1.947857 * M,
+    "T_SMO": 9.083457 * M,
+    "T_MMO": 1.033667 * M,
+    "T_SAO": 0.008916 * M,
+    "T_MAO": 0.886261 * M,
 }
 
 
@@ -38,11 +38,11 @@ def main():
     # 'spec_parameter_search.csv' の場合、Time Cost計算をスキップ
     process_csv(data_dir,
                 'original_benchmark_parameter_loocv.csv',
-                'benchmark_parameter_loocv.csv',
+                'format_benchmark_parameter_loocv.csv',
                 calculate_time_cost=True)
     process_csv(data_dir,
                 'original_spec_parameter_loocv.csv',
-                'spec_parameter_loocv.csv',
+                'format_spec_parameter_loocv.csv',
                 calculate_time_cost=False)
 
 
@@ -67,6 +67,13 @@ def process_csv(data_dir, data_file, output_file, calculate_time_cost=True):
             return round(cost, 5)
 
         df["Time Cost (s)"] = df['Variable Parameter'].apply(calculate_time_cost)
+        # "Leave One" 列の値を修正（正規表現を使用）
+    df["Leave One"] = df["Leave One"].replace(
+        {
+            r'corei5': 'Core i5',
+            r'corei7': 'Core i7',
+            r'corei9': 'Core i9'
+        }, regex=True)
 
     # 列の並び替え
     columns = df.columns.tolist()  # 現在の列順を取得

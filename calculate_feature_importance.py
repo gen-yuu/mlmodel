@@ -1,19 +1,19 @@
 import ast
 import itertools
 import os
-import shap
+
 import pandas as pd
 
 import light_gbm as lgb_reg
-
-from mldata_format import format_data_loocv
+import shap
+from format_mldata import format_data_loocv
 
 # サーバーリスト
 SERVER_LIST = [
-    '13th corei5 - RTX3060 Ti', '13th corei7 - GTX1080', '13th corei5 - GTX1650',
-    '1th Xeon Gold - RTX4070', '13th corei7 - RTX3050', '13th corei5 - GTX1080',
-    '13th corei5 - RTX4070', '13th corei7 - RTX3060 Ti', '13th corei5 - RTX3050',
-    '1th Xeon Gold - GTX1080', '9th corei7 - RTX2080 Ti', '13th corei7 - RTX4070'
+    '13th Core i5 - RTX3060 Ti', '13th Core i7 - GTX1080', '13th Core i5 - GTX1650',
+    '1th Xeon Gold - RTX4070', '13th Core i7 - RTX3050', '13th Core i5 - GTX1080',
+    '13th Core i5 - RTX4070', '13th Core i7 - RTX3060 Ti', '13th Core i5 - RTX3050',
+    '1th Xeon Gold - GTX1080', '9th Core i7 - RTX2080 Ti', '13th Core i7 - RTX4070'
 ]
 
 # データの出力先
@@ -23,7 +23,7 @@ parameterdata_dir = './mldata_analyze'
 # parameterデータファイル
 # transferとoperationが両方含まれる
 csv_file = 'filtered_by_variable_parameters_mape_test.csv'
-sample_csv = 'sample.csv'
+sample_csv = 'soturon_shap_param_list.csv'
 # mlデータファイル
 mldata_dir = './data'
 benchmark_data_file = 'data_benchmark.csv'
@@ -36,15 +36,15 @@ const_parameters = ['Total Frames', 'Directory Size (MB)', 'Params']
 target = 'Inference Time (s)'
 
 rename_list = {
-    'T_SLMT': 'transfer_all',
-    'T_CSMT': 'transfer_continuous',
-    'T_ISMT': 'transfer_roundtrip',
-    'T_CSCO': 'matrix_convloop',
-    'T_SLCO': 'matrix_conv',
-    'T_CSMO': 'matrix_dotloop',
-    'T_SLMO': 'matrix_dot',
-    'T_CSAO': 'matrix_addloop',
-    'T_SLAO': 'matrix_add'
+    'T_SLT': 'transfer_all',
+    'T_BST': 'transfer_continuous',
+    'T_IST': 'transfer_roundtrip',
+    'T_MCO': 'matrix_convloop',
+    'T_SCO': 'matrix_conv',
+    'T_MMO': 'matrix_dotloop',
+    'T_SMO': 'matrix_dot',
+    'T_MAO': 'matrix_addloop',
+    'T_SAO': 'matrix_add'
 }
 reverse_rename_list = {v: k for k, v in rename_list.items()}
 
@@ -60,7 +60,7 @@ def main():
     for variable_parameter in variable_parameter_list:
         model_info.extend(loocv(const_parameters, variable_parameter, mldata_path))
         pass
-    output_results_to_csv(model_info, 'shap_sample.csv')
+    output_results_to_csv(model_info, 'soturon_shap_graph.csv')
     return 0
 
 

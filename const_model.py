@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 import light_gbm as lgb_reg
-from mldata_format import format_data_loocv
+from format_mldata import format_data_loocv
 """
 入力候補
 ['Directory Name', 'Total Frames', 'Width', 'Height', 'Pixels',
@@ -53,18 +53,41 @@ def main():
     メイン処理: ベンチマークデータの特徴量の組み合わせを評価し、結果をCSVに保存する。
     """
     #specの特徴量組み合わせ
-    parameters_conbs = get_parameters_conb(server_spec_parameters, min_size=2)
+    parameters_conbs = get_parameters_conb(server_spec_parameters, max_size=1)
     data_path = os.path.join(data_dir, server_spec_data_file)
     model_info = search_parameters_conb(parameters_conbs, data_path)
-    output_csv = "original_spec_parameter_loocv.csv"
+    output_csv = "original_one_spec_parameter_loocv.csv"
     output_results_to_csv(model_info, output_csv)
 
     # ベンチマークデータの特徴量組み合わせ
-    parameters_conbs = get_parameters_conb(benchmark_parameters, min_size=2)
+    parameters_conbs = get_parameters_conb(benchmark_parameters, max_size=1)
     data_path = os.path.join(data_dir, benchmark_data_file)
     model_info = search_parameters_conb(parameters_conbs, data_path)
-    output_csv = "original_benchmark_parameter_loocv.csv"
+    output_csv = "original_one_benchmark_parameter_loocv.csv"
     output_results_to_csv(model_info, output_csv)
+
+
+def get_parameters_conb(parameters, min_size=1, max_size=None):
+    """
+    特徴量の組み合わせを生成する。
+    
+    Args:
+        parameters (list): 特徴量のリスト
+        min_size (int): 組み合わせの最小サイズ（デフォルトは1）
+        max_size (int or None): 組み合わせの最大サイズ（デフォルトはNoneで全サイズが対象）
+    
+    Returns:
+        list: 特徴量の組み合わせリスト
+    """
+    if max_size is None:
+        max_size = len(parameters)
+    conbs = [
+        list(conb)
+        for n in range(min_size,
+                       min(max_size, len(parameters)) + 1)
+        for conb in itertools.combinations(parameters, n)
+    ]
+    return conbs
 
 
 def search_parameters_conb(parameters_conbs, data_path):
@@ -82,26 +105,6 @@ def search_parameters_conb(parameters_conbs, data_path):
     for server_parameters in parameters_conbs:
         model_info.extend(loocv(const_parameters, server_parameters, data_path))  # リストを展開して追加
     return model_info
-
-
-def get_parameters_conb(parameters, min_size=2):
-    """
-    特徴量の組み合わせを生成する。
-    
-    Args:
-        parameters (list): 特徴量のリスト
-        min_size (int): 組み合わせの最小サイズ（デフォルトは2）
-    
-    Returns:
-        list: 特徴量の組み合わせリスト
-    """
-    conbs = [
-        list(conb)
-        for n in range(min_size,
-                       len(parameters) + 1)
-        for conb in itertools.combinations(parameters, n)
-    ]
-    return conbs
 
 
 def loocv(const_parameters, server_parameters, data_path):
