@@ -4,7 +4,7 @@ import sys
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-from config import SERVER_ORDER, PLT_FONT
+from config import PLT_FONT, SERVER_ORDER
 
 plt.rcParams['font.family'] = PLT_FONT
 
@@ -90,7 +90,7 @@ def main():
     plt.ylabel('MAPE (%)', fontsize=12)
     plt.xticks(rotation=45, ha='right', fontsize=10)
     plt.tight_layout()
-    plt.subplots_adjust(left=0.18, right=0.94, bottom=0.3, top=0.99)  # 余白調整
+    plt.subplots_adjust(left=0.16, right=0.90, bottom=0.3, top=0.99)  # 余白調整
 
     # 出力ディレクトリの設定
     output_dir = '../IN_graph'
