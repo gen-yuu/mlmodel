@@ -3,7 +3,7 @@ import ast
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from config import SERVER_ORDER, PLT_FONT
+from config import PLT_FONT, SERVER_ORDER
 
 plt.rcParams['font.family'] = PLT_FONT
 
@@ -94,7 +94,7 @@ def main():
     # グラフの設定
     #ax.set_title('MAPE vs Time Cost', fontsize=14)
     ax.set_xlabel('Time Cost (s)', fontsize=12)
-    ax.set_ylabel('平均MAPE (%)', fontsize=12)
+    ax.set_ylabel('average MAPE (%)', fontsize=12)
     ax.grid(True)
 
     # 軸の範囲調整

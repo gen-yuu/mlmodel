@@ -80,7 +80,7 @@ def main():
                    color=line_color,
                    linestyle='--',
                    linewidth=1,
-                   label=f'{model_type} の平均MAPE')
+                   label=f'average MAPE of {model_type}')
 
     # タイトルとラベル設定
     # 凡例を設定

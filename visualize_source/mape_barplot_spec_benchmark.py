@@ -4,7 +4,7 @@ import sys
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-from config import SERVER_ORDER, PLT_FONT
+from config import PLT_FONT, SERVER_ORDER
 
 plt.rcParams['font.family'] = PLT_FONT
 
@@ -80,7 +80,7 @@ def main():
                    color=line_color,
                    linestyle='--',
                    linewidth=1,
-                   label=f'{model_type} の平均MAPE')
+                   label=f'average MAPE of {model_type}')
 
     # タイトルとラベル設定
     # 凡例を設定
