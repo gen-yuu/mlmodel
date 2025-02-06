@@ -102,10 +102,11 @@ for inputs in unique_inputs:
     # タイトルや設定
     #plt.title(f'Mean Absolute SHAP Values by Parameter and Server ({inputs})', fontsize=16)
     plt.xlabel('Test Server', fontsize=12)
-    plt.ylabel('Mean Absolute SHAP Value', fontsize=12)
+    plt.ylabel('Mean Absolute SHAP Value (log scale)', fontsize=12)
     plt.xticks(rotation=45, ha="right", fontsize=10)
     # 凡例の位置を右上に固定
     plt.legend(loc='upper left')
+    plt.yscale("log")
 
     plt.tight_layout()
     plt.subplots_adjust(left=0.14, right=0.89, bottom=0.29, top=0.99)  # 余白調整
