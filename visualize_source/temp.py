@@ -90,7 +90,7 @@ data3 = {
     'T_BST': [0.17592, 0.17521],
     'T_IST': [0.24017, 0.24391]
 }
-plot_benchmark_time(data3, 'transfer_1th_Xeon_Gold_gpu.png')
+plot_benchmark_time(data3, 'transfer_1st_Xeon_Gold_gpu.png')
 
 # データの設定
 data4 = {

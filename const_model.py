@@ -17,9 +17,9 @@ from format_mldata import format_data_loocv
 # サーバーリスト
 SERVER_LIST = [
     '13th corei5 - RTX3060 Ti', '13th corei7 - GTX1080', '13th corei5 - GTX1650',
-    '1th Xeon Gold - RTX4070', '13th corei7 - RTX3050', '13th corei5 - GTX1080',
+    '1st Xeon Gold - RTX4070', '13th corei7 - RTX3050', '13th corei5 - GTX1080',
     '13th corei5 - RTX4070', '13th corei7 - RTX3060 Ti', '13th corei5 - RTX3050',
-    '1th Xeon Gold - GTX1080', '9th corei7 - RTX2080 Ti', '13th corei7 - RTX4070'
+    '1st Xeon Gold - GTX1080', '9th corei7 - RTX2080 Ti', '13th corei7 - RTX4070'
 ]
 
 # データの出力先

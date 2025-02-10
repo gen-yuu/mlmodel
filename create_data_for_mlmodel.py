@@ -1,7 +1,6 @@
 import os
 
 import pandas as pd
-
 from get_server_spec import get_server_spec
 
 # データディレクトリとファイルパスの設定
@@ -71,7 +70,7 @@ def get_server_spec(server):
             "cpu_thread": 8,
             "cpu_cache(MB)": 12
         },
-        "1th Xeon Gold": {
+        "1st Xeon Gold": {
             "cpu_core": 4,
             "cpu_boost_clock(GHz)": 3.7,
             "cpu_thread": 8,

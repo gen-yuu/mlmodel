@@ -40,7 +40,10 @@ def main():
     spec_filtered_df['Model Type'] = 'Hardware spec Model'
     benchmark_filtered_df['Model Type'] = 'Benchmark Model'
 
-    hue_order = ['Benchmark Model', 'Hardware spec Model']
+    print(spec_filtered_df)
+    print(benchmark_filtered_df)
+
+    hue_order = ['Hardware spec Model', 'Benchmark Model']
     # データフレームを結合
     combined_df = pd.concat([benchmark_filtered_df, spec_filtered_df])
 
@@ -71,15 +74,15 @@ def main():
 
         # 直線の色を設定
         if model_type == 'Benchmark Model':
-            line_color = '#1f77b4'  # 青色
+            line_color = '#ff7f0e'  # 青色
         elif model_type == 'Hardware spec Model':
-            line_color = '#ff7f0e'  # オレンジ色
+            line_color = '#1f77b4'  # オレンジ色
 
         # Y軸に平均MAPEの直線を引く
         ax.axhline(y=model_data['MAPE test (%)'].values[0],
                    color=line_color,
                    linestyle='--',
-                   linewidth=1,
+                   linewidth=2,
                    label=f'average MAPE of {model_type}')
 
     # タイトルとラベル設定
