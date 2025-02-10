@@ -1,7 +1,8 @@
+import os
+
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as plt
-import os
 from config import PLT_FONT
 
 plt.rcParams['font.family'] = PLT_FONT
@@ -40,7 +41,7 @@ def plot_benchmark_time(data, output_filename):
         palette = ["#1f77b4", "#ff7f0e", "#d62728"]  # 青・オレンジ・赤
     else:
         palette = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#edc949"]
-    plt.figure(figsize=(6, 5))
+    plt.figure(figsize=(6, 4))
     ax = plt.gca()
     ax.grid(True, zorder=1)  # グリッドを zorder=1 に設定
     sns.barplot(x=df.columns[0],
